@@ -68,7 +68,6 @@ The platform combines AWS cloud analytics, Athena-based querying, Power BI execu
 
 ---
 
-![Architecture](https://img.shields.io/badge/System-Architecture-blue?style=for-the-badge)
 
 
 
