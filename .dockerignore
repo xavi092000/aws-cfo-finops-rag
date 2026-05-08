@@ -1,0 +1,7 @@
+.venv
+__pycache__
+*.pyc
+outputs/*.mp3
+outputs/pipeline_events.jsonl
+.env
+.git

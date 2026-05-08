@@ -1,0 +1,5 @@
+aws_region            = "us-east-1"
+existing_bucket_name  = "kestra-zoomcamp-ny-taxi-mtl9999999999988888"
+project_name          = "aws-cfo-finops-rag"
+glue_database_name    = "cfo_finops_db"
+athena_workgroup_name = "cfo-finops-wg"

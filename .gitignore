@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Outputs
+outputs/
+
+# Temporary files
+*.log
+*.tmp
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Backup files
+*_backup.py
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Terraform generated files
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+*.tfstate
+*.tfstate.*

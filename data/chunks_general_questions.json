@@ -1,0 +1,327 @@
+[
+  {
+    "filename": "01_finops_principles.md",
+    "chunk_id": "1",
+    "text": "## Why this matters for an AWS project\n\nIn an AWS environment, these principles translate into:\n\n* shared ownership of Cost and Usage Report analysis\n* clear tagging standards\n* regular review of EC2, S3, Redshift, and data platform spend\n* a balance between optimization and delivery speed"
+  },
+  {
+    "filename": "01_finops_principles.md",
+    "chunk_id": "2",
+    "text": "## Typical questions this document helps answer\n\n* What is FinOps trying to achieve?\n* Why is collaboration important in cloud cost management?\n* Why is optimization not only about cutting spend?\n* Why should engineering teams care about cost data?"
+  },
+  {
+    "filename": "01_finops_principles.md",
+    "chunk_id": "3",
+    "text": "## Metadata\n\n* source: finops\\_framework\\_adapted\n* section: principles\n* document\\_type: framework\\_reference\n* authority: official\\_adapted\n\n\\## Cloud Financial Management\n\nCloud financial management refers to the discipline of managing cloud costs, budgeting, forecasting, and financial accountability.\n\nIt includes:\n\n\\- cost visibility\n\n\\- budgeting\n\n\\- forecasting\n\n\\- allocation\n\n\\- optimization\n\n\\- financial governance\n\nFinOps is a key operating model used to implement cloud financial management practices in cloud environments."
+  },
+  {
+    "filename": "02_finops_scopes.md",
+    "chunk_id": "1",
+    "text": "## Typical questions this document helps answer\n- What unit should we use to analyze spend?\n- Should we group by product, environment, or team?\n- How do we align cost analysis with business ownership?"
+  },
+  {
+    "filename": "03_finops_personas.md",
+    "chunk_id": "1",
+    "text": "## AWS mapping examples\n- Engineering: EC2 rightsizing, Redshift cluster design, data pipeline scheduling\n- Finance: monthly variance analysis, forecast review\n- Leadership: budget thresholds, target unit economics\n- Procurement: Savings Plans and Reserved Instance coverage strategy"
+  },
+  {
+    "filename": "04_finops_domains_capabilities.md",
+    "chunk_id": "1",
+    "text": "### Capabilities\n- Executive Strategy Alignment\n- FinOps Practice Operations\n- Governance, Policy & Risk\n- FinOps Education & Enablement\n- Invoicing & Chargeback\n- FinOps Assessment\n- Automation, Tools & Services\n- Intersecting Disciplines"
+  },
+  {
+    "filename": "05_finops_kpis_glossary.md",
+    "chunk_id": "1",
+    "text": "## Typical questions this document helps answer\n\n* What is amortized cost?\n* What KPI should be used to measure forecast quality?\n* What is the difference between coverage and utilization?\n* What does unit economics mean in FinOps?"
+  },
+  {
+    "filename": "05_finops_kpis_glossary.md",
+    "chunk_id": "2",
+    "text": "## Metadata\n\n* source: internal\\_project\\_docs\n* section: glossary\\_kpis\n* document\\_type: reference\n* authority: project\\_internal\n\n\\## Unit Economics (FinOps)\n\nUnit economics in FinOps refers to measuring cloud cost per unit of business value.\n\nA unit can be:\n\n\\- a user\n\n\\- a transaction\n\n\\- a product feature\n\n\\- a data pipeline run\n\nThis allows organizations to understand how cloud spending scales with business activity and supports cost efficiency decisions.\n\n\\## Common FinOps KPIs\n\nCommon FinOps KPIs include:\n\n\\- cost per unit\n\n\\- total cloud spend\n\n\\- budget variance\n\n\\- forecast accuracy\n\n\\- cost allocation coverage\n\nThese KPIs help organizations track financial performance and optimization progress."
+  },
+  {
+    "filename": "06_aws_cost_allocation_policy.md",
+    "chunk_id": "1",
+    "text": "## Allocation hierarchy\n\n1. Direct assignment using mandatory tags\n2. Account-based assignment if tagging is missing\n3. Shared-cost allocation using approved allocation rules\n4. Unallocated bucket only as a temporary exception"
+  },
+  {
+    "filename": "06_aws_cost_allocation_policy.md",
+    "chunk_id": "2",
+    "text": "### Shared platform costs\n\nAllocate by a documented driver such as:\n\n* percentage of compute hours\n* percentage of storage consumed\n* number of active workloads\n* number of users or consumers\n* fixed platform share"
+  },
+  {
+    "filename": "06_aws_cost_allocation_policy.md",
+    "chunk_id": "3",
+    "text": "### Temporary unallocated costs\n\nAllow only when:\n\n* the resource is newly deployed\n* tagging enforcement failed\n* upstream metadata is missing\n\nAll temporary unallocated cost must be remediated within the next reporting cycle."
+  },
+  {
+    "filename": "06_aws_cost_allocation_policy.md",
+    "chunk_id": "4",
+    "text": "## Examples\n\n* Shared S3 bucket for analytics landing zone: allocate by data volume written per workload\n* Shared Redshift cluster: allocate by compute usage or scheduled workload share\n* Shared orchestration environment: allocate by pipeline execution count"
+  },
+  {
+    "filename": "06_aws_cost_allocation_policy.md",
+    "chunk_id": "5",
+    "text": "## Metadata\n\n* source: internal\\_project\\_docs\n* domain: Understand Usage \\& Cost\n* capability: Allocation\n* document\\_type: policy\n* authority: project\\_internal\n\n\\## Cloud Cost Allocation\n\nCloud cost allocation is the practice of assigning cloud costs to specific teams, products, or business units.\n\nIt ensures:\n\n\\- visibility of spending\n\n\\- accountability\n\n\\- accurate financial reporting\n\nThis is typically done using tagging, cost centers, and allocation rules."
+  },
+  {
+    "filename": "10_budget_forecast_unit_economics.md",
+    "chunk_id": "1",
+    "text": "## Interpretation guidance\nA rising unit cost is not automatically bad. It can reflect:\n- declining demand\n- inefficient architecture\n- temporary migration effort\n- poor allocation quality\n- healthy growth in a more expensive feature mix"
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "1",
+    "text": "## What good FinOps looks like\n\nGood FinOps is not only about lowering cloud spend. It is an operating practice that maximizes business value from technology by enabling timely, data-driven decisions and financial accountability through collaboration across engineering, finance, product, and leadership. The FinOps Framework groups the practice into four domains: **Understand Usage \\& Cost**, **Quantify Business Value**, **Optimize Usage \\& Cost**, and **Manage the FinOps Practice**."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "2",
+    "text": "## CFO-level principles\n\n* Treat cloud and technology spend as a variable business input, not just a fixed overhead line.\n* Require shared ownership across Finance, Engineering, Product, and Operations.\n* Make cost, usage, and value visible at a decision-ready level: team, product, environment, customer segment, and business unit.\n* Balance control with speed. The goal is not to block innovation; it is to make trade-offs explicit.\n* Use forecasts, budgets, and unit economics to link spend to outcomes.\n* Review spend continuously rather than waiting for monthly invoice surprises.\n* Use policy and automation to scale discipline without relying only on manual reviews."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "3",
+    "text": "### Executive sponsorship\n\n* CFO sponsors financial accountability and budgeting discipline.\n* CTO and engineering leaders sponsor architectural and optimization actions.\n* Product and business leaders sponsor value measurement and prioritization."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "4",
+    "text": "### Meeting cadence\n\n* Weekly: anomaly review, major deltas, urgent actions.\n* Monthly: budget vs actuals, forecast updates, optimization decisions, business-value review.\n* Quarterly: commitment strategy, policy updates, KPI target resets, maturity review."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "5",
+    "text": "### Decision rights\n\n* Finance owns budget guardrails and financial policy.\n* Engineering owns technical remediation and workload changes.\n* FinOps practice coordinates data, analytics, recommendations, and accountability.\n* Executive steering group resolves trade-offs involving growth, resilience, and cost."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "6",
+    "text": "### 1\\. “How do we control cost without slowing the business?”\n\n* Set budget guardrails by product, team, and environment.\n* Use anomaly detection and forecast variance thresholds for early warning.\n* Prefer review thresholds and approval workflows only for material exceptions.\n* Track cost with value metrics so optimization does not harm priority outcomes."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "7",
+    "text": "### 2\\. “What should we measure?”\n\n* Actual spend by scope.\n* Forecast accuracy.\n* Budget variance.\n* Allocation coverage.\n* Tag compliance.\n* Savings plan and reservation coverage/utilization, where relevant.\n* Cost per business unit metric.\n* Top anomalies and remediation cycle time."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "8",
+    "text": "### 3\\. “How do we know whether spend is healthy?”\n\nA spend increase may be healthy if it improves revenue capacity, resilience, customer growth, or productivity. It is unhealthy when usage grows without business justification, idle capacity rises, allocations are unclear, or teams cannot explain the change."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "9",
+    "text": "### 4\\. “What are the minimum controls?”\n\n* Mandatory ownership tags.\n* Monthly budget per scope.\n* Forecast refresh.\n* Anomaly alerting.\n* Named owner for each major cloud account or data platform scope.\n* Optimization playbooks for common services.\n* Executive review of material variances."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "10",
+    "text": "## Common CFO mistakes to avoid\n\n* Treating FinOps only as a cost-cutting program.\n* Reviewing invoices without usage context.\n* Running budgets without forecasts.\n* Ignoring allocation and ownership quality.\n* Measuring only total cost and not cost per unit of value.\n* Over-centralizing all decisions in Finance.\n* Delaying action until month-end close."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "11",
+    "text": "## Recommended response pattern for general CFO questions\n\n1. Identify the scope.\n2. State the baseline cost, usage, and trend.\n3. State whether the issue is visibility, value, optimization, or governance.\n4. Link to one or more KPIs.\n5. Recommend the least disruptive corrective action first.\n6. State expected impact and owner."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "12",
+    "text": "## Related FinOps Framework areas\n\n* Domains: Understand Usage \\& Cost; Quantify Business Value; Optimize Usage \\& Cost; Manage the FinOps Practice.\n* Capabilities: Reporting \\& Analytics; Anomaly Management; Forecasting; Budgeting; KPIs \\& Benchmarking; Unit Economics; Governance, Policy \\& Risk; Automation, Tools \\& Services."
+  },
+  {
+    "filename": "11_cfo_finops_best_practices.md",
+    "chunk_id": "13",
+    "text": "## Metadata\n\n* source: internal\\_project\\_docs\n* document\\_type: executive\\_best\\_practice\\_guide\n* audience: CFO\n* authority: project\\_internal\\_aligned\\_to\\_finops\\_framework\n\n\\## Drivers of Cloud Cost Growth\n\nCommon drivers of cloud cost growth include:\n\n\\- increased usage and scale\n\n\\- lack of cost visibility\n\n\\- poor resource optimization\n\n\\- unused or idle resources\n\n\\- inefficient architecture decisions\n\nUnderstanding these drivers helps organizations take proactive cost control actions."
+  },
+  {
+    "filename": "12_finops_governance_operating_model.md",
+    "chunk_id": "1",
+    "text": "## Governance goals\n- Clear ownership for spend, usage, value, and remediation.\n- Consistent decisions across finance, engineering, and product.\n- Fast escalation for material anomalies or budget risks.\n- Repeatable policy with auditable decisions."
+  },
+  {
+    "filename": "12_finops_governance_operating_model.md",
+    "chunk_id": "2",
+    "text": "### Executive steering\nParticipants: CFO, CTO, Head of Engineering, FinOps lead, key business owners.\nResponsibilities:\n- approve policy and targets\n- resolve trade-offs between growth, resilience, and cost\n- review quarterly commitments and major variances"
+  },
+  {
+    "filename": "12_finops_governance_operating_model.md",
+    "chunk_id": "3",
+    "text": "### Monthly FinOps review\nParticipants: FinOps, finance partner, engineering managers, product owners.\nResponsibilities:\n- review actuals vs budget and forecast\n- explain material deltas\n- assign optimization actions\n- review unit economics and KPI trends"
+  },
+  {
+    "filename": "12_finops_governance_operating_model.md",
+    "chunk_id": "4",
+    "text": "### Weekly operational review\nParticipants: FinOps analysts, platform team, service owners.\nResponsibilities:\n- review anomalies\n- check unresolved budget risks\n- validate tagging and allocation quality\n- confirm action progress"
+  },
+  {
+    "filename": "12_finops_governance_operating_model.md",
+    "chunk_id": "5",
+    "text": "## Minimum policies\n- tagging policy for owner, environment, application, cost center, and data classification where needed\n- budget and forecast refresh policy\n- anomaly management severity thresholds\n- commitment management review policy\n- exception handling and approval policy\n- retention policy for cost and usage data"
+  },
+  {
+    "filename": "12_finops_governance_operating_model.md",
+    "chunk_id": "6",
+    "text": "## Standard decisions that should be documented\n- who can approve budget increases\n- who can launch material new workloads\n- who can purchase commitments\n- when idle resources must be stopped or removed\n- what variance triggers executive review"
+  },
+  {
+    "filename": "12_finops_governance_operating_model.md",
+    "chunk_id": "7",
+    "text": "## Measures of success\n- high allocation coverage\n- high tag compliance on spend\n- forecast accuracy improving over time\n- budget variance within defined thresholds\n- remediation cycle time for anomalies decreasing\n- rising share of spend linked to unit metrics and business outcomes"
+  },
+  {
+    "filename": "13_finops_cfo_faq.md",
+    "chunk_id": "1",
+    "text": "## Answer\nFinOps is a cross-functional operating practice that helps an organization understand technology spend, connect it to business value, and make timely decisions about cost, usage, and optimization."
+  },
+  {
+    "filename": "13_finops_cfo_faq.md",
+    "chunk_id": "2",
+    "text": "## Answer\n- Where did spend change the most?\n- Which changes were expected versus unexpected?\n- What is budget variance by major scope?\n- How accurate is the latest forecast?\n- Which teams cannot explain their deltas?\n- What is cost per key business metric?\n- Which actions are pending and what savings or value impact are expected?"
+  },
+  {
+    "filename": "13_finops_cfo_faq.md",
+    "chunk_id": "3",
+    "text": "## Answer\nKeep the executive view small and stable: spend, forecast variance, budget variance, allocation coverage, tag compliance, anomaly count and resolution time, and one or two unit economics metrics."
+  },
+  {
+    "filename": "14_finops_kpi_decision_tree.md",
+    "chunk_id": "1",
+    "text": "## Core executive KPIs\n- Total spend by scope\n- Spend trend month-over-month and quarter-over-quarter\n- Forecast variance\n- Budget variance\n- Allocation coverage\n- Tag compliance on spend\n- Top anomalies and mean time to assign and resolve\n- Commitment coverage and utilization, if applicable\n- Cost per business unit metric"
+  },
+  {
+    "filename": "14_finops_kpi_decision_tree.md",
+    "chunk_id": "2",
+    "text": "### Question type: visibility\nUse when the issue is “what happened?”\n- check spend by account, team, product, environment, service\n- validate allocation and tag quality\n- identify top deltas and top drivers"
+  },
+  {
+    "filename": "14_finops_kpi_decision_tree.md",
+    "chunk_id": "3",
+    "text": "### Question type: forecasting\nUse when the issue is “what is likely to happen?”\n- compare actuals vs prior forecast\n- update assumptions for growth, seasonality, launches, and infrastructure changes\n- estimate end-of-month and end-of-quarter outcomes"
+  },
+  {
+    "filename": "14_finops_kpi_decision_tree.md",
+    "chunk_id": "4",
+    "text": "### Question type: value\nUse when the issue is “is this worth it?”\n- tie spend to product, customer, transaction, or workload metrics\n- compute cost per unit and trend\n- compare with target or strategic goal"
+  },
+  {
+    "filename": "14_finops_kpi_decision_tree.md",
+    "chunk_id": "5",
+    "text": "### Question type: optimization\nUse when the issue is “what should we change?”\n- check idle usage, oversized resources, storage lifecycle, commitment gaps, scheduling opportunities\n- rank actions by impact, effort, and risk"
+  },
+  {
+    "filename": "14_finops_kpi_decision_tree.md",
+    "chunk_id": "6",
+    "text": "### Question type: governance\nUse when the issue is “how do we prevent repeat issues?”\n- check policy compliance\n- identify missing owners or approvals\n- define stronger thresholds, workflows, or automation"
+  },
+  {
+    "filename": "15_showback_chargeback_policy.md",
+    "chunk_id": "1",
+    "text": "## When to use each model\n- Use showback first when organizational maturity is low or allocation quality is still improving.\n- Use chargeback when ownership is accepted, allocation rules are stable, and the business needs tighter accountability."
+  },
+  {
+    "filename": "15_showback_chargeback_policy.md",
+    "chunk_id": "2",
+    "text": "## Policy principles\n- Allocation rules must be transparent and documented.\n- Shared costs need a defined allocation basis.\n- Unallocated spend must be tracked and reduced over time.\n- Business owners should be able to understand and challenge allocation logic."
+  },
+  {
+    "filename": "15_showback_chargeback_policy.md",
+    "chunk_id": "3",
+    "text": "## Allocation bases\n- direct tag-based allocation\n- usage-based allocation\n- proportional allocation by agreed driver such as active users, transactions, or storage volume\n- fixed split only when no better driver exists"
+  },
+  {
+    "filename": "15_showback_chargeback_policy.md",
+    "chunk_id": "4",
+    "text": "## Executive guidance\nFor a CFO audience, showback is often the fastest route to behavior change. Chargeback is stronger, but it should not be introduced before ownership, data quality, and escalation paths are clear."
+  },
+  {
+    "filename": "16_commitment_management_strategy.md",
+    "chunk_id": "1",
+    "text": "## Best practices\n- buy commitments only after allocation, forecast, and usage visibility are sufficiently reliable\n- separate steady-state baseline usage from volatile usage\n- review coverage and utilization regularly\n- align commitment terms with business confidence and demand stability\n- document downside risk if workloads shrink, migrate, or change architecture"
+  },
+  {
+    "filename": "16_commitment_management_strategy.md",
+    "chunk_id": "2",
+    "text": "## CFO questions this document supports\n- Are we under-committed and paying on-demand rates unnecessarily?\n- Are we over-committed and carrying waste risk?\n- Which workloads are stable enough for commitments?\n- What governance should exist before purchase approval?"
+  },
+  {
+    "filename": "17_finops_cfo_response_patterns.md",
+    "chunk_id": "1",
+    "text": "## Example answer pattern\n- Establish shared accountability across Finance, Engineering, Product, and FinOps.\n- Make spend visible by owner, product, environment, and service.\n- Run monthly budget and forecast reviews with weekly anomaly handling.\n- Track a small executive KPI set and link cost to business value.\n- Use documented policies and automation to scale decisions."
+  },
+  {
+    "filename": "17_finops_cfo_response_patterns.md",
+    "chunk_id": "2",
+    "text": "## Guardrails\n- do not answer only with generic savings tips\n- do not recommend commitments without visibility and forecast confidence\n- do not claim optimization success without business context\n- do not give a single KPI without explaining how it informs a decision"
+  },
+  {
+    "filename": "18_finops_maturity_roadmap.md",
+    "chunk_id": "1",
+    "text": "## Stage 1: Visibility and ownership\n\nFocus:\n\n* cost and usage ingestion\n* allocation basics\n* tag policy\n* reporting\n* anomaly alerts\nOutcome:\n* leaders can explain major spend changes and assign owners"
+  },
+  {
+    "filename": "18_finops_maturity_roadmap.md",
+    "chunk_id": "2",
+    "text": "## Stage 2: Financial discipline\n\nFocus:\n\n* monthly budgets\n* rolling forecasts\n* variance analysis\n* commitment review process\nOutcome:\n* finance and engineering can anticipate overspend and take earlier action"
+  },
+  {
+    "filename": "18_finops_maturity_roadmap.md",
+    "chunk_id": "3",
+    "text": "## Stage 3: Value optimization\n\nFocus:\n\n* unit economics\n* workload optimization\n* architecture trade-offs\n* portfolio prioritization\nOutcome:\n* spend decisions are tied to business impact rather than cost alone"
+  },
+  {
+    "filename": "18_finops_maturity_roadmap.md",
+    "chunk_id": "4",
+    "text": "## Metadata\n\n* source: internal\\_project\\_docs\n* document\\_type: maturity\\_roadmap\n* audience: CFO, FinOps leadership\n\n\\## FinOps Maturity Stages\n\nCommon FinOps maturity stages include:\n\n1\\. Visibility – understanding cloud usage and cost\n\n2\\. Optimization – improving efficiency and reducing waste\n\n3\\. Governance – implementing financial controls and accountability\n\n4\\. Advanced – aligning cost with business value and scaling FinOps practices"
+  },
+  {
+    "filename": "24_finops_agent_response_policy.md",
+    "chunk_id": "1",
+    "text": "## Core response principles\n- prefer evidence over confident speculation\n- cite the metric used and state whether it is amortized or unblended\n- distinguish fact, interpretation, and recommendation\n- provide owner-oriented next actions\n- explain uncertainty clearly when the data is incomplete"
+  },
+  {
+    "filename": "24_finops_agent_response_policy.md",
+    "chunk_id": "2",
+    "text": "## Special rules for CFO questions\nWhen a CFO asks a general best-practice question, the assistant should:\n- start with governance and visibility\n- mention budgeting, forecasting, and accountability\n- include optimization only after visibility and ownership\n- connect cost action to business value, not just reduction"
+  },
+  {
+    "filename": "24_finops_agent_response_policy.md",
+    "chunk_id": "3",
+    "text": "## Special rules for operational questions\nWhen an engineer or platform owner asks how to fix cost, the assistant should:\n- identify probable driver\n- isolate scope\n- recommend the smallest safe action first\n- avoid broad disruptive optimization without evidence"
+  },
+  {
+    "filename": "24_finops_agent_response_policy.md",
+    "chunk_id": "4",
+    "text": "## Red flag language to avoid\n- \"just reduce usage\" without scope\n- \"buy commitments now\" without baseline stability\n- \"this cost is bad\" without linking to value or service level\n- \"anomaly confirmed\" without evidence threshold"
+  },
+  {
+    "filename": "25_finops_monthly_business_review.md",
+    "chunk_id": "1",
+    "text": "## Standard agenda\n1. Last month actuals\n2. Current month run rate\n3. Forecast to month end and quarter end\n4. Top cost drivers\n5. Budget variance\n6. Commitment posture\n7. Optimization actions and owner status\n8. Risks, exceptions, and decisions required"
+  },
+  {
+    "filename": "25_finops_monthly_business_review.md",
+    "chunk_id": "2",
+    "text": "## Minimum scorecard\n- total amortized spend\n- month-over-month percentage change\n- budget variance\n- top three services by spend\n- top three scopes by variance\n- allocation coverage percentage\n- commitment coverage and utilization\n- unit economics metric for major platforms"
+  },
+  {
+    "filename": "25_finops_monthly_business_review.md",
+    "chunk_id": "3",
+    "text": "## Discussion rules\n- separate noise from meaningful variance\n- distinguish growth-driven spend from waste\n- identify one-time events explicitly\n- assign owners for corrective actions\n- close prior action items before creating new ones"
+  },
+  {
+    "filename": "25_finops_monthly_business_review.md",
+    "chunk_id": "4",
+    "text": "## Output expected from the assistant\nFor review support, the assistant should produce:\n- concise executive summary\n- bullet list of drivers\n- decision-focused recommendations\n- unresolved questions requiring human validation"
+  },
+  {
+    "filename": "26_finops_general_best_practices_master.md",
+    "chunk_id": "1",
+    "text": "## Common failure modes\n- poor allocation and missing tags\n- budgets without owners\n- noisy alerts with no response process\n- commitment purchases without stable demand\n- optimization tracked as savings theater rather than realized value\n- no linkage between cloud cost and business outcomes"
+  },
+  {
+    "filename": "26_finops_general_best_practices_master.md",
+    "chunk_id": "2",
+    "text": "## CFO answer shortcut\nWhen asked for the most important best practices:\n1. establish visibility\n2. define accountable scopes\n3. implement forecast and budget discipline\n4. govern commitments carefully\n5. review optimization as a recurring operating process\n6. connect spend to business value"
+  }
+]

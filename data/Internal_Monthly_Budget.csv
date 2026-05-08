@@ -1,0 +1,16 @@
+﻿Month;Division;Actual Cost ($);Target Overage vs Budget %;Allocated Budget ($);Variance ($);Variance %
+Month 1;AI Engineering;$259,32;6,00%;$244,64;$14,68;6,00%
+Month 1;Business Analytics;$296,74;3,00%;$288,10;$8,64;3,00%
+Month 1;Data Engineering;$346,14;4,50%;$331,24;$14,91;4,50%
+Month 1;Platform / Cloud Operations;$216,40;5,00%;$206,09;$10,30;5,00%
+Month 1;Product Engineering;$358,00;4,00%;$344,23;$13,77;4,00%
+Month 2;AI Engineering;$342,45;7,00%;$320,05;$22,40;7,00%
+Month 2;Business Analytics;$530,82;4,00%;$510,41;$20,42;4,00%
+Month 2;Data Engineering;$399,26;5,50%;$378,45;$20,81;5,50%
+Month 2;Platform / Cloud Operations;$246,57;6,00%;$232,61;$13,96;6,00%
+Month 2;Product Engineering;$351,48;5,00%;$334,74;$16,74;5,00%
+Month 3;AI Engineering;$511,13;6,50%;$479,94;$31,20;6,50%
+Month 3;Business Analytics;$245,50;3,50%;$237,20;$8,30;3,50%
+Month 3;Data Engineering;$382,24;5,00%;$364,04;$18,20;5,00%
+Month 3;Platform / Cloud Operations;$218,61;5,50%;$207,22;$11,40;5,50%
+Month 3;Product Engineering;$400,11;4,50%;$382,88;$17,23;4,50%

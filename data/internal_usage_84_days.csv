@@ -1,0 +1,821 @@
+date,day,week,month,division,service,usage_value,usage_unit
+2025-01-01,Wednesday,Week 1,Month 1,Product Engineering,CloudWatch,17.71,GB
+2025-01-01,Wednesday,Week 1,Month 1,Product Engineering,S3,38.99,GB
+2025-01-01,Wednesday,Week 1,Month 1,Data Engineering,S3,24.9,GB
+2025-01-01,Wednesday,Week 1,Month 1,Data Engineering,Redshift,1.55,hours
+2025-01-01,Wednesday,Week 1,Month 1,AI Engineering,Redshift,1.09,hours
+2025-01-01,Wednesday,Week 1,Month 1,AI Engineering,Bedrock,18459.0,tokens
+2025-01-01,Wednesday,Week 1,Month 1,Platform / Cloud Operations,Redshift,3.77,hours
+2025-01-01,Wednesday,Week 1,Month 1,Platform / Cloud Operations,Lambda,28178.0,requests
+2025-01-01,Wednesday,Week 1,Month 1,Business Analytics,Lambda,9157.0,requests
+2025-01-01,Wednesday,Week 1,Month 1,Business Analytics,Glue,1.91,DPU_hours
+2025-01-02,Thursday,Week 1,Month 1,Product Engineering,CloudWatch,11.2,GB
+2025-01-02,Thursday,Week 1,Month 1,Product Engineering,Lambda,26129.0,requests
+2025-01-02,Thursday,Week 1,Month 1,Data Engineering,Redshift,4.75,hours
+2025-01-02,Thursday,Week 1,Month 1,Data Engineering,CloudWatch,32.7,GB
+2025-01-02,Thursday,Week 1,Month 1,AI Engineering,EC2,2.25,hours
+2025-01-02,Thursday,Week 1,Month 1,AI Engineering,CloudWatch,23.43,GB
+2025-01-02,Thursday,Week 1,Month 1,Platform / Cloud Operations,CloudWatch,39.18,GB
+2025-01-02,Thursday,Week 1,Month 1,Platform / Cloud Operations,Glue,2.37,DPU_hours
+2025-01-02,Thursday,Week 1,Month 1,Business Analytics,Bedrock,13444.0,tokens
+2025-01-02,Thursday,Week 1,Month 1,Business Analytics,EC2,4.53,hours
+2025-01-03,Friday,Week 1,Month 1,Product Engineering,Redshift,6.0,hours
+2025-01-03,Friday,Week 1,Month 1,Product Engineering,Glue,3.25,DPU_hours
+2025-01-03,Friday,Week 1,Month 1,Data Engineering,CloudWatch,5.31,GB
+2025-01-03,Friday,Week 1,Month 1,Data Engineering,Lambda,24664.0,requests
+2025-01-03,Friday,Week 1,Month 1,AI Engineering,Redshift,4.77,hours
+2025-01-03,Friday,Week 1,Month 1,AI Engineering,CloudWatch,37.59,GB
+2025-01-03,Friday,Week 1,Month 1,Platform / Cloud Operations,Glue,1.55,DPU_hours
+2025-01-03,Friday,Week 1,Month 1,Platform / Cloud Operations,Athena,0.0077,TB
+2025-01-03,Friday,Week 1,Month 1,Business Analytics,Glue,3.35,DPU_hours
+2025-01-03,Friday,Week 1,Month 1,Business Analytics,Redshift,1.15,hours
+2025-01-04,Saturday,Week 1,Month 1,Product Engineering,Athena,0.0097,TB
+2025-01-04,Saturday,Week 1,Month 1,Product Engineering,Glue,2.55,DPU_hours
+2025-01-04,Saturday,Week 1,Month 1,Data Engineering,Lambda,21533.0,requests
+2025-01-04,Saturday,Week 1,Month 1,Data Engineering,S3,33.37,GB
+2025-01-04,Saturday,Week 1,Month 1,AI Engineering,Glue,1.53,DPU_hours
+2025-01-04,Saturday,Week 1,Month 1,AI Engineering,Lambda,15722.0,requests
+2025-01-04,Saturday,Week 1,Month 1,Platform / Cloud Operations,Lambda,12965.0,requests
+2025-01-04,Saturday,Week 1,Month 1,Platform / Cloud Operations,Redshift,5.8,hours
+2025-01-04,Saturday,Week 1,Month 1,Business Analytics,Lambda,9818.0,requests
+2025-01-04,Saturday,Week 1,Month 1,Business Analytics,Athena,0.003,TB
+2025-01-05,Sunday,Week 1,Month 1,Product Engineering,S3,24.21,GB
+2025-01-05,Sunday,Week 1,Month 1,Product Engineering,Redshift,3.72,hours
+2025-01-05,Sunday,Week 1,Month 1,Data Engineering,Glue,0.85,DPU_hours
+2025-01-05,Sunday,Week 1,Month 1,Data Engineering,S3,10.95,GB
+2025-01-05,Sunday,Week 1,Month 1,AI Engineering,Lambda,10187.0,requests
+2025-01-05,Sunday,Week 1,Month 1,AI Engineering,Glue,2.94,DPU_hours
+2025-01-05,Sunday,Week 1,Month 1,Platform / Cloud Operations,Lambda,14953.0,requests
+2025-01-05,Sunday,Week 1,Month 1,Platform / Cloud Operations,Athena,0.0022,TB
+2025-01-05,Sunday,Week 1,Month 1,Business Analytics,EC2,4.12,hours
+2025-01-05,Sunday,Week 1,Month 1,Business Analytics,Bedrock,11137.0,tokens
+2025-01-06,Monday,Week 2,Month 1,Product Engineering,Athena,0.008,TB
+2025-01-06,Monday,Week 2,Month 1,Product Engineering,CloudWatch,17.14,GB
+2025-01-06,Monday,Week 2,Month 1,Data Engineering,Glue,2.88,DPU_hours
+2025-01-06,Monday,Week 2,Month 1,Data Engineering,Redshift,3.03,hours
+2025-01-06,Monday,Week 2,Month 1,AI Engineering,Redshift,5.82,hours
+2025-01-06,Monday,Week 2,Month 1,AI Engineering,S3,5.13,GB
+2025-01-06,Monday,Week 2,Month 1,Platform / Cloud Operations,EC2,5.17,hours
+2025-01-06,Monday,Week 2,Month 1,Platform / Cloud Operations,Bedrock,1712.0,tokens
+2025-01-06,Monday,Week 2,Month 1,Business Analytics,Bedrock,11540.0,tokens
+2025-01-06,Monday,Week 2,Month 1,Business Analytics,Glue,2.08,DPU_hours
+2025-01-07,Tuesday,Week 2,Month 1,Product Engineering,CloudWatch,36.24,GB
+2025-01-07,Tuesday,Week 2,Month 1,Product Engineering,EC2,5.16,hours
+2025-01-07,Tuesday,Week 2,Month 1,Data Engineering,Lambda,1852.0,requests
+2025-01-07,Tuesday,Week 2,Month 1,Data Engineering,Bedrock,25425.0,tokens
+2025-01-07,Tuesday,Week 2,Month 1,AI Engineering,CloudWatch,13.84,GB
+2025-01-07,Tuesday,Week 2,Month 1,AI Engineering,Redshift,4.69,hours
+2025-01-07,Tuesday,Week 2,Month 1,Platform / Cloud Operations,Redshift,3.82,hours
+2025-01-07,Tuesday,Week 2,Month 1,Platform / Cloud Operations,Bedrock,6983.0,tokens
+2025-01-07,Tuesday,Week 2,Month 1,Business Analytics,Glue,3.87,DPU_hours
+2025-01-07,Tuesday,Week 2,Month 1,Business Analytics,Lambda,20965.0,requests
+2025-01-08,Wednesday,Week 2,Month 1,Product Engineering,Redshift,3.86,hours
+2025-01-08,Wednesday,Week 2,Month 1,Product Engineering,Glue,3.57,DPU_hours
+2025-01-08,Wednesday,Week 2,Month 1,Data Engineering,Athena,0.005,TB
+2025-01-08,Wednesday,Week 2,Month 1,Data Engineering,Bedrock,8981.0,tokens
+2025-01-08,Wednesday,Week 2,Month 1,AI Engineering,Lambda,25867.0,requests
+2025-01-08,Wednesday,Week 2,Month 1,AI Engineering,EC2,3.25,hours
+2025-01-08,Wednesday,Week 2,Month 1,Platform / Cloud Operations,Redshift,5.85,hours
+2025-01-08,Wednesday,Week 2,Month 1,Platform / Cloud Operations,CloudWatch,33.32,GB
+2025-01-08,Wednesday,Week 2,Month 1,Business Analytics,Athena,0.0074,TB
+2025-01-08,Wednesday,Week 2,Month 1,Business Analytics,Bedrock,4675.0,tokens
+2025-01-09,Thursday,Week 2,Month 1,Product Engineering,Bedrock,20688.0,tokens
+2025-01-09,Thursday,Week 2,Month 1,Product Engineering,CloudWatch,22.47,GB
+2025-01-09,Thursday,Week 2,Month 1,Data Engineering,CloudWatch,31.28,GB
+2025-01-09,Thursday,Week 2,Month 1,Data Engineering,Redshift,4.9,hours
+2025-01-09,Thursday,Week 2,Month 1,AI Engineering,S3,17.77,GB
+2025-01-09,Thursday,Week 2,Month 1,AI Engineering,Glue,0.91,DPU_hours
+2025-01-09,Thursday,Week 2,Month 1,Platform / Cloud Operations,S3,10.19,GB
+2025-01-09,Thursday,Week 2,Month 1,Platform / Cloud Operations,Redshift,5.76,hours
+2025-01-09,Thursday,Week 2,Month 1,Business Analytics,Athena,0.0031,TB
+2025-01-09,Thursday,Week 2,Month 1,Business Analytics,EC2,1.63,hours
+2025-01-10,Friday,Week 2,Month 1,Product Engineering,Redshift,4.35,hours
+2025-01-10,Friday,Week 2,Month 1,Product Engineering,Lambda,23230.0,requests
+2025-01-10,Friday,Week 2,Month 1,Data Engineering,Redshift,5.29,hours
+2025-01-10,Friday,Week 2,Month 1,Data Engineering,EC2,2.35,hours
+2025-01-10,Friday,Week 2,Month 1,AI Engineering,Glue,1.23,DPU_hours
+2025-01-10,Friday,Week 2,Month 1,AI Engineering,EC2,3.49,hours
+2025-01-10,Friday,Week 2,Month 1,Platform / Cloud Operations,Athena,0.0014,TB
+2025-01-10,Friday,Week 2,Month 1,Platform / Cloud Operations,Glue,2.85,DPU_hours
+2025-01-10,Friday,Week 2,Month 1,Business Analytics,CloudWatch,26.79,GB
+2025-01-10,Friday,Week 2,Month 1,Business Analytics,EC2,4.92,hours
+2025-01-11,Saturday,Week 2,Month 1,Product Engineering,EC2,3.98,hours
+2025-01-11,Saturday,Week 2,Month 1,Product Engineering,Glue,3.44,DPU_hours
+2025-01-11,Saturday,Week 2,Month 1,Data Engineering,Lambda,3695.0,requests
+2025-01-11,Saturday,Week 2,Month 1,Data Engineering,S3,15.22,GB
+2025-01-11,Saturday,Week 2,Month 1,AI Engineering,Glue,3.51,DPU_hours
+2025-01-11,Saturday,Week 2,Month 1,AI Engineering,Athena,0.0035,TB
+2025-01-11,Saturday,Week 2,Month 1,Platform / Cloud Operations,CloudWatch,27.08,GB
+2025-01-11,Saturday,Week 2,Month 1,Platform / Cloud Operations,Lambda,19279.0,requests
+2025-01-11,Saturday,Week 2,Month 1,Business Analytics,CloudWatch,23.09,GB
+2025-01-11,Saturday,Week 2,Month 1,Business Analytics,Lambda,26104.0,requests
+2025-01-12,Sunday,Week 2,Month 1,Product Engineering,Bedrock,2696.0,tokens
+2025-01-12,Sunday,Week 2,Month 1,Product Engineering,Redshift,1.62,hours
+2025-01-12,Sunday,Week 2,Month 1,Data Engineering,Athena,0.0068,TB
+2025-01-12,Sunday,Week 2,Month 1,Data Engineering,CloudWatch,8.91,GB
+2025-01-12,Sunday,Week 2,Month 1,AI Engineering,Glue,1.6,DPU_hours
+2025-01-12,Sunday,Week 2,Month 1,AI Engineering,Bedrock,9345.0,tokens
+2025-01-12,Sunday,Week 2,Month 1,Platform / Cloud Operations,S3,34.65,GB
+2025-01-12,Sunday,Week 2,Month 1,Platform / Cloud Operations,Glue,0.86,DPU_hours
+2025-01-12,Sunday,Week 2,Month 1,Business Analytics,Glue,2.67,DPU_hours
+2025-01-12,Sunday,Week 2,Month 1,Business Analytics,CloudWatch,5.98,GB
+2025-01-13,Monday,Week 3,Month 1,Product Engineering,CloudWatch,5.32,GB
+2025-01-13,Monday,Week 3,Month 1,Product Engineering,S3,39.64,GB
+2025-01-13,Monday,Week 3,Month 1,Data Engineering,Redshift,3.25,hours
+2025-01-13,Monday,Week 3,Month 1,Data Engineering,Lambda,26024.0,requests
+2025-01-13,Monday,Week 3,Month 1,AI Engineering,Glue,2.02,DPU_hours
+2025-01-13,Monday,Week 3,Month 1,AI Engineering,CloudWatch,21.01,GB
+2025-01-13,Monday,Week 3,Month 1,Platform / Cloud Operations,Lambda,19133.0,requests
+2025-01-13,Monday,Week 3,Month 1,Platform / Cloud Operations,Bedrock,6594.0,tokens
+2025-01-13,Monday,Week 3,Month 1,Business Analytics,Athena,0.0066,TB
+2025-01-13,Monday,Week 3,Month 1,Business Analytics,Glue,1.05,DPU_hours
+2025-01-14,Tuesday,Week 3,Month 1,Product Engineering,CloudWatch,7.96,GB
+2025-01-14,Tuesday,Week 3,Month 1,Product Engineering,EC2,5.63,hours
+2025-01-14,Tuesday,Week 3,Month 1,Data Engineering,Bedrock,19345.0,tokens
+2025-01-14,Tuesday,Week 3,Month 1,Data Engineering,EC2,5.37,hours
+2025-01-14,Tuesday,Week 3,Month 1,AI Engineering,Athena,0.0021,TB
+2025-01-14,Tuesday,Week 3,Month 1,AI Engineering,S3,14.04,GB
+2025-01-14,Tuesday,Week 3,Month 1,Platform / Cloud Operations,Redshift,3.11,hours
+2025-01-14,Tuesday,Week 3,Month 1,Platform / Cloud Operations,S3,19.45,GB
+2025-01-14,Tuesday,Week 3,Month 1,Business Analytics,Redshift,1.0,hours
+2025-01-14,Tuesday,Week 3,Month 1,Business Analytics,S3,31.86,GB
+2025-01-15,Wednesday,Week 3,Month 1,Product Engineering,Glue,3.66,DPU_hours
+2025-01-15,Wednesday,Week 3,Month 1,Product Engineering,Bedrock,7324.0,tokens
+2025-01-15,Wednesday,Week 3,Month 1,Data Engineering,S3,37.91,GB
+2025-01-15,Wednesday,Week 3,Month 1,Data Engineering,Bedrock,29752.0,tokens
+2025-01-15,Wednesday,Week 3,Month 1,AI Engineering,S3,12.99,GB
+2025-01-15,Wednesday,Week 3,Month 1,AI Engineering,Bedrock,27954.0,tokens
+2025-01-15,Wednesday,Week 3,Month 1,Platform / Cloud Operations,EC2,1.67,hours
+2025-01-15,Wednesday,Week 3,Month 1,Platform / Cloud Operations,Athena,0.0035,TB
+2025-01-15,Wednesday,Week 3,Month 1,Business Analytics,Athena,0.0017,TB
+2025-01-15,Wednesday,Week 3,Month 1,Business Analytics,Glue,1.86,DPU_hours
+2025-01-16,Thursday,Week 3,Month 1,Product Engineering,EC2,4.36,hours
+2025-01-16,Thursday,Week 3,Month 1,Product Engineering,Lambda,4631.0,requests
+2025-01-16,Thursday,Week 3,Month 1,Data Engineering,CloudWatch,23.07,GB
+2025-01-16,Thursday,Week 3,Month 1,Data Engineering,S3,13.98,GB
+2025-01-16,Thursday,Week 3,Month 1,AI Engineering,Lambda,16575.0,requests
+2025-01-16,Thursday,Week 3,Month 1,AI Engineering,Redshift,4.01,hours
+2025-01-16,Thursday,Week 3,Month 1,Platform / Cloud Operations,S3,21.33,GB
+2025-01-16,Thursday,Week 3,Month 1,Platform / Cloud Operations,Athena,0.0013,TB
+2025-01-16,Thursday,Week 3,Month 1,Business Analytics,Lambda,21530.0,requests
+2025-01-16,Thursday,Week 3,Month 1,Business Analytics,S3,15.78,GB
+2025-01-17,Friday,Week 3,Month 1,Product Engineering,CloudWatch,28.66,GB
+2025-01-17,Friday,Week 3,Month 1,Product Engineering,Lambda,13449.0,requests
+2025-01-17,Friday,Week 3,Month 1,Data Engineering,Lambda,5122.0,requests
+2025-01-17,Friday,Week 3,Month 1,Data Engineering,EC2,4.4,hours
+2025-01-17,Friday,Week 3,Month 1,AI Engineering,Bedrock,1626.0,tokens
+2025-01-17,Friday,Week 3,Month 1,AI Engineering,Glue,4.0,DPU_hours
+2025-01-17,Friday,Week 3,Month 1,Platform / Cloud Operations,EC2,3.53,hours
+2025-01-17,Friday,Week 3,Month 1,Platform / Cloud Operations,CloudWatch,38.74,GB
+2025-01-17,Friday,Week 3,Month 1,Business Analytics,Glue,1.47,DPU_hours
+2025-01-17,Friday,Week 3,Month 1,Business Analytics,Bedrock,14167.0,tokens
+2025-01-18,Saturday,Week 3,Month 1,Product Engineering,Redshift,3.12,hours
+2025-01-18,Saturday,Week 3,Month 1,Product Engineering,EC2,1.49,hours
+2025-01-18,Saturday,Week 3,Month 1,Data Engineering,Athena,0.0026,TB
+2025-01-18,Saturday,Week 3,Month 1,Data Engineering,Glue,2.55,DPU_hours
+2025-01-18,Saturday,Week 3,Month 1,AI Engineering,S3,6.1,GB
+2025-01-18,Saturday,Week 3,Month 1,AI Engineering,Glue,2.39,DPU_hours
+2025-01-18,Saturday,Week 3,Month 1,Platform / Cloud Operations,Redshift,2.95,hours
+2025-01-18,Saturday,Week 3,Month 1,Platform / Cloud Operations,Athena,0.0092,TB
+2025-01-18,Saturday,Week 3,Month 1,Business Analytics,Athena,0.0031,TB
+2025-01-18,Saturday,Week 3,Month 1,Business Analytics,Redshift,1.95,hours
+2025-01-19,Sunday,Week 3,Month 1,Product Engineering,Redshift,4.87,hours
+2025-01-19,Sunday,Week 3,Month 1,Product Engineering,Bedrock,24012.0,tokens
+2025-01-19,Sunday,Week 3,Month 1,Data Engineering,CloudWatch,12.25,GB
+2025-01-19,Sunday,Week 3,Month 1,Data Engineering,S3,13.71,GB
+2025-01-19,Sunday,Week 3,Month 1,AI Engineering,EC2,3.88,hours
+2025-01-19,Sunday,Week 3,Month 1,AI Engineering,S3,15.28,GB
+2025-01-19,Sunday,Week 3,Month 1,Platform / Cloud Operations,Lambda,5273.0,requests
+2025-01-19,Sunday,Week 3,Month 1,Platform / Cloud Operations,Athena,0.0078,TB
+2025-01-19,Sunday,Week 3,Month 1,Business Analytics,Lambda,13722.0,requests
+2025-01-19,Sunday,Week 3,Month 1,Business Analytics,Athena,0.0066,TB
+2025-01-20,Monday,Week 4,Month 1,Product Engineering,EC2,3.95,hours
+2025-01-20,Monday,Week 4,Month 1,Product Engineering,Redshift,2.87,hours
+2025-01-20,Monday,Week 4,Month 1,Data Engineering,S3,16.0,GB
+2025-01-20,Monday,Week 4,Month 1,Data Engineering,Bedrock,2577.0,tokens
+2025-01-20,Monday,Week 4,Month 1,AI Engineering,Lambda,29251.0,requests
+2025-01-20,Monday,Week 4,Month 1,AI Engineering,Bedrock,16098.0,tokens
+2025-01-20,Monday,Week 4,Month 1,Platform / Cloud Operations,Glue,1.28,DPU_hours
+2025-01-20,Monday,Week 4,Month 1,Platform / Cloud Operations,Athena,0.0075,TB
+2025-01-20,Monday,Week 4,Month 1,Business Analytics,Lambda,12707.0,requests
+2025-01-20,Monday,Week 4,Month 1,Business Analytics,Redshift,3.89,hours
+2025-01-21,Tuesday,Week 4,Month 1,Product Engineering,EC2,5.73,hours
+2025-01-21,Tuesday,Week 4,Month 1,Product Engineering,Redshift,5.53,hours
+2025-01-21,Tuesday,Week 4,Month 1,Data Engineering,Athena,0.0078,TB
+2025-01-21,Tuesday,Week 4,Month 1,Data Engineering,Bedrock,1436.0,tokens
+2025-01-21,Tuesday,Week 4,Month 1,AI Engineering,Athena,0.0047,TB
+2025-01-21,Tuesday,Week 4,Month 1,AI Engineering,Bedrock,3520.0,tokens
+2025-01-21,Tuesday,Week 4,Month 1,Platform / Cloud Operations,CloudWatch,10.28,GB
+2025-01-21,Tuesday,Week 4,Month 1,Platform / Cloud Operations,Bedrock,12637.0,tokens
+2025-01-21,Tuesday,Week 4,Month 1,Business Analytics,Athena,0.005,TB
+2025-01-21,Tuesday,Week 4,Month 1,Business Analytics,CloudWatch,39.71,GB
+2025-01-22,Wednesday,Week 4,Month 1,Product Engineering,Bedrock,18324.0,tokens
+2025-01-22,Wednesday,Week 4,Month 1,Product Engineering,CloudWatch,17.07,GB
+2025-01-22,Wednesday,Week 4,Month 1,Data Engineering,Lambda,20262.0,requests
+2025-01-22,Wednesday,Week 4,Month 1,Data Engineering,Glue,1.96,DPU_hours
+2025-01-22,Wednesday,Week 4,Month 1,AI Engineering,Athena,0.006,TB
+2025-01-22,Wednesday,Week 4,Month 1,AI Engineering,Glue,2.65,DPU_hours
+2025-01-22,Wednesday,Week 4,Month 1,Platform / Cloud Operations,Lambda,14207.0,requests
+2025-01-22,Wednesday,Week 4,Month 1,Platform / Cloud Operations,Glue,0.91,DPU_hours
+2025-01-22,Wednesday,Week 4,Month 1,Business Analytics,Lambda,25966.0,requests
+2025-01-22,Wednesday,Week 4,Month 1,Business Analytics,EC2,3.07,hours
+2025-01-23,Thursday,Week 4,Month 1,Product Engineering,CloudWatch,9.76,GB
+2025-01-23,Thursday,Week 4,Month 1,Product Engineering,Lambda,11595.0,requests
+2025-01-23,Thursday,Week 4,Month 1,Data Engineering,Bedrock,1785.0,tokens
+2025-01-23,Thursday,Week 4,Month 1,Data Engineering,EC2,3.69,hours
+2025-01-23,Thursday,Week 4,Month 1,AI Engineering,Redshift,3.33,hours
+2025-01-23,Thursday,Week 4,Month 1,AI Engineering,Athena,0.006,TB
+2025-01-23,Thursday,Week 4,Month 1,Platform / Cloud Operations,EC2,2.08,hours
+2025-01-23,Thursday,Week 4,Month 1,Platform / Cloud Operations,Redshift,2.64,hours
+2025-01-23,Thursday,Week 4,Month 1,Business Analytics,EC2,4.33,hours
+2025-01-23,Thursday,Week 4,Month 1,Business Analytics,Bedrock,17486.0,tokens
+2025-01-24,Friday,Week 4,Month 1,Product Engineering,Lambda,4906.0,requests
+2025-01-24,Friday,Week 4,Month 1,Product Engineering,CloudWatch,27.77,GB
+2025-01-24,Friday,Week 4,Month 1,Data Engineering,CloudWatch,23.4,GB
+2025-01-24,Friday,Week 4,Month 1,Data Engineering,Bedrock,20507.0,tokens
+2025-01-24,Friday,Week 4,Month 1,AI Engineering,S3,5.4,GB
+2025-01-24,Friday,Week 4,Month 1,AI Engineering,Athena,0.0099,TB
+2025-01-24,Friday,Week 4,Month 1,Platform / Cloud Operations,Glue,3.34,DPU_hours
+2025-01-24,Friday,Week 4,Month 1,Platform / Cloud Operations,Athena,0.0074,TB
+2025-01-24,Friday,Week 4,Month 1,Business Analytics,Athena,0.005,TB
+2025-01-24,Friday,Week 4,Month 1,Business Analytics,CloudWatch,38.36,GB
+2025-01-25,Saturday,Week 4,Month 1,Product Engineering,Lambda,3830.0,requests
+2025-01-25,Saturday,Week 4,Month 1,Product Engineering,EC2,2.09,hours
+2025-01-25,Saturday,Week 4,Month 1,Data Engineering,EC2,2.78,hours
+2025-01-25,Saturday,Week 4,Month 1,Data Engineering,Bedrock,6687.0,tokens
+2025-01-25,Saturday,Week 4,Month 1,AI Engineering,S3,10.98,GB
+2025-01-25,Saturday,Week 4,Month 1,AI Engineering,Lambda,13986.0,requests
+2025-01-25,Saturday,Week 4,Month 1,Platform / Cloud Operations,Glue,2.17,DPU_hours
+2025-01-25,Saturday,Week 4,Month 1,Platform / Cloud Operations,Athena,0.0012,TB
+2025-01-25,Saturday,Week 4,Month 1,Business Analytics,Athena,0.0039,TB
+2025-01-25,Saturday,Week 4,Month 1,Business Analytics,CloudWatch,28.84,GB
+2025-01-26,Sunday,Week 4,Month 1,Product Engineering,S3,26.63,GB
+2025-01-26,Sunday,Week 4,Month 1,Product Engineering,Bedrock,20768.0,tokens
+2025-01-26,Sunday,Week 4,Month 1,Data Engineering,Lambda,4884.0,requests
+2025-01-26,Sunday,Week 4,Month 1,Data Engineering,CloudWatch,7.82,GB
+2025-01-26,Sunday,Week 4,Month 1,AI Engineering,Redshift,5.34,hours
+2025-01-26,Sunday,Week 4,Month 1,AI Engineering,Bedrock,3891.0,tokens
+2025-01-26,Sunday,Week 4,Month 1,Platform / Cloud Operations,EC2,5.22,hours
+2025-01-26,Sunday,Week 4,Month 1,Platform / Cloud Operations,Glue,2.27,DPU_hours
+2025-01-26,Sunday,Week 4,Month 1,Business Analytics,Bedrock,21583.0,tokens
+2025-01-26,Sunday,Week 4,Month 1,Business Analytics,Glue,3.94,DPU_hours
+2025-01-27,Monday,Week 5,Month 2,Product Engineering,CloudWatch,33.35,GB
+2025-01-27,Monday,Week 5,Month 2,Product Engineering,Lambda,5821.0,requests
+2025-01-27,Monday,Week 5,Month 2,Data Engineering,Athena,0.0046,TB
+2025-01-27,Monday,Week 5,Month 2,Data Engineering,S3,7.39,GB
+2025-01-27,Monday,Week 5,Month 2,AI Engineering,CloudWatch,5.05,GB
+2025-01-27,Monday,Week 5,Month 2,AI Engineering,Athena,0.0016,TB
+2025-01-27,Monday,Week 5,Month 2,Platform / Cloud Operations,Glue,0.89,DPU_hours
+2025-01-27,Monday,Week 5,Month 2,Platform / Cloud Operations,CloudWatch,39.16,GB
+2025-01-27,Monday,Week 5,Month 2,Business Analytics,Athena,0.0067,TB
+2025-01-27,Monday,Week 5,Month 2,Business Analytics,Glue,2.18,DPU_hours
+2025-01-28,Tuesday,Week 5,Month 2,Product Engineering,Athena,0.0039,TB
+2025-01-28,Tuesday,Week 5,Month 2,Product Engineering,Lambda,9647.0,requests
+2025-01-28,Tuesday,Week 5,Month 2,Data Engineering,Redshift,4.7,hours
+2025-01-28,Tuesday,Week 5,Month 2,Data Engineering,Glue,2.53,DPU_hours
+2025-01-28,Tuesday,Week 5,Month 2,AI Engineering,Glue,1.5,DPU_hours
+2025-01-28,Tuesday,Week 5,Month 2,AI Engineering,Redshift,1.17,hours
+2025-01-28,Tuesday,Week 5,Month 2,Platform / Cloud Operations,CloudWatch,25.52,GB
+2025-01-28,Tuesday,Week 5,Month 2,Platform / Cloud Operations,Bedrock,2507.0,tokens
+2025-01-28,Tuesday,Week 5,Month 2,Business Analytics,S3,37.9,GB
+2025-01-28,Tuesday,Week 5,Month 2,Business Analytics,Redshift,2.75,hours
+2025-01-29,Wednesday,Week 5,Month 2,Product Engineering,Bedrock,10822.0,tokens
+2025-01-29,Wednesday,Week 5,Month 2,Product Engineering,EC2,5.16,hours
+2025-01-29,Wednesday,Week 5,Month 2,Data Engineering,Bedrock,9059.0,tokens
+2025-01-29,Wednesday,Week 5,Month 2,Data Engineering,EC2,2.44,hours
+2025-01-29,Wednesday,Week 5,Month 2,AI Engineering,Athena,0.0014,TB
+2025-01-29,Wednesday,Week 5,Month 2,AI Engineering,Lambda,6441.0,requests
+2025-01-29,Wednesday,Week 5,Month 2,Platform / Cloud Operations,Glue,0.74,DPU_hours
+2025-01-29,Wednesday,Week 5,Month 2,Platform / Cloud Operations,Lambda,20086.0,requests
+2025-01-29,Wednesday,Week 5,Month 2,Business Analytics,Redshift,1.27,hours
+2025-01-29,Wednesday,Week 5,Month 2,Business Analytics,S3,14.83,GB
+2025-01-30,Thursday,Week 5,Month 2,Product Engineering,S3,19.06,GB
+2025-01-30,Thursday,Week 5,Month 2,Product Engineering,Redshift,4.91,hours
+2025-01-30,Thursday,Week 5,Month 2,Data Engineering,S3,13.01,GB
+2025-01-30,Thursday,Week 5,Month 2,Data Engineering,CloudWatch,7.79,GB
+2025-01-30,Thursday,Week 5,Month 2,AI Engineering,Redshift,2.98,hours
+2025-01-30,Thursday,Week 5,Month 2,AI Engineering,EC2,5.61,hours
+2025-01-30,Thursday,Week 5,Month 2,Platform / Cloud Operations,S3,33.24,GB
+2025-01-30,Thursday,Week 5,Month 2,Platform / Cloud Operations,Athena,0.0022,TB
+2025-01-30,Thursday,Week 5,Month 2,Business Analytics,EC2,5.63,hours
+2025-01-30,Thursday,Week 5,Month 2,Business Analytics,Bedrock,17487.0,tokens
+2025-01-31,Friday,Week 5,Month 2,Product Engineering,EC2,3.23,hours
+2025-01-31,Friday,Week 5,Month 2,Product Engineering,CloudWatch,18.5,GB
+2025-01-31,Friday,Week 5,Month 2,Data Engineering,S3,24.89,GB
+2025-01-31,Friday,Week 5,Month 2,Data Engineering,Redshift,2.06,hours
+2025-01-31,Friday,Week 5,Month 2,AI Engineering,Lambda,27882.0,requests
+2025-01-31,Friday,Week 5,Month 2,AI Engineering,S3,10.39,GB
+2025-01-31,Friday,Week 5,Month 2,Platform / Cloud Operations,CloudWatch,20.3,GB
+2025-01-31,Friday,Week 5,Month 2,Platform / Cloud Operations,Lambda,22586.0,requests
+2025-01-31,Friday,Week 5,Month 2,Business Analytics,Bedrock,27508.0,tokens
+2025-01-31,Friday,Week 5,Month 2,Business Analytics,EC2,2.12,hours
+2025-02-01,Saturday,Week 5,Month 2,Product Engineering,EC2,3.02,hours
+2025-02-01,Saturday,Week 5,Month 2,Product Engineering,Glue,3.87,DPU_hours
+2025-02-01,Saturday,Week 5,Month 2,Data Engineering,Bedrock,24017.0,tokens
+2025-02-01,Saturday,Week 5,Month 2,Data Engineering,CloudWatch,33.43,GB
+2025-02-01,Saturday,Week 5,Month 2,AI Engineering,EC2,1.24,hours
+2025-02-01,Saturday,Week 5,Month 2,AI Engineering,CloudWatch,9.19,GB
+2025-02-01,Saturday,Week 5,Month 2,Platform / Cloud Operations,Lambda,10112.0,requests
+2025-02-01,Saturday,Week 5,Month 2,Platform / Cloud Operations,CloudWatch,37.7,GB
+2025-02-01,Saturday,Week 5,Month 2,Business Analytics,CloudWatch,19.62,GB
+2025-02-01,Saturday,Week 5,Month 2,Business Analytics,Athena,0.0033,TB
+2025-02-02,Sunday,Week 5,Month 2,Product Engineering,Glue,2.7,DPU_hours
+2025-02-02,Sunday,Week 5,Month 2,Product Engineering,Lambda,22499.0,requests
+2025-02-02,Sunday,Week 5,Month 2,Data Engineering,Glue,1.78,DPU_hours
+2025-02-02,Sunday,Week 5,Month 2,Data Engineering,S3,32.52,GB
+2025-02-02,Sunday,Week 5,Month 2,AI Engineering,CloudWatch,30.03,GB
+2025-02-02,Sunday,Week 5,Month 2,AI Engineering,Bedrock,25425.0,tokens
+2025-02-02,Sunday,Week 5,Month 2,Platform / Cloud Operations,S3,6.85,GB
+2025-02-02,Sunday,Week 5,Month 2,Platform / Cloud Operations,Glue,2.98,DPU_hours
+2025-02-02,Sunday,Week 5,Month 2,Business Analytics,Redshift,1.23,hours
+2025-02-02,Sunday,Week 5,Month 2,Business Analytics,Lambda,1954.0,requests
+2025-02-03,Monday,Week 6,Month 2,Product Engineering,Redshift,5.76,hours
+2025-02-03,Monday,Week 6,Month 2,Product Engineering,Lambda,19688.0,requests
+2025-02-03,Monday,Week 6,Month 2,Data Engineering,EC2,3.63,hours
+2025-02-03,Monday,Week 6,Month 2,Data Engineering,Athena,0.0027,TB
+2025-02-03,Monday,Week 6,Month 2,AI Engineering,Lambda,29462.0,requests
+2025-02-03,Monday,Week 6,Month 2,AI Engineering,Athena,0.003,TB
+2025-02-03,Monday,Week 6,Month 2,Platform / Cloud Operations,Glue,2.64,DPU_hours
+2025-02-03,Monday,Week 6,Month 2,Platform / Cloud Operations,Lambda,11745.0,requests
+2025-02-03,Monday,Week 6,Month 2,Business Analytics,Bedrock,3253.0,tokens
+2025-02-03,Monday,Week 6,Month 2,Business Analytics,CloudWatch,36.2,GB
+2025-02-04,Tuesday,Week 6,Month 2,Product Engineering,Athena,0.0018,TB
+2025-02-04,Tuesday,Week 6,Month 2,Product Engineering,CloudWatch,10.54,GB
+2025-02-04,Tuesday,Week 6,Month 2,Data Engineering,Athena,0.001,TB
+2025-02-04,Tuesday,Week 6,Month 2,Data Engineering,Redshift,2.96,hours
+2025-02-04,Tuesday,Week 6,Month 2,AI Engineering,Bedrock,15307.0,tokens
+2025-02-04,Tuesday,Week 6,Month 2,AI Engineering,Athena,0.0057,TB
+2025-02-04,Tuesday,Week 6,Month 2,Platform / Cloud Operations,Redshift,5.29,hours
+2025-02-04,Tuesday,Week 6,Month 2,Platform / Cloud Operations,Lambda,16340.0,requests
+2025-02-04,Tuesday,Week 6,Month 2,Business Analytics,CloudWatch,7.84,GB
+2025-02-04,Tuesday,Week 6,Month 2,Business Analytics,S3,33.02,GB
+2025-02-05,Wednesday,Week 6,Month 2,Product Engineering,CloudWatch,15.94,GB
+2025-02-05,Wednesday,Week 6,Month 2,Product Engineering,Lambda,8992.0,requests
+2025-02-05,Wednesday,Week 6,Month 2,Data Engineering,Redshift,2.94,hours
+2025-02-05,Wednesday,Week 6,Month 2,Data Engineering,S3,24.96,GB
+2025-02-05,Wednesday,Week 6,Month 2,AI Engineering,EC2,1.91,hours
+2025-02-05,Wednesday,Week 6,Month 2,AI Engineering,Redshift,5.54,hours
+2025-02-05,Wednesday,Week 6,Month 2,Platform / Cloud Operations,Glue,1.57,DPU_hours
+2025-02-05,Wednesday,Week 6,Month 2,Platform / Cloud Operations,Athena,0.0067,TB
+2025-02-05,Wednesday,Week 6,Month 2,Business Analytics,S3,22.3,GB
+2025-02-05,Wednesday,Week 6,Month 2,Business Analytics,Glue,3.1,DPU_hours
+2025-02-06,Thursday,Week 6,Month 2,Product Engineering,Glue,0.73,DPU_hours
+2025-02-06,Thursday,Week 6,Month 2,Product Engineering,Redshift,2.74,hours
+2025-02-06,Thursday,Week 6,Month 2,Data Engineering,CloudWatch,13.48,GB
+2025-02-06,Thursday,Week 6,Month 2,Data Engineering,EC2,3.8,hours
+2025-02-06,Thursday,Week 6,Month 2,AI Engineering,Redshift,2.31,hours
+2025-02-06,Thursday,Week 6,Month 2,AI Engineering,EC2,4.87,hours
+2025-02-06,Thursday,Week 6,Month 2,Platform / Cloud Operations,S3,28.97,GB
+2025-02-06,Thursday,Week 6,Month 2,Platform / Cloud Operations,Redshift,4.72,hours
+2025-02-06,Thursday,Week 6,Month 2,Business Analytics,Redshift,5.36,hours
+2025-02-06,Thursday,Week 6,Month 2,Business Analytics,S3,16.01,GB
+2025-02-07,Friday,Week 6,Month 2,Product Engineering,Athena,0.0096,TB
+2025-02-07,Friday,Week 6,Month 2,Product Engineering,Lambda,11004.0,requests
+2025-02-07,Friday,Week 6,Month 2,Data Engineering,Redshift,4.39,hours
+2025-02-07,Friday,Week 6,Month 2,Data Engineering,CloudWatch,19.91,GB
+2025-02-07,Friday,Week 6,Month 2,AI Engineering,Glue,2.86,DPU_hours
+2025-02-07,Friday,Week 6,Month 2,AI Engineering,EC2,3.48,hours
+2025-02-07,Friday,Week 6,Month 2,Platform / Cloud Operations,EC2,1.62,hours
+2025-02-07,Friday,Week 6,Month 2,Platform / Cloud Operations,Glue,0.76,DPU_hours
+2025-02-07,Friday,Week 6,Month 2,Business Analytics,Redshift,3.77,hours
+2025-02-07,Friday,Week 6,Month 2,Business Analytics,S3,17.93,GB
+2025-02-08,Saturday,Week 6,Month 2,Product Engineering,Lambda,27828.0,requests
+2025-02-08,Saturday,Week 6,Month 2,Product Engineering,S3,6.15,GB
+2025-02-08,Saturday,Week 6,Month 2,Data Engineering,Athena,0.0039,TB
+2025-02-08,Saturday,Week 6,Month 2,Data Engineering,S3,35.45,GB
+2025-02-08,Saturday,Week 6,Month 2,AI Engineering,Athena,0.01,TB
+2025-02-08,Saturday,Week 6,Month 2,AI Engineering,Bedrock,11004.0,tokens
+2025-02-08,Saturday,Week 6,Month 2,Platform / Cloud Operations,Redshift,4.23,hours
+2025-02-08,Saturday,Week 6,Month 2,Platform / Cloud Operations,CloudWatch,21.41,GB
+2025-02-08,Saturday,Week 6,Month 2,Business Analytics,S3,12.77,GB
+2025-02-08,Saturday,Week 6,Month 2,Business Analytics,Athena,0.0069,TB
+2025-02-09,Sunday,Week 6,Month 2,Product Engineering,Redshift,5.76,hours
+2025-02-09,Sunday,Week 6,Month 2,Product Engineering,Bedrock,18269.0,tokens
+2025-02-09,Sunday,Week 6,Month 2,Data Engineering,Athena,0.0015,TB
+2025-02-09,Sunday,Week 6,Month 2,Data Engineering,Redshift,1.35,hours
+2025-02-09,Sunday,Week 6,Month 2,AI Engineering,S3,29.67,GB
+2025-02-09,Sunday,Week 6,Month 2,AI Engineering,CloudWatch,27.58,GB
+2025-02-09,Sunday,Week 6,Month 2,Platform / Cloud Operations,Redshift,3.5,hours
+2025-02-09,Sunday,Week 6,Month 2,Platform / Cloud Operations,S3,22.57,GB
+2025-02-09,Sunday,Week 6,Month 2,Business Analytics,S3,10.74,GB
+2025-02-09,Sunday,Week 6,Month 2,Business Analytics,Glue,2.25,DPU_hours
+2025-02-10,Monday,Week 7,Month 2,Product Engineering,Glue,3.47,DPU_hours
+2025-02-10,Monday,Week 7,Month 2,Product Engineering,Athena,0.0041,TB
+2025-02-10,Monday,Week 7,Month 2,Data Engineering,Lambda,14434.0,requests
+2025-02-10,Monday,Week 7,Month 2,Data Engineering,Glue,3.95,DPU_hours
+2025-02-10,Monday,Week 7,Month 2,AI Engineering,Athena,0.0042,TB
+2025-02-10,Monday,Week 7,Month 2,AI Engineering,CloudWatch,10.02,GB
+2025-02-10,Monday,Week 7,Month 2,Platform / Cloud Operations,Redshift,3.55,hours
+2025-02-10,Monday,Week 7,Month 2,Platform / Cloud Operations,S3,35.57,GB
+2025-02-10,Monday,Week 7,Month 2,Business Analytics,CloudWatch,35.87,GB
+2025-02-10,Monday,Week 7,Month 2,Business Analytics,Glue,2.47,DPU_hours
+2025-02-11,Tuesday,Week 7,Month 2,Product Engineering,Bedrock,26628.0,tokens
+2025-02-11,Tuesday,Week 7,Month 2,Product Engineering,Athena,0.008,TB
+2025-02-11,Tuesday,Week 7,Month 2,Data Engineering,Lambda,27271.0,requests
+2025-02-11,Tuesday,Week 7,Month 2,Data Engineering,CloudWatch,16.3,GB
+2025-02-11,Tuesday,Week 7,Month 2,AI Engineering,Lambda,1385.0,requests
+2025-02-11,Tuesday,Week 7,Month 2,AI Engineering,S3,34.57,GB
+2025-02-11,Tuesday,Week 7,Month 2,Platform / Cloud Operations,Athena,0.004,TB
+2025-02-11,Tuesday,Week 7,Month 2,Platform / Cloud Operations,EC2,3.25,hours
+2025-02-11,Tuesday,Week 7,Month 2,Business Analytics,EC2,5.9,hours
+2025-02-11,Tuesday,Week 7,Month 2,Business Analytics,Glue,1.69,DPU_hours
+2025-02-12,Wednesday,Week 7,Month 2,Product Engineering,S3,28.98,GB
+2025-02-12,Wednesday,Week 7,Month 2,Product Engineering,Redshift,1.04,hours
+2025-02-12,Wednesday,Week 7,Month 2,Data Engineering,CloudWatch,14.3,GB
+2025-02-12,Wednesday,Week 7,Month 2,Data Engineering,EC2,3.79,hours
+2025-02-12,Wednesday,Week 7,Month 2,AI Engineering,Redshift,2.38,hours
+2025-02-12,Wednesday,Week 7,Month 2,AI Engineering,CloudWatch,8.31,GB
+2025-02-12,Wednesday,Week 7,Month 2,Platform / Cloud Operations,CloudWatch,29.85,GB
+2025-02-12,Wednesday,Week 7,Month 2,Platform / Cloud Operations,EC2,1.11,hours
+2025-02-12,Wednesday,Week 7,Month 2,Business Analytics,CloudWatch,21.68,GB
+2025-02-12,Wednesday,Week 7,Month 2,Business Analytics,Bedrock,19415.0,tokens
+2025-02-13,Thursday,Week 7,Month 2,Product Engineering,Glue,3.55,DPU_hours
+2025-02-13,Thursday,Week 7,Month 2,Product Engineering,S3,20.98,GB
+2025-02-13,Thursday,Week 7,Month 2,Data Engineering,Bedrock,11483.0,tokens
+2025-02-13,Thursday,Week 7,Month 2,Data Engineering,Lambda,17998.0,requests
+2025-02-13,Thursday,Week 7,Month 2,AI Engineering,EC2,2.46,hours
+2025-02-13,Thursday,Week 7,Month 2,AI Engineering,S3,36.88,GB
+2025-02-13,Thursday,Week 7,Month 2,Platform / Cloud Operations,Lambda,15178.0,requests
+2025-02-13,Thursday,Week 7,Month 2,Platform / Cloud Operations,Bedrock,17608.0,tokens
+2025-02-13,Thursday,Week 7,Month 2,Business Analytics,Bedrock,19928.0,tokens
+2025-02-13,Thursday,Week 7,Month 2,Business Analytics,S3,20.16,GB
+2025-02-14,Friday,Week 7,Month 2,Product Engineering,CloudWatch,36.86,GB
+2025-02-14,Friday,Week 7,Month 2,Product Engineering,Lambda,28478.0,requests
+2025-02-14,Friday,Week 7,Month 2,Data Engineering,Bedrock,14308.0,tokens
+2025-02-14,Friday,Week 7,Month 2,Data Engineering,CloudWatch,30.33,GB
+2025-02-14,Friday,Week 7,Month 2,AI Engineering,CloudWatch,28.88,GB
+2025-02-14,Friday,Week 7,Month 2,AI Engineering,S3,14.87,GB
+2025-02-14,Friday,Week 7,Month 2,Platform / Cloud Operations,Lambda,8508.0,requests
+2025-02-14,Friday,Week 7,Month 2,Platform / Cloud Operations,Glue,1.98,DPU_hours
+2025-02-14,Friday,Week 7,Month 2,Business Analytics,Bedrock,19661.0,tokens
+2025-02-14,Friday,Week 7,Month 2,Business Analytics,Redshift,3.86,hours
+2025-02-15,Saturday,Week 7,Month 2,Product Engineering,Redshift,1.64,hours
+2025-02-15,Saturday,Week 7,Month 2,Product Engineering,Glue,2.08,DPU_hours
+2025-02-15,Saturday,Week 7,Month 2,Data Engineering,CloudWatch,19.82,GB
+2025-02-15,Saturday,Week 7,Month 2,Data Engineering,Athena,0.0014,TB
+2025-02-15,Saturday,Week 7,Month 2,AI Engineering,S3,35.38,GB
+2025-02-15,Saturday,Week 7,Month 2,AI Engineering,CloudWatch,8.93,GB
+2025-02-15,Saturday,Week 7,Month 2,Platform / Cloud Operations,CloudWatch,22.4,GB
+2025-02-15,Saturday,Week 7,Month 2,Platform / Cloud Operations,EC2,2.24,hours
+2025-02-15,Saturday,Week 7,Month 2,Business Analytics,S3,16.6,GB
+2025-02-15,Saturday,Week 7,Month 2,Business Analytics,Bedrock,25522.0,tokens
+2025-02-16,Sunday,Week 7,Month 2,Product Engineering,Bedrock,26399.0,tokens
+2025-02-16,Sunday,Week 7,Month 2,Product Engineering,EC2,2.72,hours
+2025-02-16,Sunday,Week 7,Month 2,Data Engineering,Bedrock,24027.0,tokens
+2025-02-16,Sunday,Week 7,Month 2,Data Engineering,CloudWatch,14.22,GB
+2025-02-16,Sunday,Week 7,Month 2,AI Engineering,CloudWatch,14.52,GB
+2025-02-16,Sunday,Week 7,Month 2,AI Engineering,Bedrock,22765.0,tokens
+2025-02-16,Sunday,Week 7,Month 2,Platform / Cloud Operations,Redshift,1.56,hours
+2025-02-16,Sunday,Week 7,Month 2,Platform / Cloud Operations,Athena,0.0014,TB
+2025-02-16,Sunday,Week 7,Month 2,Business Analytics,CloudWatch,29.79,GB
+2025-02-16,Sunday,Week 7,Month 2,Business Analytics,S3,5.23,GB
+2025-02-17,Monday,Week 8,Month 2,Product Engineering,Glue,2.78,DPU_hours
+2025-02-17,Monday,Week 8,Month 2,Product Engineering,S3,9.3,GB
+2025-02-17,Monday,Week 8,Month 2,Data Engineering,Redshift,5.24,hours
+2025-02-17,Monday,Week 8,Month 2,Data Engineering,Bedrock,21992.0,tokens
+2025-02-17,Monday,Week 8,Month 2,AI Engineering,Bedrock,1473.0,tokens
+2025-02-17,Monday,Week 8,Month 2,AI Engineering,Lambda,23405.0,requests
+2025-02-17,Monday,Week 8,Month 2,Platform / Cloud Operations,Athena,0.003,TB
+2025-02-17,Monday,Week 8,Month 2,Platform / Cloud Operations,Bedrock,24989.0,tokens
+2025-02-17,Monday,Week 8,Month 2,Business Analytics,Redshift,4.51,hours
+2025-02-17,Monday,Week 8,Month 2,Business Analytics,Lambda,25781.0,requests
+2025-02-18,Tuesday,Week 8,Month 2,Product Engineering,Glue,1.96,DPU_hours
+2025-02-18,Tuesday,Week 8,Month 2,Product Engineering,Athena,0.0049,TB
+2025-02-18,Tuesday,Week 8,Month 2,Data Engineering,EC2,5.3,hours
+2025-02-18,Tuesday,Week 8,Month 2,Data Engineering,Glue,3.26,DPU_hours
+2025-02-18,Tuesday,Week 8,Month 2,AI Engineering,Athena,0.0027,TB
+2025-02-18,Tuesday,Week 8,Month 2,AI Engineering,CloudWatch,39.81,GB
+2025-02-18,Tuesday,Week 8,Month 2,Platform / Cloud Operations,Glue,3.8,DPU_hours
+2025-02-18,Tuesday,Week 8,Month 2,Platform / Cloud Operations,Athena,0.0054,TB
+2025-02-18,Tuesday,Week 8,Month 2,Business Analytics,Bedrock,14023.0,tokens
+2025-02-18,Tuesday,Week 8,Month 2,Business Analytics,CloudWatch,27.63,GB
+2025-02-19,Wednesday,Week 8,Month 2,Product Engineering,S3,34.62,GB
+2025-02-19,Wednesday,Week 8,Month 2,Product Engineering,Bedrock,6877.0,tokens
+2025-02-19,Wednesday,Week 8,Month 2,Data Engineering,Glue,3.48,DPU_hours
+2025-02-19,Wednesday,Week 8,Month 2,Data Engineering,CloudWatch,19.82,GB
+2025-02-19,Wednesday,Week 8,Month 2,AI Engineering,S3,36.6,GB
+2025-02-19,Wednesday,Week 8,Month 2,AI Engineering,Glue,3.51,DPU_hours
+2025-02-19,Wednesday,Week 8,Month 2,Platform / Cloud Operations,Bedrock,7885.0,tokens
+2025-02-19,Wednesday,Week 8,Month 2,Platform / Cloud Operations,Glue,3.42,DPU_hours
+2025-02-19,Wednesday,Week 8,Month 2,Business Analytics,EC2,4.98,hours
+2025-02-19,Wednesday,Week 8,Month 2,Business Analytics,Lambda,3733.0,requests
+2025-02-20,Thursday,Week 8,Month 2,Product Engineering,Bedrock,6763.0,tokens
+2025-02-20,Thursday,Week 8,Month 2,Product Engineering,Lambda,5442.0,requests
+2025-02-20,Thursday,Week 8,Month 2,Data Engineering,Glue,1.48,DPU_hours
+2025-02-20,Thursday,Week 8,Month 2,Data Engineering,Athena,0.0057,TB
+2025-02-20,Thursday,Week 8,Month 2,AI Engineering,S3,37.01,GB
+2025-02-20,Thursday,Week 8,Month 2,AI Engineering,Glue,2.2,DPU_hours
+2025-02-20,Thursday,Week 8,Month 2,Platform / Cloud Operations,CloudWatch,7.24,GB
+2025-02-20,Thursday,Week 8,Month 2,Platform / Cloud Operations,Redshift,3.22,hours
+2025-02-20,Thursday,Week 8,Month 2,Business Analytics,Redshift,1.95,hours
+2025-02-20,Thursday,Week 8,Month 2,Business Analytics,Bedrock,16418.0,tokens
+2025-02-21,Friday,Week 8,Month 2,Product Engineering,Athena,0.0026,TB
+2025-02-21,Friday,Week 8,Month 2,Product Engineering,EC2,1.19,hours
+2025-02-21,Friday,Week 8,Month 2,Data Engineering,Glue,2.04,DPU_hours
+2025-02-21,Friday,Week 8,Month 2,Data Engineering,S3,22.55,GB
+2025-02-21,Friday,Week 8,Month 2,AI Engineering,S3,11.18,GB
+2025-02-21,Friday,Week 8,Month 2,AI Engineering,Bedrock,17347.0,tokens
+2025-02-21,Friday,Week 8,Month 2,Platform / Cloud Operations,Lambda,12354.0,requests
+2025-02-21,Friday,Week 8,Month 2,Platform / Cloud Operations,EC2,1.74,hours
+2025-02-21,Friday,Week 8,Month 2,Business Analytics,EC2,4.18,hours
+2025-02-21,Friday,Week 8,Month 2,Business Analytics,S3,20.43,GB
+2025-02-22,Saturday,Week 8,Month 2,Product Engineering,CloudWatch,29.88,GB
+2025-02-22,Saturday,Week 8,Month 2,Product Engineering,Redshift,3.52,hours
+2025-02-22,Saturday,Week 8,Month 2,Data Engineering,Athena,0.0093,TB
+2025-02-22,Saturday,Week 8,Month 2,Data Engineering,Redshift,5.87,hours
+2025-02-22,Saturday,Week 8,Month 2,AI Engineering,EC2,3.23,hours
+2025-02-22,Saturday,Week 8,Month 2,AI Engineering,S3,12.13,GB
+2025-02-22,Saturday,Week 8,Month 2,Platform / Cloud Operations,S3,12.4,GB
+2025-02-22,Saturday,Week 8,Month 2,Platform / Cloud Operations,Lambda,7218.0,requests
+2025-02-22,Saturday,Week 8,Month 2,Business Analytics,Bedrock,7982.0,tokens
+2025-02-22,Saturday,Week 8,Month 2,Business Analytics,CloudWatch,24.43,GB
+2025-02-23,Sunday,Week 8,Month 2,Product Engineering,S3,8.88,GB
+2025-02-23,Sunday,Week 8,Month 2,Product Engineering,Glue,0.87,DPU_hours
+2025-02-23,Sunday,Week 8,Month 2,Data Engineering,Bedrock,22610.0,tokens
+2025-02-23,Sunday,Week 8,Month 2,Data Engineering,EC2,3.45,hours
+2025-02-23,Sunday,Week 8,Month 2,AI Engineering,Redshift,4.67,hours
+2025-02-23,Sunday,Week 8,Month 2,AI Engineering,Bedrock,16638.0,tokens
+2025-02-23,Sunday,Week 8,Month 2,Platform / Cloud Operations,S3,22.94,GB
+2025-02-23,Sunday,Week 8,Month 2,Platform / Cloud Operations,CloudWatch,25.05,GB
+2025-02-23,Sunday,Week 8,Month 2,Business Analytics,S3,8.43,GB
+2025-02-23,Sunday,Week 8,Month 2,Business Analytics,Glue,3.7,DPU_hours
+2025-02-24,Monday,Week 9,Month 3,Product Engineering,Lambda,15452.0,requests
+2025-02-24,Monday,Week 9,Month 3,Product Engineering,CloudWatch,30.7,GB
+2025-02-24,Monday,Week 9,Month 3,Data Engineering,Lambda,21575.0,requests
+2025-02-24,Monday,Week 9,Month 3,Data Engineering,CloudWatch,6.77,GB
+2025-02-24,Monday,Week 9,Month 3,AI Engineering,Glue,2.5,DPU_hours
+2025-02-24,Monday,Week 9,Month 3,AI Engineering,Athena,0.0067,TB
+2025-02-24,Monday,Week 9,Month 3,Platform / Cloud Operations,S3,10.97,GB
+2025-02-24,Monday,Week 9,Month 3,Platform / Cloud Operations,Glue,3.31,DPU_hours
+2025-02-24,Monday,Week 9,Month 3,Business Analytics,EC2,5.29,hours
+2025-02-24,Monday,Week 9,Month 3,Business Analytics,Glue,2.39,DPU_hours
+2025-02-25,Tuesday,Week 9,Month 3,Product Engineering,Bedrock,20760.0,tokens
+2025-02-25,Tuesday,Week 9,Month 3,Product Engineering,Redshift,4.8,hours
+2025-02-25,Tuesday,Week 9,Month 3,Data Engineering,Redshift,5.54,hours
+2025-02-25,Tuesday,Week 9,Month 3,Data Engineering,Athena,0.0025,TB
+2025-02-25,Tuesday,Week 9,Month 3,AI Engineering,S3,36.42,GB
+2025-02-25,Tuesday,Week 9,Month 3,AI Engineering,Lambda,25025.0,requests
+2025-02-25,Tuesday,Week 9,Month 3,Platform / Cloud Operations,CloudWatch,28.83,GB
+2025-02-25,Tuesday,Week 9,Month 3,Platform / Cloud Operations,Redshift,5.93,hours
+2025-02-25,Tuesday,Week 9,Month 3,Business Analytics,Bedrock,23488.0,tokens
+2025-02-25,Tuesday,Week 9,Month 3,Business Analytics,Glue,3.09,DPU_hours
+2025-02-26,Wednesday,Week 9,Month 3,Product Engineering,Lambda,26493.0,requests
+2025-02-26,Wednesday,Week 9,Month 3,Product Engineering,Glue,2.47,DPU_hours
+2025-02-26,Wednesday,Week 9,Month 3,Data Engineering,Bedrock,4008.0,tokens
+2025-02-26,Wednesday,Week 9,Month 3,Data Engineering,CloudWatch,6.93,GB
+2025-02-26,Wednesday,Week 9,Month 3,AI Engineering,Redshift,5.71,hours
+2025-02-26,Wednesday,Week 9,Month 3,AI Engineering,S3,25.65,GB
+2025-02-26,Wednesday,Week 9,Month 3,Platform / Cloud Operations,Glue,2.3,DPU_hours
+2025-02-26,Wednesday,Week 9,Month 3,Platform / Cloud Operations,Lambda,3562.0,requests
+2025-02-26,Wednesday,Week 9,Month 3,Business Analytics,Lambda,18000.0,requests
+2025-02-26,Wednesday,Week 9,Month 3,Business Analytics,Athena,0.0027,TB
+2025-02-27,Thursday,Week 9,Month 3,Product Engineering,Bedrock,10669.0,tokens
+2025-02-27,Thursday,Week 9,Month 3,Product Engineering,EC2,5.45,hours
+2025-02-27,Thursday,Week 9,Month 3,Data Engineering,S3,21.24,GB
+2025-02-27,Thursday,Week 9,Month 3,Data Engineering,CloudWatch,5.9,GB
+2025-02-27,Thursday,Week 9,Month 3,AI Engineering,Athena,0.0062,TB
+2025-02-27,Thursday,Week 9,Month 3,AI Engineering,Lambda,25785.0,requests
+2025-02-27,Thursday,Week 9,Month 3,Platform / Cloud Operations,Athena,0.0059,TB
+2025-02-27,Thursday,Week 9,Month 3,Platform / Cloud Operations,Redshift,4.34,hours
+2025-02-27,Thursday,Week 9,Month 3,Business Analytics,EC2,3.99,hours
+2025-02-27,Thursday,Week 9,Month 3,Business Analytics,Lambda,26243.0,requests
+2025-02-28,Friday,Week 9,Month 3,Product Engineering,S3,20.54,GB
+2025-02-28,Friday,Week 9,Month 3,Product Engineering,Redshift,2.82,hours
+2025-02-28,Friday,Week 9,Month 3,Data Engineering,Lambda,13587.0,requests
+2025-02-28,Friday,Week 9,Month 3,Data Engineering,Bedrock,21634.0,tokens
+2025-02-28,Friday,Week 9,Month 3,AI Engineering,S3,14.22,GB
+2025-02-28,Friday,Week 9,Month 3,AI Engineering,Lambda,14068.0,requests
+2025-02-28,Friday,Week 9,Month 3,Platform / Cloud Operations,Lambda,27461.0,requests
+2025-02-28,Friday,Week 9,Month 3,Platform / Cloud Operations,Athena,0.0046,TB
+2025-02-28,Friday,Week 9,Month 3,Business Analytics,EC2,2.08,hours
+2025-02-28,Friday,Week 9,Month 3,Business Analytics,Lambda,20036.0,requests
+2025-03-01,Saturday,Week 9,Month 3,Product Engineering,EC2,3.44,hours
+2025-03-01,Saturday,Week 9,Month 3,Product Engineering,Lambda,18482.0,requests
+2025-03-01,Saturday,Week 9,Month 3,Data Engineering,CloudWatch,6.0,GB
+2025-03-01,Saturday,Week 9,Month 3,Data Engineering,EC2,4.86,hours
+2025-03-01,Saturday,Week 9,Month 3,AI Engineering,Redshift,5.38,hours
+2025-03-01,Saturday,Week 9,Month 3,AI Engineering,Lambda,22735.0,requests
+2025-03-01,Saturday,Week 9,Month 3,Platform / Cloud Operations,EC2,3.87,hours
+2025-03-01,Saturday,Week 9,Month 3,Platform / Cloud Operations,Bedrock,2079.0,tokens
+2025-03-01,Saturday,Week 9,Month 3,Business Analytics,Athena,0.0074,TB
+2025-03-01,Saturday,Week 9,Month 3,Business Analytics,Lambda,19434.0,requests
+2025-03-02,Sunday,Week 9,Month 3,Product Engineering,Glue,1.81,DPU_hours
+2025-03-02,Sunday,Week 9,Month 3,Product Engineering,Redshift,2.62,hours
+2025-03-02,Sunday,Week 9,Month 3,Data Engineering,Glue,2.58,DPU_hours
+2025-03-02,Sunday,Week 9,Month 3,Data Engineering,Bedrock,21378.0,tokens
+2025-03-02,Sunday,Week 9,Month 3,AI Engineering,S3,33.91,GB
+2025-03-02,Sunday,Week 9,Month 3,AI Engineering,Bedrock,29191.0,tokens
+2025-03-02,Sunday,Week 9,Month 3,Platform / Cloud Operations,Glue,3.35,DPU_hours
+2025-03-02,Sunday,Week 9,Month 3,Platform / Cloud Operations,Redshift,5.07,hours
+2025-03-02,Sunday,Week 9,Month 3,Business Analytics,CloudWatch,5.9,GB
+2025-03-02,Sunday,Week 9,Month 3,Business Analytics,EC2,2.79,hours
+2025-03-03,Monday,Week 10,Month 3,Product Engineering,Lambda,28311.0,requests
+2025-03-03,Monday,Week 10,Month 3,Product Engineering,Glue,1.63,DPU_hours
+2025-03-03,Monday,Week 10,Month 3,Data Engineering,Glue,2.85,DPU_hours
+2025-03-03,Monday,Week 10,Month 3,Data Engineering,S3,13.84,GB
+2025-03-03,Monday,Week 10,Month 3,AI Engineering,Redshift,4.11,hours
+2025-03-03,Monday,Week 10,Month 3,AI Engineering,Glue,3.14,DPU_hours
+2025-03-03,Monday,Week 10,Month 3,Platform / Cloud Operations,S3,34.22,GB
+2025-03-03,Monday,Week 10,Month 3,Platform / Cloud Operations,Athena,0.001,TB
+2025-03-03,Monday,Week 10,Month 3,Business Analytics,Redshift,4.7,hours
+2025-03-03,Monday,Week 10,Month 3,Business Analytics,EC2,2.65,hours
+2025-03-04,Tuesday,Week 10,Month 3,Product Engineering,Glue,2.44,DPU_hours
+2025-03-04,Tuesday,Week 10,Month 3,Product Engineering,Redshift,2.98,hours
+2025-03-04,Tuesday,Week 10,Month 3,Data Engineering,EC2,2.65,hours
+2025-03-04,Tuesday,Week 10,Month 3,Data Engineering,Glue,3.96,DPU_hours
+2025-03-04,Tuesday,Week 10,Month 3,AI Engineering,Bedrock,18369.0,tokens
+2025-03-04,Tuesday,Week 10,Month 3,AI Engineering,EC2,4.09,hours
+2025-03-04,Tuesday,Week 10,Month 3,Platform / Cloud Operations,Athena,0.0063,TB
+2025-03-04,Tuesday,Week 10,Month 3,Platform / Cloud Operations,Redshift,5.74,hours
+2025-03-04,Tuesday,Week 10,Month 3,Business Analytics,Redshift,1.14,hours
+2025-03-04,Tuesday,Week 10,Month 3,Business Analytics,CloudWatch,9.66,GB
+2025-03-05,Wednesday,Week 10,Month 3,Product Engineering,Athena,0.0041,TB
+2025-03-05,Wednesday,Week 10,Month 3,Product Engineering,EC2,1.2,hours
+2025-03-05,Wednesday,Week 10,Month 3,Data Engineering,S3,36.02,GB
+2025-03-05,Wednesday,Week 10,Month 3,Data Engineering,Bedrock,5987.0,tokens
+2025-03-05,Wednesday,Week 10,Month 3,AI Engineering,Athena,0.0094,TB
+2025-03-05,Wednesday,Week 10,Month 3,AI Engineering,EC2,1.4,hours
+2025-03-05,Wednesday,Week 10,Month 3,Platform / Cloud Operations,Bedrock,9716.0,tokens
+2025-03-05,Wednesday,Week 10,Month 3,Platform / Cloud Operations,Athena,0.0062,TB
+2025-03-05,Wednesday,Week 10,Month 3,Business Analytics,CloudWatch,36.59,GB
+2025-03-05,Wednesday,Week 10,Month 3,Business Analytics,S3,26.69,GB
+2025-03-06,Thursday,Week 10,Month 3,Product Engineering,Glue,3.54,DPU_hours
+2025-03-06,Thursday,Week 10,Month 3,Product Engineering,Bedrock,11289.0,tokens
+2025-03-06,Thursday,Week 10,Month 3,Data Engineering,Redshift,2.39,hours
+2025-03-06,Thursday,Week 10,Month 3,Data Engineering,CloudWatch,24.42,GB
+2025-03-06,Thursday,Week 10,Month 3,AI Engineering,S3,12.62,GB
+2025-03-06,Thursday,Week 10,Month 3,AI Engineering,Glue,2.54,DPU_hours
+2025-03-06,Thursday,Week 10,Month 3,Platform / Cloud Operations,CloudWatch,28.93,GB
+2025-03-06,Thursday,Week 10,Month 3,Platform / Cloud Operations,Redshift,1.37,hours
+2025-03-06,Thursday,Week 10,Month 3,Business Analytics,Lambda,11306.0,requests
+2025-03-06,Thursday,Week 10,Month 3,Business Analytics,S3,22.68,GB
+2025-03-07,Friday,Week 10,Month 3,Product Engineering,Lambda,24349.0,requests
+2025-03-07,Friday,Week 10,Month 3,Product Engineering,Athena,0.0078,TB
+2025-03-07,Friday,Week 10,Month 3,Data Engineering,CloudWatch,5.71,GB
+2025-03-07,Friday,Week 10,Month 3,Data Engineering,Redshift,2.92,hours
+2025-03-07,Friday,Week 10,Month 3,AI Engineering,Bedrock,24876.0,tokens
+2025-03-07,Friday,Week 10,Month 3,AI Engineering,S3,28.39,GB
+2025-03-07,Friday,Week 10,Month 3,Platform / Cloud Operations,Athena,0.0054,TB
+2025-03-07,Friday,Week 10,Month 3,Platform / Cloud Operations,Redshift,1.62,hours
+2025-03-07,Friday,Week 10,Month 3,Business Analytics,Bedrock,9011.0,tokens
+2025-03-07,Friday,Week 10,Month 3,Business Analytics,S3,39.56,GB
+2025-03-08,Saturday,Week 10,Month 3,Product Engineering,Glue,3.29,DPU_hours
+2025-03-08,Saturday,Week 10,Month 3,Product Engineering,Bedrock,8308.0,tokens
+2025-03-08,Saturday,Week 10,Month 3,Data Engineering,EC2,1.94,hours
+2025-03-08,Saturday,Week 10,Month 3,Data Engineering,Redshift,1.37,hours
+2025-03-08,Saturday,Week 10,Month 3,AI Engineering,Bedrock,2837.0,tokens
+2025-03-08,Saturday,Week 10,Month 3,AI Engineering,S3,17.87,GB
+2025-03-08,Saturday,Week 10,Month 3,Platform / Cloud Operations,Athena,0.0051,TB
+2025-03-08,Saturday,Week 10,Month 3,Platform / Cloud Operations,S3,27.58,GB
+2025-03-08,Saturday,Week 10,Month 3,Business Analytics,Glue,2.69,DPU_hours
+2025-03-08,Saturday,Week 10,Month 3,Business Analytics,Lambda,28945.0,requests
+2025-03-09,Sunday,Week 10,Month 3,Product Engineering,EC2,5.07,hours
+2025-03-09,Sunday,Week 10,Month 3,Product Engineering,Athena,0.0076,TB
+2025-03-09,Sunday,Week 10,Month 3,Data Engineering,Athena,0.0033,TB
+2025-03-09,Sunday,Week 10,Month 3,Data Engineering,Glue,1.85,DPU_hours
+2025-03-09,Sunday,Week 10,Month 3,AI Engineering,EC2,1.51,hours
+2025-03-09,Sunday,Week 10,Month 3,AI Engineering,S3,36.01,GB
+2025-03-09,Sunday,Week 10,Month 3,Platform / Cloud Operations,CloudWatch,7.55,GB
+2025-03-09,Sunday,Week 10,Month 3,Platform / Cloud Operations,EC2,3.95,hours
+2025-03-09,Sunday,Week 10,Month 3,Business Analytics,CloudWatch,8.21,GB
+2025-03-09,Sunday,Week 10,Month 3,Business Analytics,EC2,1.02,hours
+2025-03-10,Monday,Week 11,Month 3,Product Engineering,Bedrock,25930.0,tokens
+2025-03-10,Monday,Week 11,Month 3,Product Engineering,Glue,2.87,DPU_hours
+2025-03-10,Monday,Week 11,Month 3,Data Engineering,Bedrock,23899.0,tokens
+2025-03-10,Monday,Week 11,Month 3,Data Engineering,Lambda,14498.0,requests
+2025-03-10,Monday,Week 11,Month 3,AI Engineering,Lambda,11816.0,requests
+2025-03-10,Monday,Week 11,Month 3,AI Engineering,Redshift,3.08,hours
+2025-03-10,Monday,Week 11,Month 3,Platform / Cloud Operations,Redshift,5.39,hours
+2025-03-10,Monday,Week 11,Month 3,Platform / Cloud Operations,Bedrock,7182.0,tokens
+2025-03-10,Monday,Week 11,Month 3,Business Analytics,Bedrock,17071.0,tokens
+2025-03-10,Monday,Week 11,Month 3,Business Analytics,EC2,1.39,hours
+2025-03-11,Tuesday,Week 11,Month 3,Product Engineering,CloudWatch,27.42,GB
+2025-03-11,Tuesday,Week 11,Month 3,Product Engineering,Lambda,9536.0,requests
+2025-03-11,Tuesday,Week 11,Month 3,Data Engineering,Athena,0.0027,TB
+2025-03-11,Tuesday,Week 11,Month 3,Data Engineering,Redshift,4.07,hours
+2025-03-11,Tuesday,Week 11,Month 3,AI Engineering,Athena,0.0051,TB
+2025-03-11,Tuesday,Week 11,Month 3,AI Engineering,Lambda,15365.0,requests
+2025-03-11,Tuesday,Week 11,Month 3,Platform / Cloud Operations,Lambda,24490.0,requests
+2025-03-11,Tuesday,Week 11,Month 3,Platform / Cloud Operations,Athena,0.0077,TB
+2025-03-11,Tuesday,Week 11,Month 3,Business Analytics,Athena,0.0028,TB
+2025-03-11,Tuesday,Week 11,Month 3,Business Analytics,Redshift,4.58,hours
+2025-03-12,Wednesday,Week 11,Month 3,Product Engineering,Bedrock,16630.0,tokens
+2025-03-12,Wednesday,Week 11,Month 3,Product Engineering,CloudWatch,30.14,GB
+2025-03-12,Wednesday,Week 11,Month 3,Data Engineering,Glue,3.64,DPU_hours
+2025-03-12,Wednesday,Week 11,Month 3,Data Engineering,Bedrock,7887.0,tokens
+2025-03-12,Wednesday,Week 11,Month 3,AI Engineering,Lambda,11258.0,requests
+2025-03-12,Wednesday,Week 11,Month 3,AI Engineering,Bedrock,3134.0,tokens
+2025-03-12,Wednesday,Week 11,Month 3,Platform / Cloud Operations,Lambda,22191.0,requests
+2025-03-12,Wednesday,Week 11,Month 3,Platform / Cloud Operations,Bedrock,13493.0,tokens
+2025-03-12,Wednesday,Week 11,Month 3,Business Analytics,Bedrock,2630.0,tokens
+2025-03-12,Wednesday,Week 11,Month 3,Business Analytics,Lambda,5519.0,requests
+2025-03-13,Thursday,Week 11,Month 3,Product Engineering,Bedrock,13405.0,tokens
+2025-03-13,Thursday,Week 11,Month 3,Product Engineering,S3,14.29,GB
+2025-03-13,Thursday,Week 11,Month 3,Data Engineering,EC2,5.51,hours
+2025-03-13,Thursday,Week 11,Month 3,Data Engineering,Lambda,15721.0,requests
+2025-03-13,Thursday,Week 11,Month 3,AI Engineering,Athena,0.0081,TB
+2025-03-13,Thursday,Week 11,Month 3,AI Engineering,Bedrock,23488.0,tokens
+2025-03-13,Thursday,Week 11,Month 3,Platform / Cloud Operations,Glue,1.51,DPU_hours
+2025-03-13,Thursday,Week 11,Month 3,Platform / Cloud Operations,Bedrock,18583.0,tokens
+2025-03-13,Thursday,Week 11,Month 3,Business Analytics,S3,32.5,GB
+2025-03-13,Thursday,Week 11,Month 3,Business Analytics,Lambda,1380.0,requests
+2025-03-14,Friday,Week 11,Month 3,Product Engineering,Glue,0.54,DPU_hours
+2025-03-14,Friday,Week 11,Month 3,Product Engineering,CloudWatch,39.29,GB
+2025-03-14,Friday,Week 11,Month 3,Data Engineering,S3,14.28,GB
+2025-03-14,Friday,Week 11,Month 3,Data Engineering,CloudWatch,31.04,GB
+2025-03-14,Friday,Week 11,Month 3,AI Engineering,Glue,1.75,DPU_hours
+2025-03-14,Friday,Week 11,Month 3,AI Engineering,CloudWatch,35.58,GB
+2025-03-14,Friday,Week 11,Month 3,Platform / Cloud Operations,S3,11.34,GB
+2025-03-14,Friday,Week 11,Month 3,Platform / Cloud Operations,EC2,2.46,hours
+2025-03-14,Friday,Week 11,Month 3,Business Analytics,CloudWatch,13.46,GB
+2025-03-14,Friday,Week 11,Month 3,Business Analytics,Glue,3.04,DPU_hours
+2025-03-15,Saturday,Week 11,Month 3,Product Engineering,Glue,3.89,DPU_hours
+2025-03-15,Saturday,Week 11,Month 3,Product Engineering,S3,8.19,GB
+2025-03-15,Saturday,Week 11,Month 3,Data Engineering,Bedrock,24258.0,tokens
+2025-03-15,Saturday,Week 11,Month 3,Data Engineering,Redshift,3.38,hours
+2025-03-15,Saturday,Week 11,Month 3,AI Engineering,CloudWatch,37.47,GB
+2025-03-15,Saturday,Week 11,Month 3,AI Engineering,S3,24.6,GB
+2025-03-15,Saturday,Week 11,Month 3,Platform / Cloud Operations,S3,33.06,GB
+2025-03-15,Saturday,Week 11,Month 3,Platform / Cloud Operations,Lambda,26553.0,requests
+2025-03-15,Saturday,Week 11,Month 3,Business Analytics,Athena,0.0057,TB
+2025-03-15,Saturday,Week 11,Month 3,Business Analytics,CloudWatch,30.59,GB
+2025-03-16,Sunday,Week 11,Month 3,Product Engineering,Bedrock,6019.0,tokens
+2025-03-16,Sunday,Week 11,Month 3,Product Engineering,S3,26.26,GB
+2025-03-16,Sunday,Week 11,Month 3,Data Engineering,Lambda,15061.0,requests
+2025-03-16,Sunday,Week 11,Month 3,Data Engineering,EC2,1.75,hours
+2025-03-16,Sunday,Week 11,Month 3,AI Engineering,Bedrock,27573.0,tokens
+2025-03-16,Sunday,Week 11,Month 3,AI Engineering,Athena,0.0037,TB
+2025-03-16,Sunday,Week 11,Month 3,Platform / Cloud Operations,EC2,1.76,hours
+2025-03-16,Sunday,Week 11,Month 3,Platform / Cloud Operations,Glue,2.78,DPU_hours
+2025-03-16,Sunday,Week 11,Month 3,Business Analytics,CloudWatch,32.01,GB
+2025-03-16,Sunday,Week 11,Month 3,Business Analytics,Glue,0.88,DPU_hours
+2025-03-17,Monday,Week 12,Month 3,Product Engineering,Redshift,3.91,hours
+2025-03-17,Monday,Week 12,Month 3,Product Engineering,Bedrock,11074.0,tokens
+2025-03-17,Monday,Week 12,Month 3,Data Engineering,Glue,1.43,DPU_hours
+2025-03-17,Monday,Week 12,Month 3,Data Engineering,CloudWatch,16.75,GB
+2025-03-17,Monday,Week 12,Month 3,AI Engineering,EC2,4.65,hours
+2025-03-17,Monday,Week 12,Month 3,AI Engineering,Athena,0.0063,TB
+2025-03-17,Monday,Week 12,Month 3,Platform / Cloud Operations,Redshift,1.18,hours
+2025-03-17,Monday,Week 12,Month 3,Platform / Cloud Operations,Lambda,25115.0,requests
+2025-03-17,Monday,Week 12,Month 3,Business Analytics,Glue,3.15,DPU_hours
+2025-03-17,Monday,Week 12,Month 3,Business Analytics,Athena,0.0079,TB
+2025-03-18,Tuesday,Week 12,Month 3,Product Engineering,Athena,0.0078,TB
+2025-03-18,Tuesday,Week 12,Month 3,Product Engineering,Redshift,2.3,hours
+2025-03-18,Tuesday,Week 12,Month 3,Data Engineering,Glue,3.24,DPU_hours
+2025-03-18,Tuesday,Week 12,Month 3,Data Engineering,Bedrock,4612.0,tokens
+2025-03-18,Tuesday,Week 12,Month 3,AI Engineering,Bedrock,15743.0,tokens
+2025-03-18,Tuesday,Week 12,Month 3,AI Engineering,Glue,0.69,DPU_hours
+2025-03-18,Tuesday,Week 12,Month 3,Platform / Cloud Operations,CloudWatch,30.06,GB
+2025-03-18,Tuesday,Week 12,Month 3,Platform / Cloud Operations,Athena,0.0071,TB
+2025-03-18,Tuesday,Week 12,Month 3,Business Analytics,EC2,3.77,hours
+2025-03-18,Tuesday,Week 12,Month 3,Business Analytics,Bedrock,25213.0,tokens
+2025-03-19,Wednesday,Week 12,Month 3,Product Engineering,Athena,0.0021,TB
+2025-03-19,Wednesday,Week 12,Month 3,Product Engineering,Bedrock,19793.0,tokens
+2025-03-19,Wednesday,Week 12,Month 3,Data Engineering,S3,13.6,GB
+2025-03-19,Wednesday,Week 12,Month 3,Data Engineering,Lambda,29557.0,requests
+2025-03-19,Wednesday,Week 12,Month 3,AI Engineering,EC2,3.6,hours
+2025-03-19,Wednesday,Week 12,Month 3,AI Engineering,Bedrock,26149.0,tokens
+2025-03-19,Wednesday,Week 12,Month 3,Platform / Cloud Operations,Glue,1.14,DPU_hours
+2025-03-19,Wednesday,Week 12,Month 3,Platform / Cloud Operations,CloudWatch,32.12,GB
+2025-03-19,Wednesday,Week 12,Month 3,Business Analytics,Lambda,13582.0,requests
+2025-03-19,Wednesday,Week 12,Month 3,Business Analytics,Glue,3.11,DPU_hours
+2025-03-20,Thursday,Week 12,Month 3,Product Engineering,CloudWatch,13.45,GB
+2025-03-20,Thursday,Week 12,Month 3,Product Engineering,Redshift,5.19,hours
+2025-03-20,Thursday,Week 12,Month 3,Data Engineering,Bedrock,4118.0,tokens
+2025-03-20,Thursday,Week 12,Month 3,Data Engineering,CloudWatch,34.47,GB
+2025-03-20,Thursday,Week 12,Month 3,AI Engineering,Bedrock,16120.0,tokens
+2025-03-20,Thursday,Week 12,Month 3,AI Engineering,S3,15.98,GB
+2025-03-20,Thursday,Week 12,Month 3,Platform / Cloud Operations,CloudWatch,22.83,GB
+2025-03-20,Thursday,Week 12,Month 3,Platform / Cloud Operations,Athena,0.0036,TB
+2025-03-20,Thursday,Week 12,Month 3,Business Analytics,S3,39.4,GB
+2025-03-20,Thursday,Week 12,Month 3,Business Analytics,EC2,2.45,hours
+2025-03-21,Friday,Week 12,Month 3,Product Engineering,CloudWatch,13.76,GB
+2025-03-21,Friday,Week 12,Month 3,Product Engineering,Glue,1.07,DPU_hours
+2025-03-21,Friday,Week 12,Month 3,Data Engineering,Glue,1.75,DPU_hours
+2025-03-21,Friday,Week 12,Month 3,Data Engineering,S3,27.88,GB
+2025-03-21,Friday,Week 12,Month 3,AI Engineering,EC2,5.29,hours
+2025-03-21,Friday,Week 12,Month 3,AI Engineering,Athena,0.0058,TB
+2025-03-21,Friday,Week 12,Month 3,Platform / Cloud Operations,Lambda,28895.0,requests
+2025-03-21,Friday,Week 12,Month 3,Platform / Cloud Operations,S3,38.84,GB
+2025-03-21,Friday,Week 12,Month 3,Business Analytics,Glue,3.29,DPU_hours
+2025-03-21,Friday,Week 12,Month 3,Business Analytics,S3,35.89,GB
+2025-03-22,Saturday,Week 12,Month 3,Product Engineering,Redshift,1.91,hours
+2025-03-22,Saturday,Week 12,Month 3,Product Engineering,Bedrock,18812.0,tokens
+2025-03-22,Saturday,Week 12,Month 3,Data Engineering,S3,29.83,GB
+2025-03-22,Saturday,Week 12,Month 3,Data Engineering,Glue,1.53,DPU_hours
+2025-03-22,Saturday,Week 12,Month 3,AI Engineering,Lambda,10824.0,requests
+2025-03-22,Saturday,Week 12,Month 3,AI Engineering,Redshift,4.52,hours
+2025-03-22,Saturday,Week 12,Month 3,Platform / Cloud Operations,Lambda,29755.0,requests
+2025-03-22,Saturday,Week 12,Month 3,Platform / Cloud Operations,CloudWatch,7.39,GB
+2025-03-22,Saturday,Week 12,Month 3,Business Analytics,Redshift,3.52,hours
+2025-03-22,Saturday,Week 12,Month 3,Business Analytics,CloudWatch,36.72,GB
+2025-03-23,Sunday,Week 12,Month 3,Product Engineering,Bedrock,4840.0,tokens
+2025-03-23,Sunday,Week 12,Month 3,Product Engineering,CloudWatch,5.67,GB
+2025-03-23,Sunday,Week 12,Month 3,Data Engineering,Lambda,21481.0,requests
+2025-03-23,Sunday,Week 12,Month 3,Data Engineering,EC2,3.4,hours
+2025-03-23,Sunday,Week 12,Month 3,AI Engineering,CloudWatch,24.36,GB
+2025-03-23,Sunday,Week 12,Month 3,AI Engineering,EC2,1.05,hours
+2025-03-23,Sunday,Week 12,Month 3,Platform / Cloud Operations,EC2,1.23,hours
+2025-03-23,Sunday,Week 12,Month 3,Platform / Cloud Operations,Lambda,25557.0,requests
+2025-03-23,Sunday,Week 12,Month 3,Business Analytics,Redshift,3.47,hours
+2025-03-23,Sunday,Week 12,Month 3,Business Analytics,Bedrock,3744.0,tokens

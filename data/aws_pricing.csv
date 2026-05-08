@@ -1,0 +1,9 @@
+service,usage_unit,unit_price_usd,pricing_model,note
+S3,GB,0.023,storage,Simulation price per GB stored
+Athena,TB,5.0,query,Simulation price per TB scanned
+Redshift,hours,1.08,compute,Simulation price per node-hour
+Glue,DPU_hours,0.44,compute,Simulation price per DPU-hour
+EC2,hours,0.12,compute,Simulation price per compute hour
+Lambda,requests,2e-07,serverless,Simulation price per request
+Bedrock,tokens,0.002,ai,Simulation price per token unit used in the project
+CloudWatch,GB,0.5,monitoring,Simulation price per GB of logs/monitoring data

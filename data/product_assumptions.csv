@@ -1,0 +1,76 @@
+﻿Month;Product;Division;Target Overage vs Budget %
+Month 1;AI Assistant;AI Engineering;11,50%
+Month 1;AI Assistant;Business Analytics;9,50%
+Month 1;AI Assistant;Data Engineering;10,50%
+Month 1;AI Assistant;Platform / Cloud Operations;11,00%
+Month 1;AI Assistant;Product Engineering;10,00%
+Month 1;Analytics Platform;AI Engineering;7,00%
+Month 1;Analytics Platform;Business Analytics;5,00%
+Month 1;Analytics Platform;Data Engineering;6,00%
+Month 1;Analytics Platform;Platform / Cloud Operations;6,50%
+Month 1;Analytics Platform;Product Engineering;5,50%
+Month 1;Customer App;AI Engineering;5,50%
+Month 1;Customer App;Business Analytics;3,50%
+Month 1;Customer App;Data Engineering;4,50%
+Month 1;Customer App;Platform / Cloud Operations;5,00%
+Month 1;Customer App;Product Engineering;4,00%
+Month 1;Innovation Lab Projects;AI Engineering;13,50%
+Month 1;Innovation Lab Projects;Business Analytics;11,50%
+Month 1;Innovation Lab Projects;Data Engineering;12,50%
+Month 1;Innovation Lab Projects;Platform / Cloud Operations;13,00%
+Month 1;Innovation Lab Projects;Product Engineering;12,00%
+Month 1;Internal Data Platform;AI Engineering;8,50%
+Month 1;Internal Data Platform;Business Analytics;6,50%
+Month 1;Internal Data Platform;Data Engineering;7,50%
+Month 1;Internal Data Platform;Platform / Cloud Operations;8,00%
+Month 1;Internal Data Platform;Product Engineering;7,00%
+Month 2;AI Assistant;AI Engineering;11,00%
+Month 2;AI Assistant;Business Analytics;9,00%
+Month 2;AI Assistant;Data Engineering;10,00%
+Month 2;AI Assistant;Platform / Cloud Operations;10,50%
+Month 2;AI Assistant;Product Engineering;9,50%
+Month 2;Analytics Platform;AI Engineering;6,50%
+Month 2;Analytics Platform;Business Analytics;4,50%
+Month 2;Analytics Platform;Data Engineering;5,50%
+Month 2;Analytics Platform;Platform / Cloud Operations;6,00%
+Month 2;Analytics Platform;Product Engineering;5,00%
+Month 2;Customer App;AI Engineering;5,00%
+Month 2;Customer App;Business Analytics;3,00%
+Month 2;Customer App;Data Engineering;4,00%
+Month 2;Customer App;Platform / Cloud Operations;4,50%
+Month 2;Customer App;Product Engineering;3,50%
+Month 2;Innovation Lab Projects;AI Engineering;13,00%
+Month 2;Innovation Lab Projects;Business Analytics;11,00%
+Month 2;Innovation Lab Projects;Data Engineering;12,00%
+Month 2;Innovation Lab Projects;Platform / Cloud Operations;12,50%
+Month 2;Innovation Lab Projects;Product Engineering;11,50%
+Month 2;Internal Data Platform;AI Engineering;8,00%
+Month 2;Internal Data Platform;Business Analytics;6,00%
+Month 2;Internal Data Platform;Data Engineering;7,00%
+Month 2;Internal Data Platform;Platform / Cloud Operations;7,50%
+Month 2;Internal Data Platform;Product Engineering;6,50%
+Month 3;AI Assistant;AI Engineering;12,00%
+Month 3;AI Assistant;Business Analytics;10,00%
+Month 3;AI Assistant;Data Engineering;11,00%
+Month 3;AI Assistant;Platform / Cloud Operations;11,50%
+Month 3;AI Assistant;Product Engineering;10,50%
+Month 3;Analytics Platform;AI Engineering;7,50%
+Month 3;Analytics Platform;Business Analytics;5,50%
+Month 3;Analytics Platform;Data Engineering;6,50%
+Month 3;Analytics Platform;Platform / Cloud Operations;7,00%
+Month 3;Analytics Platform;Product Engineering;6,00%
+Month 3;Customer App;AI Engineering;6,00%
+Month 3;Customer App;Business Analytics;4,00%
+Month 3;Customer App;Data Engineering;5,00%
+Month 3;Customer App;Platform / Cloud Operations;5,50%
+Month 3;Customer App;Product Engineering;4,50%
+Month 3;Innovation Lab Projects;AI Engineering;14,00%
+Month 3;Innovation Lab Projects;Business Analytics;12,00%
+Month 3;Innovation Lab Projects;Data Engineering;13,00%
+Month 3;Innovation Lab Projects;Platform / Cloud Operations;13,50%
+Month 3;Innovation Lab Projects;Product Engineering;12,50%
+Month 3;Internal Data Platform;AI Engineering;9,00%
+Month 3;Internal Data Platform;Business Analytics;7,00%
+Month 3;Internal Data Platform;Data Engineering;8,00%
+Month 3;Internal Data Platform;Platform / Cloud Operations;8,50%
+Month 3;Internal Data Platform;Product Engineering;7,50%

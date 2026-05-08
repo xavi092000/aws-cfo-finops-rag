@@ -1,0 +1,340 @@
+from __future__ import annotations
+
+from typing import Any
+
+import pandas as pd
+
+
+def _safe_float(value: Any) -> float:
+    try:
+        if pd.isna(value):
+            return 0.0
+        return float(value)
+    except Exception:
+        return 0.0
+
+
+def _format_money(value: float) -> str:
+    return f"{_safe_float(value):,.2f}"
+
+
+def _format_percent(value: float) -> str:
+    return f"{_safe_float(value):,.2f}"
+
+
+def _build_period_label(selection: dict) -> str:
+    mode = selection.get("mode")
+
+    if mode == "days":
+        week = selection.get("week")
+        period = selection.get("period")
+        if week and period:
+            return f"Week {week} — {period}"
+        if week:
+            return f"Week {week}"
+        return "Selected days"
+
+    if mode == "weeks":
+        weeks = selection.get("weeks", [])
+        if isinstance(weeks, list) and weeks:
+            return ", ".join([f"Week {w}" for w in weeks])
+        return "Selected weeks"
+
+    if mode == "months":
+        block = selection.get("monthly_block")
+        if block:
+            return f"Months block {block}"
+        return "Selected months"
+
+    return "Selected period"
+
+
+def _has_columns(df: pd.DataFrame, required_columns: list[str]) -> bool:
+    return all(col in df.columns for col in required_columns)
+
+
+def _empty_product_summary() -> pd.DataFrame:
+    return pd.DataFrame(
+        columns=["product", "actual_cost_usd", "allocated_budget_usd", "variance_usd"]
+    )
+
+
+def _empty_service_summary() -> pd.DataFrame:
+    return pd.DataFrame(
+        columns=["service", "actual_cost_usd", "allocated_budget_usd", "variance_usd"]
+    )
+
+
+def _prepare_product_summary(product_df: pd.DataFrame) -> pd.DataFrame:
+    required_columns = ["product", "actual_cost_usd", "allocated_budget_usd", "variance_usd"]
+
+    if product_df.empty or not _has_columns(product_df, required_columns):
+        return _empty_product_summary()
+
+    grouped = (
+        product_df.groupby("product", dropna=False)
+        .agg(
+            actual_cost_usd=("actual_cost_usd", "sum"),
+            allocated_budget_usd=("allocated_budget_usd", "sum"),
+            variance_usd=("variance_usd", "sum"),
+        )
+        .reset_index()
+    )
+
+    return grouped.sort_values("variance_usd", ascending=False, kind="stable").reset_index(drop=True)
+
+
+def _prepare_service_summary_from_division(division_df: pd.DataFrame) -> pd.DataFrame:
+    required_columns = ["service", "actual_cost_usd", "allocated_budget_usd", "variance_usd"]
+
+    if division_df.empty or not _has_columns(division_df, required_columns):
+        return _empty_service_summary()
+
+    grouped = (
+        division_df.groupby("service", dropna=False)
+        .agg(
+            actual_cost_usd=("actual_cost_usd", "sum"),
+            allocated_budget_usd=("allocated_budget_usd", "sum"),
+            variance_usd=("variance_usd", "sum"),
+        )
+        .reset_index()
+    )
+
+    return grouped.sort_values("actual_cost_usd", ascending=False, kind="stable").reset_index(drop=True)
+
+
+def _compute_totals(product_df: pd.DataFrame) -> tuple[float, float, float, float]:
+    if product_df.empty:
+        return 0.0, 0.0, 0.0, 0.0
+
+    total_actual = (
+        _safe_float(product_df["actual_cost_usd"].sum())
+        if "actual_cost_usd" in product_df.columns
+        else 0.0
+    )
+
+    total_budget = (
+        _safe_float(product_df["allocated_budget_usd"].sum())
+        if "allocated_budget_usd" in product_df.columns
+        else 0.0
+    )
+
+    total_variance = (
+        _safe_float(product_df["variance_usd"].sum())
+        if "variance_usd" in product_df.columns
+        else 0.0
+    )
+
+    variance_pct = 0.0
+    if total_budget > 0:
+        variance_pct = (total_variance / total_budget) * 100
+
+    return total_actual, total_budget, total_variance, variance_pct
+
+
+def _extract_numeric_order(value: Any) -> float:
+    if pd.isna(value):
+        return float("inf")
+
+    text = str(value)
+    digits = "".join(ch for ch in text if ch.isdigit())
+
+    if digits:
+        try:
+            return float(digits)
+        except Exception:
+            return float("inf")
+
+    return float("inf")
+
+
+def _compute_trend_direction(product_df: pd.DataFrame, selection: dict) -> str:
+    mode = selection.get("mode")
+    trend_direction = "stable"
+
+    if product_df.empty or "actual_cost_usd" not in product_df.columns:
+        return trend_direction
+
+    if mode == "days" and "date" in product_df.columns:
+        trend = (
+            product_df.groupby("date", dropna=False)
+            .agg(actual_cost_usd=("actual_cost_usd", "sum"))
+            .reset_index()
+        )
+        trend = trend.sort_values("date", kind="stable").reset_index(drop=True)
+
+    elif mode == "weeks" and "week" in product_df.columns:
+        trend = (
+            product_df.groupby("week", dropna=False)
+            .agg(actual_cost_usd=("actual_cost_usd", "sum"))
+            .reset_index()
+        )
+        trend["sort_key"] = trend["week"].apply(_extract_numeric_order)
+        trend = trend.sort_values(["sort_key", "week"], kind="stable").reset_index(drop=True)
+
+    elif mode == "months" and "month" in product_df.columns:
+        trend = (
+            product_df.groupby("month", dropna=False)
+            .agg(actual_cost_usd=("actual_cost_usd", "sum"))
+            .reset_index()
+        )
+        trend["sort_key"] = trend["month"].apply(_extract_numeric_order)
+        trend = trend.sort_values(["sort_key", "month"], kind="stable").reset_index(drop=True)
+
+    else:
+        return trend_direction
+
+    if trend.empty:
+        return trend_direction
+
+    trend["actual_cost_usd"] = trend["actual_cost_usd"].apply(_safe_float)
+
+    if len(trend) >= 2:
+        first_value = _safe_float(trend["actual_cost_usd"].iloc[0])
+        last_value = _safe_float(trend["actual_cost_usd"].iloc[-1])
+
+        if last_value > first_value:
+            trend_direction = "increasing"
+        elif last_value < first_value:
+            trend_direction = "decreasing"
+
+    return trend_direction
+
+
+def _compute_risk_level(variance_pct: float) -> str:
+    if variance_pct < 2:
+        return "under control"
+    if variance_pct < 5:
+        return "moderate overspend"
+    return "critical overspend"
+
+
+def _build_recommendation(top_product: str, top_service: str, variance_pct: float) -> str:
+    if top_product == "DATA_NOT_AVAILABLE" or top_service == "DATA_NOT_AVAILABLE":
+        return (
+            "A recommendation cannot be finalized because one or more summary drivers "
+            "are not available in the current dataset."
+        )
+
+    if variance_pct < 2:
+        return (
+            f"No immediate cost escalation is required. "
+            f"Continue monitoring {top_product} and {top_service}."
+        )
+
+    if variance_pct < 5:
+        return (
+            f"A focused review is recommended for {top_product} and {top_service}, "
+            "to confirm optimization opportunities."
+        )
+
+    return (
+        f"Immediate review is required for {top_product} and {top_service}, "
+        "as they are the primary business and technical cost drivers."
+    )
+
+
+def _get_top_entity(
+    summary_df: pd.DataFrame,
+    label_column: str,
+    value_column: str,
+    rank: int,
+    fallback_label: str = "DATA_NOT_AVAILABLE",
+) -> tuple[str, float]:
+    if summary_df.empty:
+        return fallback_label, 0.0
+
+    if label_column not in summary_df.columns or value_column not in summary_df.columns:
+        return fallback_label, 0.0
+
+    safe_rank = max(0, min(rank, len(summary_df) - 1))
+
+    label = summary_df.iloc[safe_rank][label_column]
+    value = summary_df.iloc[safe_rank][value_column]
+
+    if pd.isna(label):
+        label = fallback_label
+
+    return str(label), _safe_float(value)
+
+
+def generate_graph_narration(
+    product_df: pd.DataFrame,
+    division_df: pd.DataFrame,
+    service_df: pd.DataFrame,
+    selection: dict,
+) -> str:
+    del service_df  # intentionally unused: service chart is aligned to current_division_view
+
+    period_label = _build_period_label(selection)
+
+    product_summary = _prepare_product_summary(product_df)
+    service_summary = _prepare_service_summary_from_division(division_df)
+
+    total_actual, total_budget, total_variance, variance_pct = _compute_totals(product_df)
+    trend_direction = _compute_trend_direction(product_df, selection)
+    risk_level = _compute_risk_level(variance_pct)
+
+    top_product, top_product_var = _get_top_entity(
+        product_summary,
+        label_column="product",
+        value_column="variance_usd",
+        rank=0,
+    )
+
+    second_product, second_product_var = _get_top_entity(
+        product_summary,
+        label_column="product",
+        value_column="variance_usd",
+        rank=1,
+    )
+
+    top_service, top_service_cost = _get_top_entity(
+        service_summary,
+        label_column="service",
+        value_column="actual_cost_usd",
+        rank=0,
+    )
+
+    second_service, second_service_cost = _get_top_entity(
+        service_summary,
+        label_column="service",
+        value_column="actual_cost_usd",
+        rank=1,
+    )
+
+    recommendation = _build_recommendation(top_product, top_service, variance_pct)
+
+    narration = f"""
+We are now reviewing the financial dashboard for the selected period.
+
+Selected period:
+{period_label}.
+
+You are now viewing the corresponding dashboard on screen.
+
+This analysis highlights the key cost drivers and financial risks for this period.
+
+Let’s start with the chart titled Top Cost Variance by Product.
+
+The primary driver is {top_product} at {_format_money(top_product_var)} dollars, followed by {second_product} at {_format_money(second_product_var)} dollars.
+
+Now look at the chart titled Top Cost by Service.
+
+The primary driver is {top_service} at {_format_money(top_service_cost)} dollars, followed by {second_service} at {_format_money(second_service_cost)} dollars.
+
+Finally, look at the chart titled Cost Vs Budget Trend.
+
+Total actual cost is {_format_money(total_actual)} dollars versus a budget of {_format_money(total_budget)} dollars.
+
+Variance is {_format_money(total_variance)} dollars, or {_format_percent(variance_pct)} percent.
+
+The trend is {trend_direction}, and the situation reflects a {risk_level}.
+
+Recommended focus:
+{recommendation}
+
+This concludes the dashboard overview. Let’s now move to your strategic question.
+""".strip()
+
+    return narration

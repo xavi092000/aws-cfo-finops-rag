@@ -1,0 +1,421 @@
+Date;Day;Week;Month;Division;Actual Cost ($);Target Overage vs Budget %;Allocated Budget ($);Variance ($);Variance %
+2025-01-01;Wednesday;Week 1;Month 1;AI Engineering;$38,10;6,00%;$35,94;$2,16;6,00%
+2025-01-01;Wednesday;Week 1;Month 1;Business Analytics;$0,84;3,00%;$0,82;$0,02;3,00%
+2025-01-01;Wednesday;Week 1;Month 1;Data Engineering;$2,25;4,50%;$2,15;$0,10;4,50%
+2025-01-01;Wednesday;Week 1;Month 1;Platform / Cloud Operations;$4,08;5,00%;$3,88;$0,19;5,00%
+2025-01-01;Wednesday;Week 1;Month 1;Product Engineering;$9,75;4,00%;$9,38;$0,38;4,00%
+2025-01-02;Thursday;Week 1;Month 1;AI Engineering;$11,99;6,00%;$11,31;$0,68;6,00%
+2025-01-02;Thursday;Week 1;Month 1;Business Analytics;$27,43;3,00%;$26,63;$0,80;3,00%
+2025-01-02;Thursday;Week 1;Month 1;Data Engineering;$21,48;4,50%;$20,56;$0,92;4,50%
+2025-01-02;Thursday;Week 1;Month 1;Platform / Cloud Operations;$20,63;5,00%;$19,65;$0,98;5,00%
+2025-01-02;Thursday;Week 1;Month 1;Product Engineering;$5,61;4,00%;$5,39;$0,22;4,00%
+2025-01-03;Friday;Week 1;Month 1;AI Engineering;$23,95;6,00%;$22,59;$1,36;6,00%
+2025-01-03;Friday;Week 1;Month 1;Business Analytics;$2,72;3,00%;$2,64;$0,08;3,00%
+2025-01-03;Friday;Week 1;Month 1;Data Engineering;$2,66;4,50%;$2,55;$0,11;4,50%
+2025-01-03;Friday;Week 1;Month 1;Platform / Cloud Operations;$0,72;5,00%;$0,69;$0,03;5,00%
+2025-01-03;Friday;Week 1;Month 1;Product Engineering;$7,91;4,00%;$7,61;$0,30;4,00%
+2025-01-04;Saturday;Week 1;Month 1;AI Engineering;$0,68;6,00%;$0,64;$0,04;6,00%
+2025-01-04;Saturday;Week 1;Month 1;Business Analytics;$0,02;3,00%;$0,02;$0,00;3,00%
+2025-01-04;Saturday;Week 1;Month 1;Data Engineering;$0,77;4,50%;$0,74;$0,03;4,50%
+2025-01-04;Saturday;Week 1;Month 1;Platform / Cloud Operations;$6,27;5,00%;$5,97;$0,30;5,00%
+2025-01-04;Saturday;Week 1;Month 1;Product Engineering;$1,17;4,00%;$1,13;$0,05;4,00%
+2025-01-05;Sunday;Week 1;Month 1;AI Engineering;$1,30;6,00%;$1,22;$0,07;6,00%
+2025-01-05;Sunday;Week 1;Month 1;Business Analytics;$22,77;3,00%;$22,11;$0,66;3,00%
+2025-01-05;Sunday;Week 1;Month 1;Data Engineering;$0,63;4,50%;$0,60;$0,03;4,50%
+2025-01-05;Sunday;Week 1;Month 1;Platform / Cloud Operations;$0,01;5,00%;$0,01;$0,00;5,00%
+2025-01-05;Sunday;Week 1;Month 1;Product Engineering;$4,57;4,00%;$4,40;$0,18;4,00%
+2025-01-06;Monday;Week 1;Month 1;AI Engineering;$6,40;6,00%;$6,04;$0,36;6,00%
+2025-01-06;Monday;Week 1;Month 1;Business Analytics;$24,00;3,00%;$23,30;$0,70;3,00%
+2025-01-06;Monday;Week 1;Month 1;Data Engineering;$4,54;4,50%;$4,34;$0,20;4,50%
+2025-01-06;Monday;Week 1;Month 1;Platform / Cloud Operations;$4,04;5,00%;$3,85;$0,19;5,00%
+2025-01-06;Monday;Week 1;Month 1;Product Engineering;$8,61;4,00%;$8,28;$0,33;4,00%
+2025-01-07;Tuesday;Week 1;Month 1;AI Engineering;$11,99;6,00%;$11,31;$0,68;6,00%
+2025-01-07;Tuesday;Week 1;Month 1;Business Analytics;$1,71;3,00%;$1,66;$0,05;3,00%
+2025-01-07;Tuesday;Week 1;Month 1;Data Engineering;$50,85;4,50%;$48,66;$2,19;4,50%
+2025-01-07;Tuesday;Week 1;Month 1;Platform / Cloud Operations;$18,09;5,00%;$17,23;$0,86;5,00%
+2025-01-07;Tuesday;Week 1;Month 1;Product Engineering;$18,74;4,00%;$18,02;$0,72;4,00%
+2025-01-08;Wednesday;Week 2;Month 1;AI Engineering;$0,40;6,00%;$0,37;$0,02;6,00%
+2025-01-08;Wednesday;Week 2;Month 1;Business Analytics;$9,39;3,00%;$9,11;$0,27;3,00%
+2025-01-08;Wednesday;Week 2;Month 1;Data Engineering;$17,99;4,50%;$17,21;$0,77;4,50%
+2025-01-08;Wednesday;Week 2;Month 1;Platform / Cloud Operations;$22,98;5,00%;$21,88;$1,09;5,00%
+2025-01-08;Wednesday;Week 2;Month 1;Product Engineering;$5,74;4,00%;$5,52;$0,22;4,00%
+2025-01-09;Thursday;Week 2;Month 1;AI Engineering;$0,81;6,00%;$0,76;$0,05;6,00%
+2025-01-09;Thursday;Week 2;Month 1;Business Analytics;$0,21;3,00%;$0,20;$0,01;3,00%
+2025-01-09;Thursday;Week 2;Month 1;Data Engineering;$20,93;4,50%;$20,03;$0,90;4,50%
+2025-01-09;Thursday;Week 2;Month 1;Platform / Cloud Operations;$6,46;5,00%;$6,15;$0,31;5,00%
+2025-01-09;Thursday;Week 2;Month 1;Product Engineering;$52,61;4,00%;$50,59;$2,02;4,00%
+2025-01-10;Friday;Week 2;Month 1;AI Engineering;$0,96;6,00%;$0,91;$0,05;6,00%
+2025-01-10;Friday;Week 2;Month 1;Business Analytics;$13,99;3,00%;$13,58;$0,41;3,00%
+2025-01-10;Friday;Week 2;Month 1;Data Engineering;$6,00;4,50%;$5,74;$0,26;4,50%
+2025-01-10;Friday;Week 2;Month 1;Platform / Cloud Operations;$1,26;5,00%;$1,20;$0,06;5,00%
+2025-01-10;Friday;Week 2;Month 1;Product Engineering;$4,70;4,00%;$4,52;$0,18;4,00%
+2025-01-11;Saturday;Week 2;Month 1;AI Engineering;$1,56;6,00%;$1,47;$0,09;6,00%
+2025-01-11;Saturday;Week 2;Month 1;Business Analytics;$11,55;3,00%;$11,21;$0,34;3,00%
+2025-01-11;Saturday;Week 2;Month 1;Data Engineering;$0,35;4,50%;$0,34;$0,02;4,50%
+2025-01-11;Saturday;Week 2;Month 1;Platform / Cloud Operations;$13,54;5,00%;$12,90;$0,64;5,00%
+2025-01-11;Saturday;Week 2;Month 1;Product Engineering;$1,99;4,00%;$1,91;$0,08;4,00%
+2025-01-12;Sunday;Week 2;Month 1;AI Engineering;$19,39;6,00%;$18,30;$1,10;6,00%
+2025-01-12;Sunday;Week 2;Month 1;Business Analytics;$4,16;3,00%;$4,04;$0,12;3,00%
+2025-01-12;Sunday;Week 2;Month 1;Data Engineering;$4,49;4,50%;$4,30;$0,19;4,50%
+2025-01-12;Sunday;Week 2;Month 1;Platform / Cloud Operations;$1,18;5,00%;$1,12;$0,06;5,00%
+2025-01-12;Sunday;Week 2;Month 1;Product Engineering;$7,14;4,00%;$6,87;$0,27;4,00%
+2025-01-13;Monday;Week 2;Month 1;AI Engineering;$11,39;6,00%;$10,75;$0,64;6,00%
+2025-01-13;Monday;Week 2;Month 1;Business Analytics;$0,50;3,00%;$0,48;$0,01;3,00%
+2025-01-13;Monday;Week 2;Month 1;Data Engineering;$3,52;4,50%;$3,36;$0,15;4,50%
+2025-01-13;Monday;Week 2;Month 1;Platform / Cloud Operations;$13,19;5,00%;$12,56;$0,63;5,00%
+2025-01-13;Monday;Week 2;Month 1;Product Engineering;$3,57;4,00%;$3,43;$0,14;4,00%
+2025-01-14;Tuesday;Week 2;Month 1;AI Engineering;$0,33;6,00%;$0,31;$0,02;6,00%
+2025-01-14;Tuesday;Week 2;Month 1;Business Analytics;$1,81;3,00%;$1,76;$0,05;3,00%
+2025-01-14;Tuesday;Week 2;Month 1;Data Engineering;$39,33;4,50%;$37,64;$1,69;4,50%
+2025-01-14;Tuesday;Week 2;Month 1;Platform / Cloud Operations;$3,81;5,00%;$3,62;$0,18;5,00%
+2025-01-14;Tuesday;Week 2;Month 1;Product Engineering;$4,66;4,00%;$4,48;$0,18;4,00%
+2025-01-15;Wednesday;Week 3;Month 1;AI Engineering;$56,21;6,00%;$53,03;$3,18;6,00%
+2025-01-15;Wednesday;Week 3;Month 1;Business Analytics;$0,83;3,00%;$0,80;$0,02;3,00%
+2025-01-15;Wednesday;Week 3;Month 1;Data Engineering;$60,38;4,50%;$57,78;$2,60;4,50%
+2025-01-15;Wednesday;Week 3;Month 1;Platform / Cloud Operations;$0,22;5,00%;$0,21;$0,01;5,00%
+2025-01-15;Wednesday;Week 3;Month 1;Product Engineering;$16,26;4,00%;$15,63;$0,63;4,00%
+2025-01-16;Thursday;Week 3;Month 1;AI Engineering;$4,33;6,00%;$4,09;$0,25;6,00%
+2025-01-16;Thursday;Week 3;Month 1;Business Analytics;$0,37;3,00%;$0,36;$0,01;3,00%
+2025-01-16;Thursday;Week 3;Month 1;Data Engineering;$11,86;4,50%;$11,35;$0,51;4,50%
+2025-01-16;Thursday;Week 3;Month 1;Platform / Cloud Operations;$0,50;5,00%;$0,47;$0,02;5,00%
+2025-01-16;Thursday;Week 3;Month 1;Product Engineering;$0,52;4,00%;$0,50;$0,02;4,00%
+2025-01-17;Friday;Week 3;Month 1;AI Engineering;$5,01;6,00%;$4,73;$0,28;6,00%
+2025-01-17;Friday;Week 3;Month 1;Business Analytics;$28,98;3,00%;$28,14;$0,84;3,00%
+2025-01-17;Friday;Week 3;Month 1;Data Engineering;$0,53;4,50%;$0,51;$0,02;4,50%
+2025-01-17;Friday;Week 3;Month 1;Platform / Cloud Operations;$19,79;5,00%;$18,85;$0,94;5,00%
+2025-01-17;Friday;Week 3;Month 1;Product Engineering;$14,33;4,00%;$13,78;$0,55;4,00%
+2025-01-18;Saturday;Week 3;Month 1;AI Engineering;$1,19;6,00%;$1,12;$0,07;6,00%
+2025-01-18;Saturday;Week 3;Month 1;Business Analytics;$2,12;3,00%;$2,06;$0,06;3,00%
+2025-01-18;Saturday;Week 3;Month 1;Data Engineering;$1,14;4,50%;$1,09;$0,05;4,50%
+2025-01-18;Saturday;Week 3;Month 1;Platform / Cloud Operations;$3,23;5,00%;$3,08;$0,15;5,00%
+2025-01-18;Saturday;Week 3;Month 1;Product Engineering;$3,55;4,00%;$3,41;$0,14;4,00%
+2025-01-19;Sunday;Week 3;Month 1;AI Engineering;$0,82;6,00%;$0,77;$0,05;6,00%
+2025-01-19;Sunday;Week 3;Month 1;Business Analytics;$0,04;3,00%;$0,03;$0,00;3,00%
+2025-01-19;Sunday;Week 3;Month 1;Data Engineering;$6,44;4,50%;$6,16;$0,28;4,50%
+2025-01-19;Sunday;Week 3;Month 1;Platform / Cloud Operations;$0,04;5,00%;$0,04;$0,00;5,00%
+2025-01-19;Sunday;Week 3;Month 1;Product Engineering;$53,28;4,00%;$51,23;$2,05;4,00%
+2025-01-20;Monday;Week 3;Month 1;AI Engineering;$32,20;6,00%;$30,38;$1,82;6,00%
+2025-01-20;Monday;Week 3;Month 1;Business Analytics;$4,20;3,00%;$4,08;$0,12;3,00%
+2025-01-20;Monday;Week 3;Month 1;Data Engineering;$5,52;4,50%;$5,28;$0,24;4,50%
+2025-01-20;Monday;Week 3;Month 1;Platform / Cloud Operations;$0,60;5,00%;$0,57;$0,03;5,00%
+2025-01-20;Monday;Week 3;Month 1;Product Engineering;$3,57;4,00%;$3,44;$0,14;4,00%
+2025-01-21;Tuesday;Week 3;Month 1;AI Engineering;$7,06;6,00%;$6,66;$0,40;6,00%
+2025-01-21;Tuesday;Week 3;Month 1;Business Analytics;$19,88;3,00%;$19,30;$0,58;3,00%
+2025-01-21;Tuesday;Week 3;Month 1;Data Engineering;$2,91;4,50%;$2,79;$0,13;4,50%
+2025-01-21;Tuesday;Week 3;Month 1;Platform / Cloud Operations;$30,41;5,00%;$28,97;$1,45;5,00%
+2025-01-21;Tuesday;Week 3;Month 1;Product Engineering;$6,66;4,00%;$6,40;$0,26;4,00%
+2025-01-22;Wednesday;Week 4;Month 1;AI Engineering;$1,20;6,00%;$1,13;$0,07;6,00%
+2025-01-22;Wednesday;Week 4;Month 1;Business Analytics;$0,37;3,00%;$0,36;$0,01;3,00%
+2025-01-22;Wednesday;Week 4;Month 1;Data Engineering;$0,87;4,50%;$0,83;$0,04;4,50%
+2025-01-22;Wednesday;Week 4;Month 1;Platform / Cloud Operations;$0,40;5,00%;$0,38;$0,02;5,00%
+2025-01-22;Wednesday;Week 4;Month 1;Product Engineering;$45,18;4,00%;$43,45;$1,74;4,00%
+2025-01-23;Thursday;Week 4;Month 1;AI Engineering;$3,63;6,00%;$3,42;$0,21;6,00%
+2025-01-23;Thursday;Week 4;Month 1;Business Analytics;$35,49;3,00%;$34,46;$1,03;3,00%
+2025-01-23;Thursday;Week 4;Month 1;Data Engineering;$4,01;4,50%;$3,84;$0,17;4,50%
+2025-01-23;Thursday;Week 4;Month 1;Platform / Cloud Operations;$3,10;5,00%;$2,95;$0,15;5,00%
+2025-01-23;Thursday;Week 4;Month 1;Product Engineering;$4,88;4,00%;$4,69;$0,19;4,00%
+2025-01-24;Friday;Week 4;Month 1;AI Engineering;$0,17;6,00%;$0,16;$0,01;6,00%
+2025-01-24;Friday;Week 4;Month 1;Business Analytics;$19,21;3,00%;$18,65;$0,56;3,00%
+2025-01-24;Friday;Week 4;Month 1;Data Engineering;$52,71;4,50%;$50,44;$2,27;4,50%
+2025-01-24;Friday;Week 4;Month 1;Platform / Cloud Operations;$1,51;5,00%;$1,43;$0,07;5,00%
+2025-01-24;Friday;Week 4;Month 1;Product Engineering;$13,89;4,00%;$13,35;$0,53;4,00%
+2025-01-25;Saturday;Week 4;Month 1;AI Engineering;$0,26;6,00%;$0,24;$0,01;6,00%
+2025-01-25;Saturday;Week 4;Month 1;Business Analytics;$14,44;3,00%;$14,02;$0,42;3,00%
+2025-01-25;Saturday;Week 4;Month 1;Data Engineering;$13,71;4,50%;$13,12;$0,59;4,50%
+2025-01-25;Saturday;Week 4;Month 1;Platform / Cloud Operations;$0,96;5,00%;$0,92;$0,05;5,00%
+2025-01-25;Saturday;Week 4;Month 1;Product Engineering;$0,25;4,00%;$0,24;$0,01;4,00%
+2025-01-26;Sunday;Week 4;Month 1;AI Engineering;$13,55;6,00%;$12,78;$0,77;6,00%
+2025-01-26;Sunday;Week 4;Month 1;Business Analytics;$44,90;3,00%;$43,59;$1,31;3,00%
+2025-01-26;Sunday;Week 4;Month 1;Data Engineering;$3,91;4,50%;$3,74;$0,17;4,50%
+2025-01-26;Sunday;Week 4;Month 1;Platform / Cloud Operations;$1,63;5,00%;$1,55;$0,08;5,00%
+2025-01-26;Sunday;Week 4;Month 1;Product Engineering;$42,15;4,00%;$40,53;$1,62;4,00%
+2025-01-27;Monday;Week 4;Month 1;AI Engineering;$2,53;6,00%;$2,39;$0,14;6,00%
+2025-01-27;Monday;Week 4;Month 1;Business Analytics;$0,99;3,00%;$0,96;$0,03;3,00%
+2025-01-27;Monday;Week 4;Month 1;Data Engineering;$0,19;4,50%;$0,18;$0,01;4,50%
+2025-01-27;Monday;Week 4;Month 1;Platform / Cloud Operations;$19,97;5,00%;$19,02;$0,95;5,00%
+2025-01-27;Monday;Week 4;Month 1;Product Engineering;$16,68;4,00%;$16,03;$0,64;4,00%
+2025-01-28;Tuesday;Week 4;Month 1;AI Engineering;$1,92;6,00%;$1,81;$0,11;6,00%
+2025-01-28;Tuesday;Week 4;Month 1;Business Analytics;$3,84;3,00%;$3,73;$0,11;3,00%
+2025-01-28;Tuesday;Week 4;Month 1;Data Engineering;$6,19;4,50%;$5,92;$0,27;4,50%
+2025-01-28;Tuesday;Week 4;Month 1;Platform / Cloud Operations;$17,77;5,00%;$16,93;$0,85;5,00%
+2025-01-28;Tuesday;Week 4;Month 1;Product Engineering;$0,02;4,00%;$0,02;$0,00;4,00%
+2025-01-29;Wednesday;Week 5;Month 2;AI Engineering;$0,01;7,00%;$0,01;$0,00;7,00%
+2025-01-29;Wednesday;Week 5;Month 2;Business Analytics;$1,71;4,00%;$1,65;$0,07;4,00%
+2025-01-29;Wednesday;Week 5;Month 2;Data Engineering;$18,41;5,50%;$17,45;$0,96;5,50%
+2025-01-29;Wednesday;Week 5;Month 2;Platform / Cloud Operations;$0,33;6,00%;$0,31;$0,02;6,00%
+2025-01-29;Wednesday;Week 5;Month 2;Product Engineering;$22,26;5,00%;$21,20;$1,06;5,00%
+2025-01-30;Thursday;Week 5;Month 2;AI Engineering;$3,89;7,00%;$3,64;$0,25;7,00%
+2025-01-30;Thursday;Week 5;Month 2;Business Analytics;$35,65;4,00%;$34,28;$1,37;4,00%
+2025-01-30;Thursday;Week 5;Month 2;Data Engineering;$4,19;5,50%;$3,98;$0,22;5,50%
+2025-01-30;Thursday;Week 5;Month 2;Platform / Cloud Operations;$0,78;6,00%;$0,73;$0,04;6,00%
+2025-01-30;Thursday;Week 5;Month 2;Product Engineering;$5,74;5,00%;$5,47;$0,27;5,00%
+2025-01-31;Friday;Week 5;Month 2;AI Engineering;$0,24;7,00%;$0,23;$0,02;7,00%
+2025-01-31;Friday;Week 5;Month 2;Business Analytics;$55,27;4,00%;$53,14;$2,13;4,00%
+2025-01-31;Friday;Week 5;Month 2;Data Engineering;$2,80;5,50%;$2,65;$0,15;5,50%
+2025-01-31;Friday;Week 5;Month 2;Platform / Cloud Operations;$10,15;6,00%;$9,58;$0,57;6,00%
+2025-01-31;Friday;Week 5;Month 2;Product Engineering;$9,64;5,00%;$9,18;$0,46;5,00%
+2025-02-01;Saturday;Week 5;Month 2;AI Engineering;$4,74;7,00%;$4,43;$0,31;7,00%
+2025-02-01;Saturday;Week 5;Month 2;Business Analytics;$9,83;4,00%;$9,45;$0,38;4,00%
+2025-02-01;Saturday;Week 5;Month 2;Data Engineering;$64,75;5,50%;$61,37;$3,38;5,50%
+2025-02-01;Saturday;Week 5;Month 2;Platform / Cloud Operations;$18,85;6,00%;$17,78;$1,07;6,00%
+2025-02-01;Saturday;Week 5;Month 2;Product Engineering;$2,07;5,00%;$1,97;$0,10;5,00%
+2025-02-02;Sunday;Week 5;Month 2;AI Engineering;$65,87;7,00%;$61,56;$4,31;7,00%
+2025-02-02;Sunday;Week 5;Month 2;Business Analytics;$1,33;4,00%;$1,28;$0,05;4,00%
+2025-02-02;Sunday;Week 5;Month 2;Data Engineering;$1,53;5,50%;$1,45;$0,08;5,50%
+2025-02-02;Sunday;Week 5;Month 2;Platform / Cloud Operations;$1,47;6,00%;$1,39;$0,08;6,00%
+2025-02-02;Sunday;Week 5;Month 2;Product Engineering;$1,19;5,00%;$1,14;$0,06;5,00%
+2025-02-03;Monday;Week 5;Month 2;AI Engineering;$0,02;7,00%;$0,02;$0,00;7,00%
+2025-02-03;Monday;Week 5;Month 2;Business Analytics;$24,61;4,00%;$23,66;$0,95;4,00%
+2025-02-03;Monday;Week 5;Month 2;Data Engineering;$0,45;5,50%;$0,43;$0,02;5,50%
+2025-02-03;Monday;Week 5;Month 2;Platform / Cloud Operations;$1,16;6,00%;$1,10;$0,07;6,00%
+2025-02-03;Monday;Week 5;Month 2;Product Engineering;$6,22;5,00%;$5,93;$0,30;5,00%
+2025-02-04;Tuesday;Week 5;Month 2;AI Engineering;$30,64;7,00%;$28,64;$2,00;7,00%
+2025-02-04;Tuesday;Week 5;Month 2;Business Analytics;$4,68;4,00%;$4,50;$0,18;4,00%
+2025-02-04;Tuesday;Week 5;Month 2;Data Engineering;$3,20;5,50%;$3,03;$0,17;5,50%
+2025-02-04;Tuesday;Week 5;Month 2;Platform / Cloud Operations;$5,72;6,00%;$5,39;$0,32;6,00%
+2025-02-04;Tuesday;Week 5;Month 2;Product Engineering;$5,28;5,00%;$5,03;$0,25;5,00%
+2025-02-05;Wednesday;Week 6;Month 2;AI Engineering;$6,21;7,00%;$5,81;$0,41;7,00%
+2025-02-05;Wednesday;Week 6;Month 2;Business Analytics;$1,88;4,00%;$1,80;$0,07;4,00%
+2025-02-05;Wednesday;Week 6;Month 2;Data Engineering;$3,75;5,50%;$3,55;$0,20;5,50%
+2025-02-05;Wednesday;Week 6;Month 2;Platform / Cloud Operations;$0,72;6,00%;$0,68;$0,04;6,00%
+2025-02-05;Wednesday;Week 6;Month 2;Product Engineering;$7,97;5,00%;$7,59;$0,38;5,00%
+2025-02-06;Thursday;Week 6;Month 2;AI Engineering;$3,08;7,00%;$2,88;$0,20;7,00%
+2025-02-06;Thursday;Week 6;Month 2;Business Analytics;$6,16;4,00%;$5,92;$0,24;4,00%
+2025-02-06;Thursday;Week 6;Month 2;Data Engineering;$7,20;5,50%;$6,82;$0,38;5,50%
+2025-02-06;Thursday;Week 6;Month 2;Platform / Cloud Operations;$5,76;6,00%;$5,44;$0,33;6,00%
+2025-02-06;Thursday;Week 6;Month 2;Product Engineering;$3,28;5,00%;$3,12;$0,16;5,00%
+2025-02-07;Friday;Week 6;Month 2;AI Engineering;$1,68;7,00%;$1,57;$0,11;7,00%
+2025-02-07;Friday;Week 6;Month 2;Business Analytics;$4,48;4,00%;$4,31;$0,17;4,00%
+2025-02-07;Friday;Week 6;Month 2;Data Engineering;$14,70;5,50%;$13,93;$0,77;5,50%
+2025-02-07;Friday;Week 6;Month 2;Platform / Cloud Operations;$0,53;6,00%;$0,50;$0,03;6,00%
+2025-02-07;Friday;Week 6;Month 2;Product Engineering;$0,05;5,00%;$0,05;$0,00;5,00%
+2025-02-08;Saturday;Week 6;Month 2;AI Engineering;$22,06;7,00%;$20,61;$1,44;7,00%
+2025-02-08;Saturday;Week 6;Month 2;Business Analytics;$0,33;4,00%;$0,32;$0,01;4,00%
+2025-02-08;Saturday;Week 6;Month 2;Data Engineering;$0,83;5,50%;$0,79;$0,04;5,50%
+2025-02-08;Saturday;Week 6;Month 2;Platform / Cloud Operations;$15,27;6,00%;$14,41;$0,86;6,00%
+2025-02-08;Saturday;Week 6;Month 2;Product Engineering;$0,15;5,00%;$0,14;$0,01;5,00%
+2025-02-09;Sunday;Week 6;Month 2;AI Engineering;$14,47;7,00%;$13,53;$0,95;7,00%
+2025-02-09;Sunday;Week 6;Month 2;Business Analytics;$1,24;4,00%;$1,19;$0,05;4,00%
+2025-02-09;Sunday;Week 6;Month 2;Data Engineering;$1,47;5,50%;$1,39;$0,08;5,50%
+2025-02-09;Sunday;Week 6;Month 2;Platform / Cloud Operations;$4,30;6,00%;$4,06;$0,24;6,00%
+2025-02-09;Sunday;Week 6;Month 2;Product Engineering;$42,76;5,00%;$40,72;$2,04;5,00%
+2025-02-10;Monday;Week 6;Month 2;AI Engineering;$5,03;7,00%;$4,70;$0,33;7,00%
+2025-02-10;Monday;Week 6;Month 2;Business Analytics;$19,02;4,00%;$18,29;$0,73;4,00%
+2025-02-10;Monday;Week 6;Month 2;Data Engineering;$1,74;5,50%;$1,65;$0,09;5,50%
+2025-02-10;Monday;Week 6;Month 2;Platform / Cloud Operations;$4,65;6,00%;$4,39;$0,26;6,00%
+2025-02-10;Monday;Week 6;Month 2;Product Engineering;$1,55;5,00%;$1,47;$0,07;5,00%
+2025-02-11;Tuesday;Week 6;Month 2;AI Engineering;$0,80;7,00%;$0,74;$0,05;7,00%
+2025-02-11;Tuesday;Week 6;Month 2;Business Analytics;$1,45;4,00%;$1,40;$0,06;4,00%
+2025-02-11;Tuesday;Week 6;Month 2;Data Engineering;$8,16;5,50%;$7,73;$0,43;5,50%
+2025-02-11;Tuesday;Week 6;Month 2;Platform / Cloud Operations;$0,41;6,00%;$0,39;$0,02;6,00%
+2025-02-11;Tuesday;Week 6;Month 2;Product Engineering;$53,30;5,00%;$50,76;$2,54;5,00%
+2025-02-12;Wednesday;Week 7;Month 2;AI Engineering;$6,73;7,00%;$6,29;$0,44;7,00%
+2025-02-12;Wednesday;Week 7;Month 2;Business Analytics;$49,67;4,00%;$47,76;$1,91;4,00%
+2025-02-12;Wednesday;Week 7;Month 2;Data Engineering;$7,60;5,50%;$7,21;$0,40;5,50%
+2025-02-12;Wednesday;Week 7;Month 2;Platform / Cloud Operations;$15,06;6,00%;$14,21;$0,85;6,00%
+2025-02-12;Wednesday;Week 7;Month 2;Product Engineering;$1,79;5,00%;$1,70;$0,09;5,00%
+2025-02-13;Thursday;Week 7;Month 2;AI Engineering;$1,14;7,00%;$1,07;$0,07;7,00%
+2025-02-13;Thursday;Week 7;Month 2;Business Analytics;$40,32;4,00%;$38,77;$1,55;4,00%
+2025-02-13;Thursday;Week 7;Month 2;Data Engineering;$22,97;5,50%;$21,77;$1,20;5,50%
+2025-02-13;Thursday;Week 7;Month 2;Platform / Cloud Operations;$35,22;6,00%;$33,23;$1,99;6,00%
+2025-02-13;Thursday;Week 7;Month 2;Product Engineering;$2,04;5,00%;$1,95;$0,10;5,00%
+2025-02-14;Friday;Week 7;Month 2;AI Engineering;$14,78;7,00%;$13,81;$0,97;7,00%
+2025-02-14;Friday;Week 7;Month 2;Business Analytics;$43,49;4,00%;$41,82;$1,67;4,00%
+2025-02-14;Friday;Week 7;Month 2;Data Engineering;$43,78;5,50%;$41,50;$2,28;5,50%
+2025-02-14;Friday;Week 7;Month 2;Platform / Cloud Operations;$0,87;6,00%;$0,82;$0,05;6,00%
+2025-02-14;Friday;Week 7;Month 2;Product Engineering;$18,44;5,00%;$17,56;$0,88;5,00%
+2025-02-15;Saturday;Week 7;Month 2;AI Engineering;$5,28;7,00%;$4,93;$0,35;7,00%
+2025-02-15;Saturday;Week 7;Month 2;Business Analytics;$51,43;4,00%;$49,45;$1,98;4,00%
+2025-02-15;Saturday;Week 7;Month 2;Data Engineering;$9,92;5,50%;$9,40;$0,52;5,50%
+2025-02-15;Saturday;Week 7;Month 2;Platform / Cloud Operations;$11,47;6,00%;$10,82;$0,65;6,00%
+2025-02-15;Saturday;Week 7;Month 2;Product Engineering;$2,69;5,00%;$2,56;$0,13;5,00%
+2025-02-16;Sunday;Week 7;Month 2;AI Engineering;$52,79;7,00%;$49,34;$3,45;7,00%
+2025-02-16;Sunday;Week 7;Month 2;Business Analytics;$15,02;4,00%;$14,44;$0,58;4,00%
+2025-02-16;Sunday;Week 7;Month 2;Data Engineering;$55,16;5,50%;$52,29;$2,88;5,50%
+2025-02-16;Sunday;Week 7;Month 2;Platform / Cloud Operations;$1,69;6,00%;$1,60;$0,10;6,00%
+2025-02-16;Sunday;Week 7;Month 2;Product Engineering;$53,12;5,00%;$50,59;$2,53;5,00%
+2025-02-17;Monday;Week 7;Month 2;AI Engineering;$2,95;7,00%;$2,76;$0,19;7,00%
+2025-02-17;Monday;Week 7;Month 2;Business Analytics;$4,88;4,00%;$4,69;$0,19;4,00%
+2025-02-17;Monday;Week 7;Month 2;Data Engineering;$49,64;5,50%;$47,06;$2,59;5,50%
+2025-02-17;Monday;Week 7;Month 2;Platform / Cloud Operations;$49,99;6,00%;$47,16;$2,83;6,00%
+2025-02-17;Monday;Week 7;Month 2;Product Engineering;$1,44;5,00%;$1,37;$0,07;5,00%
+2025-02-18;Tuesday;Week 7;Month 2;AI Engineering;$19,92;7,00%;$18,62;$1,30;7,00%
+2025-02-18;Tuesday;Week 7;Month 2;Business Analytics;$41,86;4,00%;$40,25;$1,61;4,00%
+2025-02-18;Tuesday;Week 7;Month 2;Data Engineering;$2,07;5,50%;$1,96;$0,11;5,50%
+2025-02-18;Tuesday;Week 7;Month 2;Platform / Cloud Operations;$1,70;6,00%;$1,60;$0,10;6,00%
+2025-02-18;Tuesday;Week 7;Month 2;Product Engineering;$0,89;5,00%;$0,84;$0,04;5,00%
+2025-02-19;Wednesday;Week 8;Month 2;AI Engineering;$2,39;7,00%;$2,23;$0,16;7,00%
+2025-02-19;Wednesday;Week 8;Month 2;Business Analytics;$0,60;4,00%;$0,58;$0,02;4,00%
+2025-02-19;Wednesday;Week 8;Month 2;Data Engineering;$11,44;5,50%;$10,84;$0,60;5,50%
+2025-02-19;Wednesday;Week 8;Month 2;Platform / Cloud Operations;$17,27;6,00%;$16,30;$0,98;6,00%
+2025-02-19;Wednesday;Week 8;Month 2;Product Engineering;$14,55;5,00%;$13,86;$0,69;5,00%
+2025-02-20;Thursday;Week 8;Month 2;AI Engineering;$1,82;7,00%;$1,70;$0,12;7,00%
+2025-02-20;Thursday;Week 8;Month 2;Business Analytics;$34,94;4,00%;$33,60;$1,34;4,00%
+2025-02-20;Thursday;Week 8;Month 2;Data Engineering;$0,68;5,50%;$0,64;$0,04;5,50%
+2025-02-20;Thursday;Week 8;Month 2;Platform / Cloud Operations;$7,10;6,00%;$6,70;$0,40;6,00%
+2025-02-20;Thursday;Week 8;Month 2;Product Engineering;$13,53;5,00%;$12,88;$0,64;5,00%
+2025-02-21;Friday;Week 8;Month 2;AI Engineering;$34,95;7,00%;$32,66;$2,29;7,00%
+2025-02-21;Friday;Week 8;Month 2;Business Analytics;$0,97;4,00%;$0,93;$0,04;4,00%
+2025-02-21;Friday;Week 8;Month 2;Data Engineering;$1,42;5,50%;$1,34;$0,07;5,50%
+2025-02-21;Friday;Week 8;Month 2;Platform / Cloud Operations;$0,21;6,00%;$0,20;$0,01;6,00%
+2025-02-21;Friday;Week 8;Month 2;Product Engineering;$0,16;5,00%;$0,15;$0,01;5,00%
+2025-02-22;Saturday;Week 8;Month 2;AI Engineering;$0,67;7,00%;$0,62;$0,04;7,00%
+2025-02-22;Saturday;Week 8;Month 2;Business Analytics;$28,18;4,00%;$27,10;$1,08;4,00%
+2025-02-22;Saturday;Week 8;Month 2;Data Engineering;$6,39;5,50%;$6,05;$0,33;5,50%
+2025-02-22;Saturday;Week 8;Month 2;Platform / Cloud Operations;$0,29;6,00%;$0,27;$0,02;6,00%
+2025-02-22;Saturday;Week 8;Month 2;Product Engineering;$18,74;5,00%;$17,85;$0,89;5,00%
+2025-02-23;Sunday;Week 8;Month 2;AI Engineering;$38,32;7,00%;$35,81;$2,51;7,00%
+2025-02-23;Sunday;Week 8;Month 2;Business Analytics;$1,82;4,00%;$1,75;$0,07;4,00%
+2025-02-23;Sunday;Week 8;Month 2;Data Engineering;$45,63;5,50%;$43,25;$2,38;5,50%
+2025-02-23;Sunday;Week 8;Month 2;Platform / Cloud Operations;$13,05;6,00%;$12,31;$0,74;6,00%
+2025-02-23;Sunday;Week 8;Month 2;Product Engineering;$0,59;5,00%;$0,56;$0,03;5,00%
+2025-02-24;Monday;Week 8;Month 2;AI Engineering;$1,13;7,00%;$1,06;$0,07;7,00%
+2025-02-24;Monday;Week 8;Month 2;Business Analytics;$1,69;4,00%;$1,62;$0,06;4,00%
+2025-02-24;Monday;Week 8;Month 2;Data Engineering;$3,39;5,50%;$3,21;$0,18;5,50%
+2025-02-24;Monday;Week 8;Month 2;Platform / Cloud Operations;$1,71;6,00%;$1,61;$0,10;6,00%
+2025-02-24;Monday;Week 8;Month 2;Product Engineering;$15,35;5,00%;$14,62;$0,73;5,00%
+2025-02-25;Tuesday;Week 8;Month 2;AI Engineering;$0,84;7,00%;$0,79;$0,06;7,00%
+2025-02-25;Tuesday;Week 8;Month 2;Business Analytics;$48,34;4,00%;$46,48;$1,86;4,00%
+2025-02-25;Tuesday;Week 8;Month 2;Data Engineering;$6,00;5,50%;$5,68;$0,31;5,50%
+2025-02-25;Tuesday;Week 8;Month 2;Platform / Cloud Operations;$20,82;6,00%;$19,64;$1,18;6,00%
+2025-02-25;Tuesday;Week 8;Month 2;Product Engineering;$46,70;5,00%;$44,48;$2,22;5,00%
+2025-02-26;Wednesday;Week 9;Month 3;AI Engineering;$6,76;6,50%;$6,34;$0,41;6,50%
+2025-02-26;Wednesday;Week 9;Month 3;Business Analytics;$0,02;3,50%;$0,02;$0,00;3,50%
+2025-02-26;Wednesday;Week 9;Month 3;Data Engineering;$11,48;5,00%;$10,93;$0,55;5,00%
+2025-02-26;Wednesday;Week 9;Month 3;Platform / Cloud Operations;$1,01;5,50%;$0,96;$0,05;5,50%
+2025-02-26;Wednesday;Week 9;Month 3;Product Engineering;$1,09;4,50%;$1,05;$0,05;4,50%
+2025-02-27;Thursday;Week 9;Month 3;AI Engineering;$0,04;6,50%;$0,03;$0,00;6,50%
+2025-02-27;Thursday;Week 9;Month 3;Business Analytics;$0,48;3,50%;$0,47;$0,02;3,50%
+2025-02-27;Thursday;Week 9;Month 3;Data Engineering;$3,44;5,00%;$3,27;$0,16;5,00%
+2025-02-27;Thursday;Week 9;Month 3;Platform / Cloud Operations;$4,72;5,50%;$4,47;$0,25;5,50%
+2025-02-27;Thursday;Week 9;Month 3;Product Engineering;$21,99;4,50%;$21,04;$0,95;4,50%
+2025-02-28;Friday;Week 9;Month 3;AI Engineering;$0,33;6,50%;$0,31;$0,02;6,50%
+2025-02-28;Friday;Week 9;Month 3;Business Analytics;$0,25;3,50%;$0,25;$0,01;3,50%
+2025-02-28;Friday;Week 9;Month 3;Data Engineering;$43,27;5,00%;$41,21;$2,06;5,00%
+2025-02-28;Friday;Week 9;Month 3;Platform / Cloud Operations;$0,03;5,50%;$0,03;$0,00;5,50%
+2025-02-28;Friday;Week 9;Month 3;Product Engineering;$3,52;4,50%;$3,37;$0,15;4,50%
+2025-03-01;Saturday;Week 9;Month 3;AI Engineering;$5,81;6,50%;$5,46;$0,35;6,50%
+2025-03-01;Saturday;Week 9;Month 3;Business Analytics;$0,04;3,50%;$0,04;$0,00;3,50%
+2025-03-01;Saturday;Week 9;Month 3;Data Engineering;$3,58;5,00%;$3,41;$0,17;5,00%
+2025-03-01;Saturday;Week 9;Month 3;Platform / Cloud Operations;$4,62;5,50%;$4,38;$0,24;5,50%
+2025-03-01;Saturday;Week 9;Month 3;Product Engineering;$0,42;4,50%;$0,40;$0,02;4,50%
+2025-03-02;Sunday;Week 9;Month 3;AI Engineering;$59,16;6,50%;$55,55;$3,61;6,50%
+2025-03-02;Sunday;Week 9;Month 3;Business Analytics;$3,28;3,50%;$3,17;$0,11;3,50%
+2025-03-02;Sunday;Week 9;Month 3;Data Engineering;$43,89;5,00%;$41,80;$2,09;5,00%
+2025-03-02;Sunday;Week 9;Month 3;Platform / Cloud Operations;$6,95;5,50%;$6,59;$0,36;5,50%
+2025-03-02;Sunday;Week 9;Month 3;Product Engineering;$3,63;4,50%;$3,47;$0,16;4,50%
+2025-03-03;Monday;Week 9;Month 3;AI Engineering;$5,82;6,50%;$5,47;$0,36;6,50%
+2025-03-03;Monday;Week 9;Month 3;Business Analytics;$5,39;3,50%;$5,21;$0,18;3,50%
+2025-03-03;Monday;Week 9;Month 3;Data Engineering;$1,57;5,00%;$1,50;$0,07;5,00%
+2025-03-03;Monday;Week 9;Month 3;Platform / Cloud Operations;$0,79;5,50%;$0,75;$0,04;5,50%
+2025-03-03;Monday;Week 9;Month 3;Product Engineering;$0,72;4,50%;$0,69;$0,03;4,50%
+2025-03-04;Tuesday;Week 9;Month 3;AI Engineering;$37,23;6,50%;$34,96;$2,27;6,50%
+2025-03-04;Tuesday;Week 9;Month 3;Business Analytics;$6,06;3,50%;$5,86;$0,20;3,50%
+2025-03-04;Tuesday;Week 9;Month 3;Data Engineering;$2,06;5,00%;$1,96;$0,10;5,00%
+2025-03-04;Tuesday;Week 9;Month 3;Platform / Cloud Operations;$6,23;5,50%;$5,91;$0,32;5,50%
+2025-03-04;Tuesday;Week 9;Month 3;Product Engineering;$4,29;4,50%;$4,11;$0,18;4,50%
+2025-03-05;Wednesday;Week 10;Month 3;AI Engineering;$0,22;6,50%;$0,20;$0,01;6,50%
+2025-03-05;Wednesday;Week 10;Month 3;Business Analytics;$18,91;3,50%;$18,27;$0,64;3,50%
+2025-03-05;Wednesday;Week 10;Month 3;Data Engineering;$12,80;5,00%;$12,19;$0,61;5,00%
+2025-03-05;Wednesday;Week 10;Month 3;Platform / Cloud Operations;$19,46;5,50%;$18,45;$1,01;5,50%
+2025-03-05;Wednesday;Week 10;Month 3;Product Engineering;$0,16;4,50%;$0,16;$0,01;4,50%
+2025-03-06;Thursday;Week 10;Month 3;AI Engineering;$1,41;6,50%;$1,32;$0,09;6,50%
+2025-03-06;Thursday;Week 10;Month 3;Business Analytics;$0,52;3,50%;$0,51;$0,02;3,50%
+2025-03-06;Thursday;Week 10;Month 3;Data Engineering;$14,79;5,00%;$14,09;$0,70;5,00%
+2025-03-06;Thursday;Week 10;Month 3;Platform / Cloud Operations;$15,94;5,50%;$15,11;$0,83;5,50%
+2025-03-06;Thursday;Week 10;Month 3;Product Engineering;$24,14;4,50%;$23,10;$1,04;4,50%
+2025-03-07;Friday;Week 10;Month 3;AI Engineering;$50,40;6,50%;$47,33;$3,08;6,50%
+2025-03-07;Friday;Week 10;Month 3;Business Analytics;$18,93;3,50%;$18,29;$0,64;3,50%
+2025-03-07;Friday;Week 10;Month 3;Data Engineering;$6,01;5,00%;$5,72;$0,29;5,00%
+2025-03-07;Friday;Week 10;Month 3;Platform / Cloud Operations;$1,78;5,50%;$1,68;$0,09;5,50%
+2025-03-07;Friday;Week 10;Month 3;Product Engineering;$0,04;4,50%;$0,04;$0,00;4,50%
+2025-03-08;Saturday;Week 10;Month 3;AI Engineering;$6,09;6,50%;$5,71;$0,37;6,50%
+2025-03-08;Saturday;Week 10;Month 3;Business Analytics;$1,19;3,50%;$1,15;$0,04;3,50%
+2025-03-08;Saturday;Week 10;Month 3;Data Engineering;$1,71;5,00%;$1,63;$0,08;5,00%
+2025-03-08;Saturday;Week 10;Month 3;Platform / Cloud Operations;$0,66;5,50%;$0,63;$0,03;5,50%
+2025-03-08;Saturday;Week 10;Month 3;Product Engineering;$18,06;4,50%;$17,29;$0,78;4,50%
+2025-03-09;Sunday;Week 10;Month 3;AI Engineering;$1,01;6,50%;$0,95;$0,06;6,50%
+2025-03-09;Sunday;Week 10;Month 3;Business Analytics;$4,23;3,50%;$4,08;$0,14;3,50%
+2025-03-09;Sunday;Week 10;Month 3;Data Engineering;$0,83;5,00%;$0,79;$0,04;5,00%
+2025-03-09;Sunday;Week 10;Month 3;Platform / Cloud Operations;$4,25;5,50%;$4,03;$0,22;5,50%
+2025-03-09;Sunday;Week 10;Month 3;Product Engineering;$0,65;4,50%;$0,62;$0,03;4,50%
+2025-03-10;Monday;Week 10;Month 3;AI Engineering;$3,33;6,50%;$3,13;$0,20;6,50%
+2025-03-10;Monday;Week 10;Month 3;Business Analytics;$34,31;3,50%;$33,15;$1,16;3,50%
+2025-03-10;Monday;Week 10;Month 3;Data Engineering;$47,80;5,00%;$45,52;$2,28;5,00%
+2025-03-10;Monday;Week 10;Month 3;Platform / Cloud Operations;$20,19;5,50%;$19,13;$1,05;5,50%
+2025-03-10;Monday;Week 10;Month 3;Product Engineering;$53,12;4,50%;$50,84;$2,29;4,50%
+2025-03-11;Tuesday;Week 10;Month 3;AI Engineering;$0,03;6,50%;$0,03;$0,00;6,50%
+2025-03-11;Tuesday;Week 10;Month 3;Business Analytics;$4,96;3,50%;$4,79;$0,17;3,50%
+2025-03-11;Tuesday;Week 10;Month 3;Data Engineering;$4,41;5,00%;$4,20;$0,21;5,00%
+2025-03-11;Tuesday;Week 10;Month 3;Platform / Cloud Operations;$0,04;5,50%;$0,04;$0,00;5,50%
+2025-03-11;Tuesday;Week 10;Month 3;Product Engineering;$13,71;4,50%;$13,12;$0,59;4,50%
+2025-03-12;Wednesday;Week 11;Month 3;AI Engineering;$6,27;6,50%;$5,89;$0,38;6,50%
+2025-03-12;Wednesday;Week 11;Month 3;Business Analytics;$5,26;3,50%;$5,08;$0,18;3,50%
+2025-03-12;Wednesday;Week 11;Month 3;Data Engineering;$17,38;5,00%;$16,55;$0,83;5,00%
+2025-03-12;Wednesday;Week 11;Month 3;Platform / Cloud Operations;$26,99;5,50%;$25,58;$1,41;5,50%
+2025-03-12;Wednesday;Week 11;Month 3;Product Engineering;$48,33;4,50%;$46,25;$2,08;4,50%
+2025-03-13;Thursday;Week 11;Month 3;AI Engineering;$47,02;6,50%;$44,15;$2,87;6,50%
+2025-03-13;Thursday;Week 11;Month 3;Business Analytics;$0,75;3,50%;$0,72;$0,03;3,50%
+2025-03-13;Thursday;Week 11;Month 3;Data Engineering;$0,66;5,00%;$0,63;$0,03;5,00%
+2025-03-13;Thursday;Week 11;Month 3;Platform / Cloud Operations;$37,83;5,50%;$35,86;$1,97;5,50%
+2025-03-13;Thursday;Week 11;Month 3;Product Engineering;$27,14;4,50%;$25,97;$1,17;4,50%
+2025-03-14;Friday;Week 11;Month 3;AI Engineering;$18,56;6,50%;$17,43;$1,13;6,50%
+2025-03-14;Friday;Week 11;Month 3;Business Analytics;$8,07;3,50%;$7,79;$0,27;3,50%
+2025-03-14;Friday;Week 11;Month 3;Data Engineering;$15,85;5,00%;$15,09;$0,75;5,00%
+2025-03-14;Friday;Week 11;Month 3;Platform / Cloud Operations;$0,56;5,50%;$0,53;$0,03;5,50%
+2025-03-14;Friday;Week 11;Month 3;Product Engineering;$19,88;4,50%;$19,03;$0,86;4,50%
+2025-03-15;Saturday;Week 11;Month 3;AI Engineering;$19,30;6,50%;$18,12;$1,18;6,50%
+2025-03-15;Saturday;Week 11;Month 3;Business Analytics;$15,32;3,50%;$14,81;$0,52;3,50%
+2025-03-15;Saturday;Week 11;Month 3;Data Engineering;$52,17;5,00%;$49,68;$2,48;5,00%
+2025-03-15;Saturday;Week 11;Month 3;Platform / Cloud Operations;$0,77;5,50%;$0,73;$0,04;5,50%
+2025-03-15;Saturday;Week 11;Month 3;Product Engineering;$1,90;4,50%;$1,82;$0,08;4,50%
+2025-03-16;Sunday;Week 11;Month 3;AI Engineering;$55,16;6,50%;$51,80;$3,37;6,50%
+2025-03-16;Sunday;Week 11;Month 3;Business Analytics;$16,39;3,50%;$15,84;$0,55;3,50%
+2025-03-16;Sunday;Week 11;Month 3;Data Engineering;$0,21;5,00%;$0,20;$0,01;5,00%
+2025-03-16;Sunday;Week 11;Month 3;Platform / Cloud Operations;$1,43;5,50%;$1,36;$0,07;5,50%
+2025-03-16;Sunday;Week 11;Month 3;Product Engineering;$12,64;4,50%;$12,10;$0,54;4,50%
+2025-03-17;Monday;Week 11;Month 3;AI Engineering;$0,59;6,50%;$0,55;$0,04;6,50%
+2025-03-17;Monday;Week 11;Month 3;Business Analytics;$1,43;3,50%;$1,38;$0,05;3,50%
+2025-03-17;Monday;Week 11;Month 3;Data Engineering;$9,00;5,00%;$8,58;$0,43;5,00%
+2025-03-17;Monday;Week 11;Month 3;Platform / Cloud Operations;$1,28;5,50%;$1,21;$0,07;5,50%
+2025-03-17;Monday;Week 11;Month 3;Product Engineering;$26,37;4,50%;$25,24;$1,14;4,50%
+2025-03-18;Tuesday;Week 11;Month 3;AI Engineering;$31,79;6,50%;$29,85;$1,94;6,50%
+2025-03-18;Tuesday;Week 11;Month 3;Business Analytics;$50,88;3,50%;$49,16;$1,72;3,50%
+2025-03-18;Tuesday;Week 11;Month 3;Data Engineering;$10,65;5,00%;$10,14;$0,51;5,00%
+2025-03-18;Tuesday;Week 11;Month 3;Platform / Cloud Operations;$15,07;5,50%;$14,28;$0,79;5,50%
+2025-03-18;Tuesday;Week 11;Month 3;Product Engineering;$2,52;4,50%;$2,41;$0,11;4,50%
+2025-03-19;Wednesday;Week 12;Month 3;AI Engineering;$52,73;6,50%;$49,51;$3,22;6,50%
+2025-03-19;Wednesday;Week 12;Month 3;Business Analytics;$1,37;3,50%;$1,32;$0,05;3,50%
+2025-03-19;Wednesday;Week 12;Month 3;Data Engineering;$0,32;5,00%;$0,30;$0,02;5,00%
+2025-03-19;Wednesday;Week 12;Month 3;Platform / Cloud Operations;$16,56;5,50%;$15,70;$0,86;5,50%
+2025-03-19;Wednesday;Week 12;Month 3;Product Engineering;$39,60;4,50%;$37,89;$1,71;4,50%
+2025-03-20;Thursday;Week 12;Month 3;AI Engineering;$32,61;6,50%;$30,62;$1,99;6,50%
+2025-03-20;Thursday;Week 12;Month 3;Business Analytics;$1,20;3,50%;$1,16;$0,04;3,50%
+2025-03-20;Thursday;Week 12;Month 3;Data Engineering;$25,47;5,00%;$24,26;$1,21;5,00%
+2025-03-20;Thursday;Week 12;Month 3;Platform / Cloud Operations;$11,43;5,50%;$10,84;$0,60;5,50%
+2025-03-20;Thursday;Week 12;Month 3;Product Engineering;$12,33;4,50%;$11,80;$0,53;4,50%
+2025-03-21;Friday;Week 12;Month 3;AI Engineering;$0,66;6,50%;$0,62;$0,04;6,50%
+2025-03-21;Friday;Week 12;Month 3;Business Analytics;$2,27;3,50%;$2,20;$0,08;3,50%
+2025-03-21;Friday;Week 12;Month 3;Data Engineering;$1,41;5,00%;$1,34;$0,07;5,00%
+2025-03-21;Friday;Week 12;Month 3;Platform / Cloud Operations;$0,90;5,50%;$0,85;$0,05;5,50%
+2025-03-21;Friday;Week 12;Month 3;Product Engineering;$7,35;4,50%;$7,03;$0,32;4,50%
+2025-03-22;Saturday;Week 12;Month 3;AI Engineering;$4,88;6,50%;$4,59;$0,30;6,50%
+2025-03-22;Saturday;Week 12;Month 3;Business Analytics;$22,16;3,50%;$21,41;$0,75;3,50%
+2025-03-22;Saturday;Week 12;Month 3;Data Engineering;$1,36;5,00%;$1,29;$0,06;5,00%
+2025-03-22;Saturday;Week 12;Month 3;Platform / Cloud Operations;$3,70;5,50%;$3,51;$0,19;5,50%
+2025-03-22;Saturday;Week 12;Month 3;Product Engineering;$39,69;4,50%;$37,98;$1,71;4,50%
+2025-03-23;Sunday;Week 12;Month 3;AI Engineering;$12,31;6,50%;$11,55;$0,75;6,50%
+2025-03-23;Sunday;Week 12;Month 3;Business Analytics;$11,24;3,50%;$10,86;$0,38;3,50%
+2025-03-23;Sunday;Week 12;Month 3;Data Engineering;$0,41;5,00%;$0,39;$0,02;5,00%
+2025-03-23;Sunday;Week 12;Month 3;Platform / Cloud Operations;$0,15;5,50%;$0,14;$0,01;5,50%
+2025-03-23;Sunday;Week 12;Month 3;Product Engineering;$12,52;4,50%;$11,98;$0,54;4,50%
+2025-03-24;Monday;Week 12;Month 3;AI Engineering;$5,35;6,50%;$5,02;$0,33;6,50%
+2025-03-24;Monday;Week 12;Month 3;Business Analytics;$3,82;3,50%;$3,70;$0,13;3,50%
+2025-03-24;Monday;Week 12;Month 3;Data Engineering;$2,79;5,00%;$2,65;$0,13;5,00%
+2025-03-24;Monday;Week 12;Month 3;Platform / Cloud Operations;$5,65;5,50%;$5,35;$0,29;5,50%
+2025-03-24;Monday;Week 12;Month 3;Product Engineering;$0,71;4,50%;$0,68;$0,03;4,50%
+2025-03-25;Tuesday;Week 12;Month 3;AI Engineering;$46,27;6,50%;$43,45;$2,82;6,50%
+2025-03-25;Tuesday;Week 12;Month 3;Business Analytics;$6,75;3,50%;$6,52;$0,23;3,50%
+2025-03-25;Tuesday;Week 12;Month 3;Data Engineering;$46,91;5,00%;$44,68;$2,23;5,00%
+2025-03-25;Tuesday;Week 12;Month 3;Platform / Cloud Operations;$9,62;5,50%;$9,12;$0,50;5,50%
+2025-03-25;Tuesday;Week 12;Month 3;Product Engineering;$3,58;4,50%;$3,42;$0,15;4,50%

@@ -1,0 +1,61 @@
+﻿Week;Month;Division;Actual Cost ($);Allocated Budget ($);Variance ($);Variance %
+Week 1;Month 1;AI Engineering;$94,39;$89,04;$5,34;6,00%
+Week 1;Month 1;Business Analytics;$79,48;$77,16;$2,31;3,00%
+Week 1;Month 1;Data Engineering;$83,17;$79,59;$3,58;4,50%
+Week 1;Month 1;Platform / Cloud Operations;$53,85;$51,28;$2,56;5,00%
+Week 1;Month 1;Product Engineering;$56,36;$54,19;$2,17;4,00%
+Week 2;Month 1;AI Engineering;$34,85;$32,87;$1,97;6,00%
+Week 2;Month 1;Business Analytics;$41,61;$40,39;$1,21;3,00%
+Week 2;Month 1;Data Engineering;$92,60;$88,62;$3,99;4,50%
+Week 2;Month 1;Platform / Cloud Operations;$62,41;$59,44;$2,97;5,00%
+Week 2;Month 1;Product Engineering;$80,41;$77,32;$3,09;4,00%
+Week 3;Month 1;AI Engineering;$106,83;$100,78;$6,05;6,00%
+Week 3;Month 1;Business Analytics;$56,42;$54,77;$1,64;3,00%
+Week 3;Month 1;Data Engineering;$88,77;$84,95;$3,82;4,50%
+Week 3;Month 1;Platform / Cloud Operations;$54,80;$52,19;$2,61;5,00%
+Week 3;Month 1;Product Engineering;$98,18;$94,40;$3,78;4,00%
+Week 4;Month 1;AI Engineering;$23,26;$21,94;$1,32;6,00%
+Week 4;Month 1;Business Analytics;$119,24;$115,77;$3,47;3,00%
+Week 4;Month 1;Data Engineering;$81,59;$78,08;$3,51;4,50%
+Week 4;Month 1;Platform / Cloud Operations;$45,34;$43,18;$2,16;5,00%
+Week 4;Month 1;Product Engineering;$123,05;$118,32;$4,73;4,00%
+Week 5;Month 2;AI Engineering;$105,42;$98,52;$6,90;7,00%
+Week 5;Month 2;Business Analytics;$133,07;$127,96;$5,12;4,00%
+Week 5;Month 2;Data Engineering;$95,33;$90,36;$4,97;5,50%
+Week 5;Month 2;Platform / Cloud Operations;$38,46;$36,28;$2,18;6,00%
+Week 5;Month 2;Product Engineering;$52,40;$49,91;$2,50;5,00%
+Week 6;Month 2;AI Engineering;$53,32;$49,84;$3,49;7,00%
+Week 6;Month 2;Business Analytics;$34,56;$33,23;$1,33;4,00%
+Week 6;Month 2;Data Engineering;$37,84;$35,87;$1,97;5,50%
+Week 6;Month 2;Platform / Cloud Operations;$31,65;$29,86;$1,79;6,00%
+Week 6;Month 2;Product Engineering;$109,05;$103,86;$5,19;5,00%
+Week 7;Month 2;AI Engineering;$103,59;$96,81;$6,78;7,00%
+Week 7;Month 2;Business Analytics;$246,66;$237,17;$9,49;4,00%
+Week 7;Month 2;Data Engineering;$191,15;$181,18;$9,97;5,50%
+Week 7;Month 2;Platform / Cloud Operations;$116,00;$109,44;$6,57;6,00%
+Week 7;Month 2;Product Engineering;$80,40;$76,58;$3,83;5,00%
+Week 8;Month 2;AI Engineering;$80,12;$74,88;$5,24;7,00%
+Week 8;Month 2;Business Analytics;$116,53;$112,05;$4,48;4,00%
+Week 8;Month 2;Data Engineering;$74,94;$71,04;$3,91;5,50%
+Week 8;Month 2;Platform / Cloud Operations;$60,45;$57,03;$3,42;6,00%
+Week 8;Month 2;Product Engineering;$109,62;$104,40;$5,22;5,00%
+Week 9;Month 3;AI Engineering;$115,15;$108,12;$7,03;6,50%
+Week 9;Month 3;Business Analytics;$15,54;$15,01;$0,53;3,50%
+Week 9;Month 3;Data Engineering;$109,30;$104,09;$5,20;5,00%
+Week 9;Month 3;Platform / Cloud Operations;$24,35;$23,08;$1,27;5,50%
+Week 9;Month 3;Product Engineering;$35,66;$34,12;$1,54;4,50%
+Week 10;Month 3;AI Engineering;$62,48;$58,67;$3,81;6,50%
+Week 10;Month 3;Business Analytics;$83,05;$80,24;$2,81;3,50%
+Week 10;Month 3;Data Engineering;$88,36;$84,15;$4,21;5,00%
+Week 10;Month 3;Platform / Cloud Operations;$62,32;$59,07;$3,25;5,50%
+Week 10;Month 3;Product Engineering;$109,89;$105,16;$4,73;4,50%
+Week 11;Month 3;AI Engineering;$178,69;$167,79;$10,91;6,50%
+Week 11;Month 3;Business Analytics;$98,10;$94,78;$3,32;3,50%
+Week 11;Month 3;Data Engineering;$105,92;$100,88;$5,04;5,00%
+Week 11;Month 3;Platform / Cloud Operations;$83,92;$79,55;$4,38;5,50%
+Week 11;Month 3;Product Engineering;$138,79;$132,81;$5,98;4,50%
+Week 12;Month 3;AI Engineering;$154,81;$145,36;$9,45;6,50%
+Week 12;Month 3;Business Analytics;$48,82;$47,17;$1,65;3,50%
+Week 12;Month 3;Data Engineering;$78,67;$74,92;$3,75;5,00%
+Week 12;Month 3;Platform / Cloud Operations;$48,02;$45,51;$2,50;5,50%
+Week 12;Month 3;Product Engineering;$115,77;$110,79;$4,99;4,50%
