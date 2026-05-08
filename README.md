@@ -68,10 +68,22 @@ The platform combines AWS cloud analytics, Athena-based querying, Power BI execu
 
 ---
 
+![Architecture](https://img.shields.io/badge/System-Architecture-blue?style=for-the-badge)
+
+
+
 ## High-Level Architecture
+
+
+![Architecture](https://img.shields.io/badge/System-Architecture-blue?style=for-the-badge)
+
+Production-style cloud-native CFO FinOps architecture combining AWS analytics, RAG intelligence, executive reporting, validation pipelines, and Infrastructure as Code.
 
 ```mermaid
 flowchart TD
+
+
+
 
     A[Cloud Usage & Budget Data] --> B[Amazon S3]
     B --> C[AWS Glue Catalog]
