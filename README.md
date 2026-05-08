@@ -1,3 +1,12 @@
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws)
+![Athena](https://img.shields.io/badge/Amazon_Athena-Analytics-232F3E?style=for-the-badge&logo=amazonaws)
+![Power BI](https://img.shields.io/badge/PowerBI-Executive_Dashboard-F2C811?style=for-the-badge&logo=powerbi)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?style=for-the-badge&logo=terraform)
+![Python](https://img.shields.io/badge/Python-Data_Engineering-blue?style=for-the-badge&logo=python)
+![RAG](https://img.shields.io/badge/AI-RAG-green?style=for-the-badge)
+![FinOps](https://img.shields.io/badge/FinOps-Cloud_Cost_Intelligence-red?style=for-the-badge)
+
+
 # AWS Athena Power BI RAG FinOps Terraform CFO AI
 
 # CFO FinOps AI Platform — Cloud Cost Intelligence & Executive Decision System
