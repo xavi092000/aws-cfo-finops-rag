@@ -4,6 +4,8 @@
 
 ## Executive Summary
 
+![CFO FinOps Dashboard](screenshots/cfo_dashboard.png)
+
 CFO FinOps AI Platform is a production-style cloud-native financial intelligence and executive analytics system designed to simulate enterprise FinOps operations, AI-assisted cloud cost analysis, Retrieval-Augmented Generation (RAG), executive reporting workflows, and production-grade validation pipelines.
 
 The platform combines AWS cloud analytics, Athena-based querying, Power BI executive dashboards, AI-driven financial explanations, observability, and validation systems into a unified CFO-oriented decision intelligence architecture.
