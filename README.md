@@ -7,9 +7,9 @@
 ![FinOps](https://img.shields.io/badge/FinOps-Cloud_Cost_Intelligence-red?style=for-the-badge)
 
 
-## AWS Athena Power BI RAG FinOps Terraform CFO AI
-
 # CFO FinOps AI Platform — Cloud Cost Intelligence & Executive Decision System
+
+## AWS Athena • Power BI • RAG • FinOps • Terraform • CFO AI
 
 ## Executive Summary
 
