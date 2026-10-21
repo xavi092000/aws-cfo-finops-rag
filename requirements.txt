@@ -1,0 +1,11 @@
+# Import-derived compatibility ranges, not a fully validated lock file.
+boto3>=1.34,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+python-dotenv>=1,<2
+openai>=1.30,<3
+rank-bm25>=0.2,<1
+sentence-transformers>=3,<6
+requests>=2.31,<3
+PyAthena>=3,<4
+transformers>=4.40,<6
