@@ -42,12 +42,13 @@ warnings.filterwarnings(
 OUTPUT_DIR = Path("outputs")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-AWS_PROFILE = "terraform-runner"
-AWS_REGION = "us-east-1"
-ATHENA_SCHEMA = "cfo_finops_db"
+AWS_PROFILE = os.getenv("AWS_PROFILE", "terraform-runner")
+AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
+ATHENA_SCHEMA = os.getenv("ATHENA_DATABASE", "cfo_finops_db")
 ATHENA_DATABASE = ATHENA_SCHEMA
-ATHENA_WORKGROUP = "primary"
-ATHENA_S3_STAGING_DIR = "s3://kestra-zoomcamp-ny-taxi-mtl9999999999988888/athena-results/"
+ATHENA_WORKGROUP = os.getenv("ATHENA_WORKGROUP", "primary")
+from aws_config_validation import require_s3_uri
+ATHENA_S3_STAGING_DIR = os.getenv("ATHENA_RESULTS_S3", "")
 
 VOICE_ID = "Joanna"
 ENGINE = "neural"
@@ -100,7 +101,7 @@ def execute_athena_query(sql: str) -> str:
     response = athena.start_query_execution(
         QueryString=sql,
         QueryExecutionContext={"Database": ATHENA_DATABASE},
-        ResultConfiguration={"OutputLocation": ATHENA_S3_STAGING_DIR},
+        ResultConfiguration={"OutputLocation": require_s3_uri(ATHENA_S3_STAGING_DIR, "ATHENA_RESULTS_S3")},
         WorkGroup=ATHENA_WORKGROUP,
     )
 

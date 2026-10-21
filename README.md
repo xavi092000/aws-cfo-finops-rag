@@ -42,8 +42,31 @@ python agent_entree_finopsrag.py
 
 The Dockerfile installs the same requirements; a successful build would not by itself prove that external services and datasets are configured.
 
-## Validation evidence
+## AWS and Athena configuration
 
+AWS and Athena settings are configured through environment variables.
+See [.env.example](.env.example) for non-sensitive examples.
+
+| Variable | Purpose |
+|---|---|
+| `AWS_PROFILE` | Local AWS profile |
+| `AWS_REGION` | AWS region |
+| `ATHENA_DATABASE` | Athena database |
+| `ATHENA_WORKGROUP` | Athena workgroup |
+| `ATHENA_RESULTS_S3` | S3 destination for Athena query results |
+| `DAILY_MARTS_S3_BASE` | S3 destination for Power BI daily marts |
+
+Set `ATHENA_RESULTS_S3` and `DAILY_MARTS_S3_BASE` to valid,
+authorized S3 locations before running the related AWS operations.
+
+The application validates these S3 paths and raises an explicit
+configuration error when a required path is missing or malformed.
+
+Local Python syntax and configuration-validation tests have passed.
+End-to-end AWS, Athena, and Power BI operations have not been
+revalidated as part of this configuration change.
+
+## Validation evidence
 The repository contains evaluation and test scripts, but no public GitHub Actions run was available for this project during the 2026-10-21 review. Earlier README tables labelled every validation area `PASSED` without a directly linked, versioned execution record. Those labels are not treated as current verified results here.
 
 To establish a new result, run the relevant suite in a configured environment and record the commit, date, inputs, dependencies, outcomes, and limitations. This documentation update did not execute cloud-backed tests or a deployment.

@@ -24,14 +24,15 @@ INPUT_FILE = Path("data/chunks_general_questions.json")
 OUTPUT_DIR = Path("outputs")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-AWS_PROFILE = "terraform-runner"
-AWS_REGION = "us-east-1"
+AWS_PROFILE = os.getenv("AWS_PROFILE", "terraform-runner")
+AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 VOICE_ID = "Joanna"
 ENGINE = "neural"
 
-ATHENA_SCHEMA = "cfo_finops_db"
-ATHENA_S3_STAGING_DIR = "s3://kestra-zoomcamp-ny-taxi-mtl9999999999988888/athena-results/"
-ATHENA_WORKGROUP = "primary"
+ATHENA_SCHEMA = os.getenv("ATHENA_DATABASE", "cfo_finops_db")
+from aws_config_validation import require_s3_uri
+ATHENA_S3_STAGING_DIR = os.getenv("ATHENA_RESULTS_S3", "")
+ATHENA_WORKGROUP = os.getenv("ATHENA_WORKGROUP", "primary")
 
 SYSTEM_PROMPT = """
 You are a FinOps AI assistant answering CFO-level questions using Retrieval-Augmented Generation (RAG).
@@ -178,7 +179,7 @@ def query_athena(sql: str) -> pd.DataFrame:
     conn = connect(
         region_name=AWS_REGION,
         schema_name=ATHENA_SCHEMA,
-        s3_staging_dir=ATHENA_S3_STAGING_DIR,
+        s3_staging_dir=require_s3_uri(ATHENA_S3_STAGING_DIR, "ATHENA_RESULTS_S3"),
         work_group=ATHENA_WORKGROUP,
         boto3_session=session,
     )

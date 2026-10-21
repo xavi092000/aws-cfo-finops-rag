@@ -1,15 +1,17 @@
 from __future__ import annotations
 
 import time
+import os
 import boto3
 import pandas as pd
 
-AWS_PROFILE = "terraform-runner"
-AWS_REGION = "us-east-1"
+AWS_PROFILE = os.getenv("AWS_PROFILE", "terraform-runner")
+AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 
-ATHENA_DATABASE = "cfo_finops_db"
-ATHENA_WORKGROUP = "primary"
-ATHENA_RESULTS_S3 = "s3://kestra-zoomcamp-ny-taxi-mtl9999999999988888/athena-results/"
+ATHENA_DATABASE = os.getenv("ATHENA_DATABASE", "cfo_finops_db")
+ATHENA_WORKGROUP = os.getenv("ATHENA_WORKGROUP", "primary")
+from aws_config_validation import require_s3_uri
+ATHENA_RESULTS_S3 = os.getenv("ATHENA_RESULTS_S3", "")
 
 
 def get_boto3_session() -> boto3.Session:
@@ -23,7 +25,7 @@ def run_athena_query(sql: str) -> str:
     response = athena.start_query_execution(
         QueryString=sql,
         QueryExecutionContext={"Database": ATHENA_DATABASE},
-        ResultConfiguration={"OutputLocation": ATHENA_RESULTS_S3},
+        ResultConfiguration={"OutputLocation": require_s3_uri(ATHENA_RESULTS_S3, "ATHENA_RESULTS_S3")},
         WorkGroup=ATHENA_WORKGROUP,
     )
 
