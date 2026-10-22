@@ -1,81 +1,139 @@
-# CFO FinOps - AWS Analytics and RAG Project
+# CFO FinOps — Interactive AWS Financial Intelligence Assistant
 
-A personal engineering project exploring cloud-cost analysis, Athena-backed queries, retrieval-assisted financial explanations, and Power BI integration.
+**An AI-guided workflow that turns cloud cost and budget data into executive financial insights.**
 
-![Dashboard example](screenshots/cfo_dashboard.png)
+CFO FinOps is an interactive financial analysis application I built to help a CFO or finance stakeholder explore AWS spending without having to navigate technical billing data directly. The assistant guides the user through choosing a reporting period, preparing a Power BI review, interpreting cost and budget results, and asking a final strategic FinOps question.
 
-## Scope and status
+The experience brings together **Python, AWS Athena, Amazon S3, Power BI, and retrieval-augmented generation (RAG)**. Financial figures come from the analytics layer; AI helps guide the interaction and explain the results.
 
-This repository is a portfolio implementation with cloud and local-environment dependencies. It is not a self-contained offline application, a verified currently hosted service, or proof of cost savings for a real organization. The dashboard image is an example, not a live availability indicator.
+## Watch the working demonstration
 
-## Implementation to inspect
+[![CFO FinOps — video demonstration](https://img.youtube.com/vi/ng4qtWeyZ2M/hqdefault.jpg)](https://www.youtube.com/watch?v=ng4qtWeyZ2M)
 
-| Area | Entry point |
+**[▶ Watch the CFO FinOps assistant in action (YouTube)](https://www.youtube.com/watch?v=ng4qtWeyZ2M)**
+
+The demonstration walks through period selection, a guided **manual Power BI refresh**, a narrated financial dashboard review, and a strategic CFO question.
+
+![CFO FinOps dashboard](screenshots/cfo_dashboard.png)
+
+## 1. The business problem
+
+Finance leaders need to understand more than the total AWS bill. They need to see **which products and business units drive costs, where actual spending diverges from budgets, and which issues deserve attention first**.
+
+The difficulty is connecting technical cloud usage and financial data to an executive workflow that is easy to navigate and explain. CFO FinOps addresses that problem by connecting structured calculations, visual reporting, and an AI-guided conversation.
+
+## 2. How the assistant works
+
+The video demonstrates this sequence:
+
+1. **Guided onboarding:** The assistant welcomes the user and explains the financial analysis process.
+2. **Reporting-period selection:** The user can work by **days, weeks, or months**. Selection rules enforce valid periods, including consecutive weeks and a special first-week shutdown window.
+3. **Dashboard preparation:** The assistant offers a refresh workflow. In the demonstration, the user selects **manual refresh** and is guided through Power BI before continuing.
+4. **Financial walkthrough:** For the selected period, the assistant discusses cost variance by product, cost by AWS service, actual cost versus budget, and spending trends.
+5. **Executive priorities:** The walkthrough draws attention to the main financial and technical cost drivers that warrant investigation.
+6. **Strategic Q&A:** The user asks a final CFO-level question and receives a structured FinOps explanation focused on governance, visibility, budgeting, accountability, and business value.
+
+### Example from the demonstration
+
+The video selects **weeks 9 and 10** and reviews a Power BI dashboard. The narration highlights **Innovation Lab Projects** as a major product-level variance and **Amazon Bedrock** as a major service-level cost driver. It also discusses an **8.61% reported budget overrun** and identifies priorities for investigation. These are example figures from the demonstrated dataset, not a claim of savings achieved for an external customer.
+
+### Main capabilities and their implementation
+
+| Capability | What it does | Where to look |
+|---|---|---|
+| Guided analysis workflow | Walks the user through reporting periods and dashboard review | [`agent_entree_finopsrag.py`](agent_entree_finopsrag.py) |
+| Financial analytics | Calculates spending, budgets, variances, and product/division comparisons | [`resolve_finops_analytics.py`](resolve_finops_analytics.py), [`finops_agent_athena.py`](finops_agent_athena.py) |
+| AWS data access | Queries Athena and publishes reporting-oriented daily marts to S3 | [`build_athena_daily_marts.py`](build_athena_daily_marts.py), [`agent_entree_finopsrag.py`](agent_entree_finopsrag.py) |
+| AI financial explanations | Routes financial questions and retrieves FinOps context with lexical/semantic search and reranking | [`cfo_final_router.py`](cfo_final_router.py), [`src/semantic_rag_general.py`](src/semantic_rag_general.py) |
+| Executive reporting | Produces CFO summaries and supports Power BI dataset refresh workflows | [`generate_cfo_summary.py`](generate_cfo_summary.py), [`powerbi_refresh.py`](powerbi_refresh.py) |
+| Testing and evaluation | Includes analytics and RAG evaluation harnesses | [`analytics_test_harness.py`](analytics_test_harness.py), [`rag_test_harness.py`](rag_test_harness.py), [`cfo_evaluation_suite.py`](cfo_evaluation_suite.py) |
+
+## 3. System architecture
+
+```mermaid
+flowchart LR
+    A[Usage, pricing and budget inputs] --> B[Python financial transformations]
+    B --> C[Amazon S3 / Athena analytical layer]
+    C --> D[Period and scope selection]
+    D --> E[Budget variance and CFO analytics]
+    E --> F[Executive summaries / Power BI]
+    D --> G[AI assistant / RAG routing]
+    H[FinOps reference documents] --> I[Lexical + semantic retrieval / reranking]
+    I --> G
+    E --> G
+    G --> J[Grounded financial explanations]
+```
+
+### Engineering design
+
+- **Separate analytics from explanation.** Financial calculations and budget comparisons remain inspectable rather than being delegated to a language model.
+- **Use retrieval to ground advice.** The RAG code includes lexical retrieval, embeddings, reranking, and prompts that explicitly restrict unsupported claims.
+- **Support multiple reporting scopes.** The implementation contains product-level and division-level views and daily, weekly, or monthly selection logic.
+- **Make cloud destinations configurable.** Athena query-output and daily-mart S3 locations are provided through environment variables and checked before use.
+- **Keep the executive interface accessible.** Power BI and generated summaries translate analytical findings into finance-facing outputs.
+
+## 4. Technology stack
+
+| Layer | Technologies |
 |---|---|
-| Application entry | [agent_entree_finopsrag.py](agent_entree_finopsrag.py) |
-| Analytics and routing | [cfo_final_router.py](cfo_final_router.py), [resolve_finops_analytics.py](resolve_finops_analytics.py) |
-| Athena / RAG | [finops_agent_athena.py](finops_agent_athena.py), [src/semantic_rag_general.py](src/semantic_rag_general.py) |
-| Financial explanations | [generate_cfo_summary.py](generate_cfo_summary.py) |
-| Power BI integration | [powerbi_refresh.py](powerbi_refresh.py) |
-| Evaluation code | [analytics_test_harness.py](analytics_test_harness.py), [rag_test_harness.py](rag_test_harness.py), [cfo_evaluation_suite.py](cfo_evaluation_suite.py) |
-| Infrastructure | [Terraform files](terraform/) |
+| Cloud and queries | AWS, Amazon S3, Amazon Athena, Boto3 |
+| Data engineering | Python, Pandas, SQL |
+| AI / retrieval | Retrieval-augmented generation (RAG), lexical search (BM25), sentence embeddings, reranking, language-model API |
+| Reporting | Microsoft Power BI |
+| Infrastructure | Terraform |
 
-## Runtime preparation
+## 5. Running the project
 
-Use Python 3.11 in an isolated environment:
+The application runs in a configured environment with AWS resources, financial data, model access and Power BI credentials where needed.
+
+**Prerequisites:** Python 3.11, a configured AWS environment with authorized Athena/S3 resources, required input data and tables, and any model or Power BI configuration used by the selected workflow.
 
 ```bash
 python -m venv .venv
-# Activate the environment for your shell, then:
+# Activate the virtual environment for your shell.
 python -m pip install -r requirements.txt
 ```
 
-The dependency file is derived from imports and uses compatibility ranges. Installation alone does not validate the connected application. A full environment lock and end-to-end clean-machine run remain to be established.
+Copy the non-secret variable names from [`.env.example`](.env.example) into your local environment. Do not commit credentials.
 
-The application requires account-specific Athena/S3 resources and tables, AWS credentials supplied locally, model configuration, and local data paths. Power BI refresh additionally requires tenant, application, workspace, and dataset configuration and the appropriate permissions. Inspect the entry points for expected environment names and account-specific paths before running. Do not commit credentials. Model downloads, external API calls, cloud queries, and dashboard refreshes can have network or billing effects.
+| Environment variable | Use |
+|---|---|
+| `AWS_PROFILE` | AWS credentials profile, where applicable |
+| `AWS_REGION` | AWS region |
+| `ATHENA_DATABASE` | Athena database |
+| `ATHENA_WORKGROUP` | Athena workgroup |
+| `ATHENA_RESULTS_S3` | S3 destination for Athena query results |
+| `DAILY_MARTS_S3_BASE` | S3 destination for published daily marts |
 
-After configuring the required services and data, the entry point is:
+Power BI operations also require tenant, client, workspace and dataset settings, plus appropriate permissions. Some auxiliary scripts contain environment-specific defaults; review them before running in another account. AWS queries, model requests, downloads, and Power BI refreshes may use external services and incur costs.
+
+With the required environment and datasets configured, the principal application entry point is:
 
 ```bash
 python agent_entree_finopsrag.py
 ```
 
-The Dockerfile installs the same requirements; a successful build would not by itself prove that external services and datasets are configured.
+See [`aws_config_validation.py`](aws_config_validation.py) for early validation of required S3 destination formats. The repository's Dockerfile packages Python dependencies but does not automatically provision AWS or Power BI services.
 
-## AWS and Athena configuration
+## 6. Code and evaluation
 
-AWS and Athena settings are configured through environment variables.
-See [.env.example](.env.example) for non-sensitive examples.
+**Key project components:**
 
-| Variable | Purpose |
-|---|---|
-| `AWS_PROFILE` | Local AWS profile |
-| `AWS_REGION` | AWS region |
-| `ATHENA_DATABASE` | Athena database |
-| `ATHENA_WORKGROUP` | Athena workgroup |
-| `ATHENA_RESULTS_S3` | S3 destination for Athena query results |
-| `DAILY_MARTS_S3_BASE` | S3 destination for Power BI daily marts |
+- Python implementation of analytics, Athena querying, retrieval, summaries and reporting integration.
+- Evaluation harnesses: [`analytics_test_harness.py`](analytics_test_harness.py), [`rag_test_harness.py`](rag_test_harness.py), [`cfo_evaluation_suite.py`](cfo_evaluation_suite.py).
+- Terraform definitions and a documented AWS configuration contract.
+- An example dashboard screenshot from the project.
 
-Set `ATHENA_RESULTS_S3` and `DAILY_MARTS_S3_BASE` to valid,
-authorized S3 locations before running the related AWS operations.
+## 7. Environment requirements
 
-The application validates these S3 paths and raises an explicit
-configuration error when a required path is missing or malformed.
+- Cloud tables, local datasets, paths and access rights must match the intended environment.
+- AI explanations are bounded by the quality and coverage of the retrieved documents; they are not an independent audit of financial accuracy.
+- Some auxiliary modules still contain environment-specific configuration defaults and require review before reuse.
+- Terraform provides infrastructure definitions; deployment requires the relevant AWS account and permissions.
+- The application requires configured AWS, data, and reporting services to reproduce the demonstrated workflow in another environment.
 
-Local Python syntax and configuration-validation tests have passed.
-End-to-end AWS, Athena, and Power BI operations have not been
-revalidated as part of this configuration change.
+## Project takeaway
 
-## Validation evidence
-The repository contains evaluation and test scripts, but no public GitHub Actions run was available for this project during the 2026-10-21 review. Earlier README tables labelled every validation area `PASSED` without a directly linked, versioned execution record. Those labels are not treated as current verified results here.
+**CFO FinOps combines an interactive AI assistant with AWS financial analytics and Power BI.** Its defining feature is the complete executive workflow: guide the user, select the analysis scope, review the financial evidence, explain the key findings, and support the next decision.
 
-To establish a new result, run the relevant suite in a configured environment and record the commit, date, inputs, dependencies, outcomes, and limitations. This documentation update did not execute cloud-backed tests or a deployment.
-
-## Limitations
-
-- Local paths and account-specific integration settings require adaptation.
-- The RAG corpus, financial inputs, and analytical rules must be checked for the intended use case.
-- A generated explanation is not independent verification of a financial result.
-- Terraform configuration demonstrates intended infrastructure, not an active deployment.
-
-Maintained by Felix Brillant.
+*Personal portfolio project by Felix Brillant.*
